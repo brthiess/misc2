@@ -1,0 +1,24 @@
+
+section(id='graph-page')
+	a(class='back-button' href="/")
+		img(src='/images/back.png')
+	h2 All Time Winnings
+	section(class='chart-container')
+		button(type='button' class='ghost-button no-border-right') All
+		button(type='button' class='ghost-button no-border-right') Live
+		button(type='button' class='ghost-button') Recorded
+		canvas(id='chart')
+script.
+	document.addEventListener('DOMContentLoaded', function(){ 
+		options = {
+					legend: {
+					display: false,
+					labels: {
+						fontColor: 'rgb(255, 99, 132)'
+					}
+				}
+			}
+		console.log(options);
+		loadGraph('/data/all-time.json', 'bar', options);
+	}, false);
+	

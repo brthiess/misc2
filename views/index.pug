@@ -1,0 +1,23 @@
+mixin view
+	case path
+		when 'index'
+			include home.pug
+		when 'all-time'
+			include all-time.pug
+
+
+if (content_only != true)
+	include ../includes/head.pug
+	body
+		script.		
+			var body = document.getElementsByTagName("body");
+			body[0].className += ' animate-true ';
+		div(id='content-area')
+			+view
+else 
+	+view
+					
+if (content_only != true)
+	include ../includes/footer.pug
+	
+	

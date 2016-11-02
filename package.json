@@ -1,0 +1,19 @@
+{
+  "name": "brad",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "express": "^3.0.0-alpha4",
+    "node-sass": "^3.8.0",
+    "pug": "^2.0.0-beta5"
+  },
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/main.scss   public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
