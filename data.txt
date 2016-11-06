@@ -1,5 +1,5 @@
-3 ss psb
-3 sm psb
-2 ss pb
-2 sm pb
-3 ss pb
+c 3 ss psb
+c 3 sm psb
+c 2 ss pb
+c 2 sm pb
+c 3 ss pb

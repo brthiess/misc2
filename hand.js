@@ -1,7 +1,7 @@
 function Hand(maxHandSize) {
 	this.cards = [];
 	this.maxHandSize = maxHandSize;
-	
+
 }
 
 Hand.prototype.fillRandom = function() {

@@ -1,12 +1,20 @@
 function storeHand(handHistoryTree, stateArray) {
-    var index, state, entry;
-    for (index = 0; index < stateArray.length; index++) {
-        state = stateArray[index];
-        entry = handHistoryTree[state];
-        if (!entry) {
-            handHistoryTree[state] = entry = {};
-        }
-        handHistoryTree = entry;
+    var index, state, children;
+	var currentNode = handHistoryTree;
+	currentNode.name = "Root";
+	currentNode.children = {};
+    for (index = 0; index < stateArray.length; index++) {	
+		state = stateArray[index];
+		if (!currentNode.children[state]) {
+			currentNode.children[state] = {};
+			currentNode.children[state].name = state;
+			currentNode.children[state].children = {};	
+			currentNode.children[state].frequency = 1;
+        }       
+		else {
+			currentNode.children[state].frequency += 1;
+		}
+        currentNode = currentNode.children[state];
     }
 }
 
@@ -28,6 +36,6 @@ function buildTree(data, callback){
 }
 
 
-
+module.exports.buildTree = buildTree;
  
 
