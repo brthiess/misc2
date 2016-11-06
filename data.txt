@@ -1,0 +1,5 @@
+3 ss psb
+3 sm psb
+2 ss pb
+2 sm pb
+3 ss pb

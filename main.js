@@ -19,6 +19,7 @@ while(true){
 			console.log(game.calculatePercentile(hand, communityHand));
 		});
 	}
+	
 	break;
 }
       
