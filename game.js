@@ -1,43 +1,45 @@
 var PokerEvaluator = require("poker-evaluator");
 
-function calculatePercentile(hand, communityHand){
-	deck = new Deck.Deck();
+function calculatePercentile(hand, communityHand, callback){
+	setTimeout(function(){
+		deck = new Deck.Deck();
 
-	deck.removeCards(hand);
-	var numWins = 0;	
-	
-	myWinningPercentage = getWinningPercentage(hand, communityHand);
-	
-	//2. Go through all other hole cards and get their winning percentage
-	var numGames = 0;
-	var rank = 0;
-	var numTested = 0;
-	deck.reshuffle();
-	deck.removeCards(hand);
+		deck.removeCards(hand);
+		var numWins = 0;	
+		
+		myWinningPercentage = getWinningPercentage(hand, communityHand, callback);
+		
+		//2. Go through all other hole cards and get their winning percentage
+		var numGames = 0;
+		var rank = 0;
+		var numTested = 0;
+		deck.reshuffle();
+		deck.removeCards(hand);
 
-	for(var i = 0; i < deck.getNumCards(); i++){
-		for(var j = i + 1; j < deck.getNumCards(); j++){					
-			
-			opponentCards = [deck.getRandomCard(), deck.getRandomCard()];
-			opponentHand = new Hand.Hand(2);
-			opponentHand.fillSpecified(opponentCards);
-			
-			
-			winningPercentage = getWinningPercentage(opponentHand, communityHand);
-			
-			if (winningPercentage < myWinningPercentage) {
-				rank += 1;
+		for(var i = 0; i < deck.getNumCards(); i++){
+			for(var j = i + 1; j < deck.getNumCards(); j++){					
+				
+				opponentCards = [deck.getRandomCard(), deck.getRandomCard()];
+				opponentHand = new Hand.Hand(2);
+				opponentHand.fillSpecified(opponentCards);
+				
+				
+				winningPercentage = getWinningPercentage(opponentHand, communityHand);
+				
+				if (winningPercentage < myWinningPercentage) {
+					rank += 1;
+				}
+				numTested++;
+				//std::cout<<"\nWinning Percentage:";
+				//std::cout<<winningPercentage << "\n\n";
+				deck.reshuffle();
+				deck.removeCards(hand);
 			}
-			numTested++;
-			//std::cout<<"\nWinning Percentage:";
-			//std::cout<<winningPercentage << "\n\n";
-			deck.reshuffle();
-			deck.removeCards(hand);
 		}
-	}
-			
-	//4. Repeat		
-	return rank / numTested;
+				
+		//return callback
+		callback(null, rank / numTested);
+	}, 0);
 	
 }
 

@@ -1,6 +1,5 @@
 function storeHand(handHistoryTree, stateArray) {
     var index, state, entry;
-	console.log(stateArray);
     for (index = 0; index < stateArray.length; index++) {
         state = stateArray[index];
         entry = handHistoryTree[state];
@@ -11,25 +10,24 @@ function storeHand(handHistoryTree, stateArray) {
     }
 }
 
-function printTree(tree){
-	
+
+function buildTree(data, callback){
+	const readline = require('readline');
+	var fs = require('fs');
+	const rl = readline.createInterface({
+		input: fs.createReadStream(data)
+	});
+
+	var handHistoryTree = {};
+	rl.on('line', function (line) {
+		storeHand(handHistoryTree, line.trim().split(" "));
+	});
+	rl.on('close', function(){
+		callback(handHistoryTree);
+	});
 }
 
 
-const readline = require('readline');
-var fs = require('fs');
- 
-const rl = readline.createInterface({
-	input: fs.createReadStream('data.txt')
-});
 
-var handHistoryTree = {};
-rl.on('line', function (line) {
-	storeHand(handHistoryTree, line.trim().split(" "));
-});
-rl.on('close', function(){
-	console.log(handHistoryTree);
-	printTree(handHistoryTree);
-});
-line = "t a s s a t w x";
-//storeHand(handHistoryTree, line.split(" "));
+ 
+
