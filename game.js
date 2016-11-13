@@ -1,46 +1,71 @@
+function Game(){
+	this.percentile = 0;
+	this.numRuns = 0;
+	this.percentileAggregate = 0;
+	this.communityHand = new Hand.Hand(5);
+	this.hand = new Hand.Hand(2);
+	this.reset = false;
+}
+
+Game.prototype.setCommunityHand = function(cards){
+	this.communityHand.fillSpecified(cards);
+	this.reset = true;
+}
+
+Game.prototype.setHand = function(cards){
+	this.hand.fillSpecified(cards);
+}
+
+
+Game.prototype.getPercentile = function(){
+	return this.percentile;
+}
+
 var PokerEvaluator = require("poker-evaluator");
 
-function calculatePercentile(hand, communityHand, callback){
-	setTimeout(function(){
-		deck = new Deck.Deck();
-
-		deck.removeCards(hand);
-		var numWins = 0;	
-		
-		myWinningPercentage = getWinningPercentage(hand, communityHand, callback);
-		
-		//2. Go through all other hole cards and get their winning percentage
-		var numGames = 0;
-		var rank = 0;
-		var numTested = 0;
-		deck.reshuffle();
-		deck.removeCards(hand);
-
-		for(var i = 0; i < deck.getNumCards(); i++){
-			for(var j = i + 1; j < deck.getNumCards(); j++){					
-				
-				opponentCards = [deck.getRandomCard(), deck.getRandomCard()];
-				opponentHand = new Hand.Hand(2);
-				opponentHand.fillSpecified(opponentCards);
-				
-				
-				winningPercentage = getWinningPercentage(opponentHand, communityHand);
-				
-				if (winningPercentage < myWinningPercentage) {
-					rank += 1;
-				}
-				numTested++;
-				//std::cout<<"\nWinning Percentage:";
-				//std::cout<<winningPercentage << "\n\n";
-				deck.reshuffle();
-				deck.removeCards(hand);
-			}
-		}
-				
-		//return callback
-		callback(null, rank / numTested);
-	}, 0);
+Game.prototype.calculatePercentile = function(){	
+	this.numRuns += 1;
+	deck = new Deck.Deck();
+	deck.removeCards(this.hand);
+	var numWins = 0;	
+	myWinningPercentage = getWinningPercentage(this.hand, this.communityHand);
 	
+	//2. Go through all other hole cards and get their winning percentage
+	var numGames = 0;
+	var rank = 0;
+	var numTested = 0;
+	deck.reshuffle();
+	deck.removeCards(this.hand);
+
+	for(var i = 0; i < 50; i++){					
+		opponentCards = [deck.getRandomCard(), deck.getRandomCard()];
+		opponentHand = new Hand.Hand(2);
+		opponentHand.fillSpecified(opponentCards);
+		
+		winningPercentage = getWinningPercentage(opponentHand, this.communityHand);
+		
+		if (winningPercentage < myWinningPercentage) {
+			rank += 1;
+		}
+		numTested++;
+		//std::cout<<"\nWinning Percentage:";
+		//std::cout<<winningPercentage << "\n\n";
+		deck.reshuffle();
+		deck.removeCards(this.hand);
+	}
+			
+	newPercentile = rank / numTested;
+	this.percentile = (newPercentile + this.percentileAggregate) / this.numRuns;
+	this.percentileAggregate += this.percentile;
+	//console.log("Percentile: " + this.percentile);
+	var self = this;
+	//console.log(this.numRuns);
+	if(this.numRuns < 10){
+		setTimeout(function(){ self.calculatePercentile();}, 100);
+	}
+	//console.log("New Percentile: " + newPercentile);
+	//console.log("Num Runs: " + this.numRuns);
+	//console.log("Aggregate: " + this.percentileAggregate);
 }
 
 function isBestHand(hand, opponentHand, communityHand){
@@ -63,7 +88,7 @@ function getWinningPercentage(hand, communityHand){
 	deck = new Deck.Deck();
 	
 	var numWins = 0;
-	var numSimulations = 100;
+	var numSimulations = 200;
 	for(var n = 0; n < numSimulations; n++){
 		deck.reshuffle();
 		deck.removeCards(hand);
@@ -89,4 +114,4 @@ function getWinningPercentage(hand, communityHand){
 	return numWins * 1.0 / numSimulations * 1.0;
 }
 
-module.exports.calculatePercentile = calculatePercentile;
+module.exports.Game = Game;

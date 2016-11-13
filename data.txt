@@ -1,5 +1,2 @@
-c 3 ss psb
-c 3 sm psb
-c 2 ss pb
-c 2 sm pb
+c 2 ss psb
 c 3 ss pb
