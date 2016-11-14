@@ -55,14 +55,14 @@ Game.prototype.calculatePercentile = function(){
 	}
 			
 	newPercentile = rank / numTested;
+	//console.log("\n\n**********************\nNew Percentile: " + newPercentile);
+	//console.log("Num Runs: " + this.numRuns);
 	this.percentile = (newPercentile + this.percentileAggregate) / this.numRuns;
-	this.percentileAggregate += this.percentile;
-	//console.log("Percentile: " + this.percentile);
+	this.percentileAggregate += newPercentile;
+	//console.log("Avg Percentile: " + this.percentile);
 	var self = this;
 	//console.log(this.numRuns);
-	if(this.numRuns < 10){
-		setTimeout(function(){ self.calculatePercentile();}, 100);
-	}
+	setTimeout(function(){ self.calculatePercentile();}, 100);
 	//console.log("New Percentile: " + newPercentile);
 	//console.log("Num Runs: " + this.numRuns);
 	//console.log("Aggregate: " + this.percentileAggregate);

@@ -3,31 +3,42 @@ function storeHand(handHistoryTree, stateArray) {
 	var currentNode = handHistoryTree;
 	currentNode.name = "Root";
 	if(!currentNode.children){
-		currentNode.children = {};
+		currentNode.children = [];
 	}
     for (index = 0; index < stateArray.length; index++) {	
-		//console.log("---------------------------");
+		//console.log("\n\n---------------------------");
 		state = stateArray[index];
-		//console.log("10");
+		//console.log("11");
 		//console.log("State: " + state)
 		//console.log("Current Node: ");
-		//console.log(currentNode);
-		if (!currentNode.children[state]) {
-			//console.log("16");
-			//console.log(currentNode);
-			currentNode.children[state] = {};
-			currentNode.children[state].name = state;
-			currentNode.children[state].children = {};	
-			currentNode.children[state].frequency = 1;
-        }       
-		else {
+		//console.log(currentNode);		
+		childExists = false;
+		childIndex = -1;
+		for(var i = 0; i < currentNode.children.length; i++){
+			//console.log("NAME: " + currentNode.children[i].name);
+			if (currentNode.children[i].name == state){
+				childExists = true;
+				childIndex = i;
+			}
+		}
+		if (!childExists) {
 			//console.log("24");
 			//console.log(currentNode);
-			currentNode.children[state].frequency += 1;
+			var newNode = {};
+			newNode.name = state;
+			newNode.children = [];	
+			newNode.frequency = 1;
+			currentNode.children.push(newNode);			
+			childIndex = currentNode.children.length - 1;
+        }       
+		else {
+			//console.log("34");
+			//console.log(currentNode);
+			currentNode.children[childIndex].frequency += 1;
 		}
-		//console.log("27");
+		//console.log("38");
 		//console.log(currentNode);
-        currentNode = currentNode.children[state];
+        currentNode = currentNode.children[childIndex];
     }
 }
 

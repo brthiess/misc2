@@ -5,6 +5,7 @@ var prompt = require('prompt');
 var Game = require('./game');
 var Tree = require('./tree');
 
+
 var tree = new Tree.Tree('data.txt', startLoop);
 
 currentPercentile = 0;
@@ -23,7 +24,7 @@ function goThroughOptions(action, game){
 	if(action == 'getCurrentNode'){
 		currentNode = tree.getCurrentNode();
 		currentNodeName = currentNode.name;
-		console.log(currentNodeName);
+		//console.log(currentNodeName);
 		if(currentNodeName = 'c'){
 			action = 'getHoleCards';
 		}
@@ -35,13 +36,12 @@ function goThroughOptions(action, game){
 		}
 	}
 	if (action == 'displayChildren'){
-		console.log("Children:");
-		console.log(tree.getChildren());
+		tree.displayChildren();
 		action = 'navigateToNextNode';
 	}
 	if (action == 'navigateToNextNode'){
 		prompt.get(['nextNode'], function (err, result){
-			tree.navigateToNextNode(result.nextNode);
+			tree.navigateToNextNode(parseInt(result.nextNode));
 			process.nextTick(function(){goThroughOptions('getCurrentNode', game);});
 		});
 		
