@@ -17,15 +17,14 @@ action = 'getCurrentNode';
 
 function startLoop(){
 	game = new Game.Game();
-	goThroughOptions('getCurrentNode', game);
+	goThroughOptions('getCurrentNode', game, tree);
 }
 
-function goThroughOptions(action, game){
+function goThroughOptions(action, game, tree){
 	if(action == 'getCurrentNode'){
 		currentNode = tree.getCurrentNode();
 		currentNodeName = currentNode.name;
-		//console.log(currentNodeName);
-		if(currentNodeName = 'c'){
+		if(currentNodeName == 'c'){
 			action = 'getHoleCards';
 		}
 		else if (currentNodeName == 'f'){
@@ -42,25 +41,24 @@ function goThroughOptions(action, game){
 	if (action == 'navigateToNextNode'){
 		prompt.get(['nextNode'], function (err, result){
 			tree.navigateToNextNode(parseInt(result.nextNode));
-			process.nextTick(function(){goThroughOptions('getCurrentNode', game);});
+			process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
 		});
-		
 	}
 	if (action == 'getHoleCards') {
 		prompt.get(['cards'], function (err, result) {
 			cards = result.cards.match(/.{1,2}/g);
 			game.setHand(cards);
-			process.nextTick(function(){goThroughOptions('displayChildren');});
-			process.nextTick(function(){goThroughOptions('updatePercentile', game);});
+			process.nextTick(function(){goThroughOptions('displayChildren', game, tree);});
+			process.nextTick(function(){goThroughOptions('updatePercentile', game, tree);});
 		});
 		
 	}
 	if(action == 'getCommunityCards'){//Get hole cards 
-		prompt.get(['cards'], function (err, result) {
-			cards = result.cards.match(/.{1,2}/g);
+		prompt.get(['flop'], function (err, result) {
+			cards = result.flop.match(/.{1,2}/g);
 			process.nextTick(function(){game.setCommunityHand(cards);});
+			goThroughOptions('displayChildren', game, tree);
 		});
-		goThroughOptions('displayChildren');
 	}
 
 	if(action == 'updatePercentile'){

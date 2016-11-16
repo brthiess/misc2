@@ -1,2 +1,4 @@
-c 2 ss psb
-c 3 ss pb
+c 2 ss psb f
+c 3 ss pb f
+c 2 sn psb f
+c 2 ss pb or2 f

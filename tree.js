@@ -32,9 +32,7 @@ Tree.prototype.displayChildren = function(){
 }
 
 Tree.prototype.navigateToNextNode = function(nextNode){
-	console.log(this.currentNode.children[0]);
-	console.log("NEXT NODE: " + nextNode);
 	this.currentNode = this.currentNode.children[nextNode];
-	console.log("NEXT NODE: " + this.currentNode);
+	console.log(this.currentNode);
 }
 module.exports.Tree = Tree;
