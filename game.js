@@ -31,6 +31,7 @@ Game.prototype.calculatePercentile = function(){
 	deck.removeCards(this.hand);
 	var numWins = 0;	
 	myWinningPercentage = getWinningPercentage(this.hand, this.communityHand);
+	//console.log("My Winning Percentage: " + myWinningPercentage);
 	//2. Go through all other hole cards and get their winning percentage
 	var numGames = 0;
 	var rank = 0;
@@ -48,11 +49,12 @@ Game.prototype.calculatePercentile = function(){
 		if (winningPercentage <= myWinningPercentage) {
 			rank += 1;
 		}
+		
+		//console.log(opponentHand);
+		//console.log(winningPercentage);
 
 		
 		numTested++;
-		//std::cout<<"\nWinning Percentage:";
-		//std::cout<<winningPercentage << "\n\n";
 		deck.reshuffle();
 		deck.removeCards(this.hand);
 	}
@@ -62,10 +64,10 @@ Game.prototype.calculatePercentile = function(){
 	//console.log("Num Runs: " + this.numRuns);
 	this.percentile = (newPercentile + this.percentileAggregate) / this.numRuns;
 	this.percentileAggregate += newPercentile;
-	console.log("Avg Percentile: " + this.percentile);
+	//console.log("Avg Percentile: " + this.percentile);
 	var self = this;
 	//console.log(this.numRuns);
-	setTimeout(function(){ self.calculatePercentile();}, 1000);
+	setTimeout(function(){ self.calculatePercentile();}, 100);
 	//console.log("New Percentile: " + newPercentile);
 	//console.log("Num Runs: " + this.numRuns);
 	//console.log("Aggregate: " + this.percentileAggregate);
@@ -92,7 +94,7 @@ function getWinningPercentage(hand, communityHand){
 	deck = new Deck.Deck();
 	
 	var numWins = 0;
-	var numSimulations = 1000;
+	var numSimulations = 1200;
 	for(var n = 0; n < numSimulations; n++){
 		deck.reshuffle();
 		deck.removeCards(hand);
