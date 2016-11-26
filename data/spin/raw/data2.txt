@@ -1,0 +1,388 @@
+PokerStars Hand #161969512796: Tournament #1739166160, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/25 22:33:49 ET
+Table '1739166160 1' 3-max Seat #1 is the button
+Seat 1: sachafaeh77 (500 in chips) 
+Seat 2: CCCP10rus (500 in chips) 
+Seat 3: hyperDONK618 (500 in chips) 
+CCCP10rus: posts small blind 10
+hyperDONK618: posts big blind 20
+*** HOLE CARDS ***
+sachafaeh77: raises 20 to 40
+CCCP10rus: folds 
+hyperDONK618: calls 20
+*** FLOP *** [8d 2h 8c]
+hyperDONK618: checks 
+sachafaeh77: bets 20
+hyperDONK618: calls 20
+*** TURN *** [8d 2h 8c] [5c]
+hyperDONK618: checks 
+sachafaeh77: bets 20
+hyperDONK618: calls 20
+*** RIVER *** [8d 2h 8c 5c] [Ks]
+hyperDONK618: checks 
+sachafaeh77: checks 
+*** SHOW DOWN ***
+hyperDONK618: shows [Qc Jh] (a pair of Eights)
+sachafaeh77: shows [4c 2s] (two pair, Eights and Deuces)
+sachafaeh77 collected 170 from pot
+*** SUMMARY ***
+Total pot 170 | Rake 0 
+Board [8d 2h 8c 5c Ks]
+Seat 1: sachafaeh77 (button) showed [4c 2s] and won (170) with two pair, Eights and Deuces
+Seat 2: CCCP10rus (small blind) folded before Flop
+Seat 3: hyperDONK618 (big blind) showed [Qc Jh] and lost with a pair of Eights
+
+
+PokerStars Hand #161969530768: Tournament #1739166160, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/25 22:34:36 ET
+Table '1739166160 1' 3-max Seat #2 is the button
+Seat 1: sachafaeh77 (590 in chips) 
+Seat 2: CCCP10rus (490 in chips) 
+Seat 3: hyperDONK618 (420 in chips) 
+hyperDONK618: posts small blind 10
+sachafaeh77: posts big blind 20
+*** HOLE CARDS ***
+CCCP10rus: raises 20 to 40
+hyperDONK618: folds 
+sachafaeh77: calls 20
+*** FLOP *** [Js 8d 8s]
+sachafaeh77: checks 
+CCCP10rus: checks 
+*** TURN *** [Js 8d 8s] [Th]
+sachafaeh77: bets 20
+CCCP10rus: calls 20
+*** RIVER *** [Js 8d 8s Th] [7s]
+sachafaeh77: bets 20
+CCCP10rus: calls 20
+*** SHOW DOWN ***
+sachafaeh77: shows [9d Kh] (a straight, Seven to Jack)
+CCCP10rus: mucks hand 
+sachafaeh77 collected 170 from pot
+*** SUMMARY ***
+Total pot 170 | Rake 0 
+Board [Js 8d 8s Th 7s]
+Seat 1: sachafaeh77 (big blind) showed [9d Kh] and won (170) with a straight, Seven to Jack
+Seat 2: CCCP10rus (button) mucked
+Seat 3: hyperDONK618 (small blind) folded before Flop
+
+
+PokerStars Hand #161969552191: Tournament #1739166160, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/25 22:35:34 ET
+Table '1739166160 1' 3-max Seat #3 is the button
+Seat 1: sachafaeh77 (680 in chips) 
+Seat 2: CCCP10rus (410 in chips) 
+Seat 3: hyperDONK618 (410 in chips) 
+sachafaeh77: posts small blind 10
+CCCP10rus: posts big blind 20
+*** HOLE CARDS ***
+hyperDONK618: folds 
+sachafaeh77: calls 10
+CCCP10rus: raises 50 to 70
+sachafaeh77: raises 50 to 120
+CCCP10rus: folds 
+Uncalled bet (50) returned to sachafaeh77
+sachafaeh77 collected 140 from pot
+sachafaeh77: doesn't show hand 
+*** SUMMARY ***
+Total pot 140 | Rake 0 
+Seat 1: sachafaeh77 (small blind) collected (140)
+Seat 2: CCCP10rus (big blind) folded before Flop
+Seat 3: hyperDONK618 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #161969568976: Tournament #1739166160, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/25 22:36:19 ET
+Table '1739166160 1' 3-max Seat #1 is the button
+Seat 1: sachafaeh77 (750 in chips) 
+Seat 2: CCCP10rus (340 in chips) 
+Seat 3: hyperDONK618 (410 in chips) 
+CCCP10rus: posts small blind 10
+hyperDONK618: posts big blind 20
+*** HOLE CARDS ***
+sachafaeh77: folds 
+CCCP10rus: calls 10
+hyperDONK618: checks 
+*** FLOP *** [3c 9h Td]
+CCCP10rus: bets 30
+hyperDONK618: calls 30
+*** TURN *** [3c 9h Td] [Qh]
+CCCP10rus: bets 60
+hyperDONK618: calls 60
+*** RIVER *** [3c 9h Td Qh] [Ac]
+CCCP10rus: bets 120
+hyperDONK618: calls 120
+*** SHOW DOWN ***
+CCCP10rus: shows [8d Jh] (a straight, Eight to Queen)
+hyperDONK618: mucks hand 
+CCCP10rus collected 460 from pot
+*** SUMMARY ***
+Total pot 460 | Rake 0 
+Board [3c 9h Td Qh Ac]
+Seat 1: sachafaeh77 (button) folded before Flop (didn't bet)
+Seat 2: CCCP10rus (small blind) showed [8d Jh] and won (460) with a straight, Eight to Queen
+Seat 3: hyperDONK618 (big blind) mucked
+
+
+PokerStars Hand #161969600916: Tournament #1739166160, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/25 22:37:44 ET
+Table '1739166160 1' 3-max Seat #2 is the button
+Seat 1: sachafaeh77 (750 in chips) 
+Seat 2: CCCP10rus (570 in chips) 
+Seat 3: hyperDONK618 (180 in chips) 
+hyperDONK618: posts small blind 15
+sachafaeh77: posts big blind 30
+*** HOLE CARDS ***
+CCCP10rus: raises 30 to 60
+hyperDONK618: folds 
+CCCP10rus said, "lol"
+sachafaeh77: raises 30 to 90
+CCCP10rus: raises 480 to 570 and is all-in
+sachafaeh77: calls 480
+*** FLOP *** [3d 4h 9d]
+*** TURN *** [3d 4h 9d] [9h]
+*** RIVER *** [3d 4h 9d 9h] [Ad]
+*** SHOW DOWN ***
+sachafaeh77: shows [Js Jh] (two pair, Jacks and Nines)
+CCCP10rus: shows [Ts Th] (two pair, Tens and Nines)
+sachafaeh77 collected 1155 from pot
+CCCP10rus finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 1155 | Rake 0 
+Board [3d 4h 9d 9h Ad]
+Seat 1: sachafaeh77 (big blind) showed [Js Jh] and won (1155) with two pair, Jacks and Nines
+Seat 2: CCCP10rus (button) showed [Ts Th] and lost with two pair, Tens and Nines
+Seat 3: hyperDONK618 (small blind) folded before Flop
+
+
+PokerStars Hand #161969615522: Tournament #1739166160, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/25 22:38:23 ET
+Table '1739166160 1' 3-max Seat #3 is the button
+Seat 1: sachafaeh77 (1335 in chips) 
+Seat 3: hyperDONK618 (165 in chips) 
+hyperDONK618: posts small blind 15
+sachafaeh77: posts big blind 30
+*** HOLE CARDS ***
+hyperDONK618: folds 
+Uncalled bet (15) returned to sachafaeh77
+sachafaeh77 collected 30 from pot
+sachafaeh77: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: sachafaeh77 (big blind) collected (30)
+Seat 3: hyperDONK618 (button) (small blind) folded before Flop
+
+
+PokerStars Hand #161969616678: Tournament #1739166160, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/25 22:38:27 ET
+Table '1739166160 1' 3-max Seat #1 is the button
+Seat 1: sachafaeh77 (1350 in chips) 
+Seat 3: hyperDONK618 (150 in chips) 
+sachafaeh77: posts small blind 15
+hyperDONK618: posts big blind 30
+*** HOLE CARDS ***
+sachafaeh77: calls 15
+hyperDONK618: raises 120 to 150 and is all-in
+sachafaeh77: folds 
+Uncalled bet (120) returned to hyperDONK618
+hyperDONK618 collected 60 from pot
+hyperDONK618: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: sachafaeh77 (button) (small blind) folded before Flop
+Seat 3: hyperDONK618 (big blind) collected (60)
+
+
+PokerStars Hand #161969622879: Tournament #1739166160, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/25 22:38:43 ET
+Table '1739166160 1' 3-max Seat #3 is the button
+Seat 1: sachafaeh77 (1320 in chips) 
+Seat 3: hyperDONK618 (180 in chips) 
+hyperDONK618: posts small blind 15
+sachafaeh77: posts big blind 30
+*** HOLE CARDS ***
+hyperDONK618: calls 15
+sachafaeh77: checks 
+*** FLOP *** [6d Kd 7s]
+sachafaeh77: checks 
+hyperDONK618: checks 
+*** TURN *** [6d Kd 7s] [9c]
+sachafaeh77: bets 30
+hyperDONK618: calls 30
+*** RIVER *** [6d Kd 7s 9c] [Th]
+sachafaeh77: bets 120
+hyperDONK618: folds 
+Uncalled bet (120) returned to sachafaeh77
+sachafaeh77 collected 120 from pot
+sachafaeh77: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Board [6d Kd 7s 9c Th]
+Seat 1: sachafaeh77 (big blind) collected (120)
+Seat 3: hyperDONK618 (button) (small blind) folded on the River
+
+
+PokerStars Hand #161969639766: Tournament #1739166160, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/25 22:39:28 ET
+Table '1739166160 1' 3-max Seat #1 is the button
+Seat 1: sachafaeh77 (1380 in chips) 
+Seat 3: hyperDONK618 (120 in chips) 
+sachafaeh77: posts small blind 15
+hyperDONK618: posts big blind 30
+*** HOLE CARDS ***
+sachafaeh77: calls 15
+hyperDONK618: raises 90 to 120 and is all-in
+sachafaeh77: calls 90
+*** FLOP *** [7d Qd 5c]
+*** TURN *** [7d Qd 5c] [4d]
+*** RIVER *** [7d Qd 5c 4d] [9c]
+*** SHOW DOWN ***
+hyperDONK618: shows [Kd 9h] (a pair of Nines)
+sachafaeh77: shows [8s 4s] (a pair of Fours)
+hyperDONK618 collected 240 from pot
+*** SUMMARY ***
+Total pot 240 | Rake 0 
+Board [7d Qd 5c 4d 9c]
+Seat 1: sachafaeh77 (button) (small blind) showed [8s 4s] and lost with a pair of Fours
+Seat 3: hyperDONK618 (big blind) showed [Kd 9h] and won (240) with a pair of Nines
+
+
+PokerStars Hand #161969655199: Tournament #1739166160, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/25 22:39:48 ET
+Table '1739166160 1' 3-max Seat #3 is the button
+Seat 1: sachafaeh77 (1260 in chips) 
+Seat 3: hyperDONK618 (240 in chips) 
+hyperDONK618: posts small blind 15
+sachafaeh77: posts big blind 30
+*** HOLE CARDS ***
+hyperDONK618: calls 15
+sachafaeh77: raises 30 to 60
+hyperDONK618: calls 30
+*** FLOP *** [2d Tc 6c]
+sachafaeh77: bets 60
+hyperDONK618: calls 60
+*** TURN *** [2d Tc 6c] [Kd]
+sachafaeh77: bets 120
+hyperDONK618: calls 120 and is all-in
+*** RIVER *** [2d Tc 6c Kd] [7s]
+*** SHOW DOWN ***
+sachafaeh77: shows [9h Qh] (high card King)
+hyperDONK618: shows [Jh Jc] (a pair of Jacks)
+hyperDONK618 collected 480 from pot
+*** SUMMARY ***
+Total pot 480 | Rake 0 
+Board [2d Tc 6c Kd 7s]
+Seat 1: sachafaeh77 (big blind) showed [9h Qh] and lost with high card King
+Seat 3: hyperDONK618 (button) (small blind) showed [Jh Jc] and won (480) with a pair of Jacks
+
+
+PokerStars Hand #161969667734: Tournament #1739166160, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/25 22:40:21 ET
+Table '1739166160 1' 3-max Seat #1 is the button
+Seat 1: sachafaeh77 (1020 in chips) 
+Seat 3: hyperDONK618 (480 in chips) 
+sachafaeh77: posts small blind 20
+hyperDONK618: posts big blind 40
+*** HOLE CARDS ***
+sachafaeh77: calls 20
+hyperDONK618: raises 60 to 100
+sachafaeh77: folds 
+Uncalled bet (60) returned to hyperDONK618
+hyperDONK618 collected 80 from pot
+hyperDONK618: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: sachafaeh77 (button) (small blind) folded before Flop
+Seat 3: hyperDONK618 (big blind) collected (80)
+
+
+PokerStars Hand #161969671826: Tournament #1739166160, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/25 22:40:33 ET
+Table '1739166160 1' 3-max Seat #3 is the button
+Seat 1: sachafaeh77 (980 in chips) 
+Seat 3: hyperDONK618 (520 in chips) 
+hyperDONK618: posts small blind 20
+sachafaeh77: posts big blind 40
+*** HOLE CARDS ***
+hyperDONK618: calls 20
+sachafaeh77: checks 
+*** FLOP *** [4h Th 7d]
+sachafaeh77: checks 
+hyperDONK618: checks 
+*** TURN *** [4h Th 7d] [Td]
+sachafaeh77: checks 
+hyperDONK618: bets 60
+sachafaeh77: calls 60
+*** RIVER *** [4h Th 7d Td] [Js]
+sachafaeh77: checks 
+hyperDONK618: bets 100
+sachafaeh77: calls 100
+*** SHOW DOWN ***
+hyperDONK618: shows [7h Kc] (two pair, Tens and Sevens)
+sachafaeh77: mucks hand 
+hyperDONK618 collected 400 from pot
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Board [4h Th 7d Td Js]
+Seat 1: sachafaeh77 (big blind) mucked
+Seat 3: hyperDONK618 (button) (small blind) showed [7h Kc] and won (400) with two pair, Tens and Sevens
+
+
+PokerStars Hand #161969684008: Tournament #1739166160, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/25 22:41:06 ET
+Table '1739166160 1' 3-max Seat #1 is the button
+Seat 1: sachafaeh77 (780 in chips) 
+Seat 3: hyperDONK618 (720 in chips) 
+sachafaeh77: posts small blind 20
+hyperDONK618: posts big blind 40
+*** HOLE CARDS ***
+sachafaeh77: folds 
+Uncalled bet (20) returned to hyperDONK618
+hyperDONK618 collected 40 from pot
+hyperDONK618: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: sachafaeh77 (button) (small blind) folded before Flop
+Seat 3: hyperDONK618 (big blind) collected (40)
+
+
+PokerStars Hand #161969685623: Tournament #1739166160, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/25 22:41:10 ET
+Table '1739166160 1' 3-max Seat #3 is the button
+Seat 1: sachafaeh77 (760 in chips) 
+Seat 3: hyperDONK618 (740 in chips) 
+hyperDONK618: posts small blind 20
+sachafaeh77: posts big blind 40
+*** HOLE CARDS ***
+hyperDONK618: calls 20
+sachafaeh77: raises 40 to 80
+hyperDONK618: calls 40
+*** FLOP *** [9s Qh 6h]
+sachafaeh77: checks 
+hyperDONK618: bets 80
+sachafaeh77: calls 80
+*** TURN *** [9s Qh 6h] [3c]
+sachafaeh77: checks 
+hyperDONK618: bets 160
+sachafaeh77: calls 160
+*** RIVER *** [9s Qh 6h 3c] [2s]
+sachafaeh77: bets 440 and is all-in
+hyperDONK618: calls 420 and is all-in
+Uncalled bet (20) returned to sachafaeh77
+*** SHOW DOWN ***
+sachafaeh77: shows [9c 8c] (a pair of Nines)
+hyperDONK618: shows [9h 6c] (two pair, Nines and Sixes)
+hyperDONK618 collected 1480 from pot
+*** SUMMARY ***
+Total pot 1480 | Rake 0 
+Board [9s Qh 6h 3c 2s]
+Seat 1: sachafaeh77 (big blind) showed [9c 8c] and lost with a pair of Nines
+Seat 3: hyperDONK618 (button) (small blind) showed [9h 6c] and won (1480) with two pair, Nines and Sixes
+
+
+PokerStars Hand #161969705025: Tournament #1739166160, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/25 22:42:02 ET
+Table '1739166160 1' 3-max Seat #1 is the button
+Seat 1: sachafaeh77 (20 in chips) 
+Seat 3: hyperDONK618 (1480 in chips) 
+sachafaeh77: posts small blind 20 and is all-in
+hyperDONK618: posts big blind 40
+*** HOLE CARDS ***
+Uncalled bet (20) returned to hyperDONK618
+*** FLOP *** [Jh Qs 5d]
+*** TURN *** [Jh Qs 5d] [7c]
+*** RIVER *** [Jh Qs 5d 7c] [Qd]
+*** SHOW DOWN ***
+hyperDONK618: shows [Th 7s] (two pair, Queens and Sevens)
+sachafaeh77: shows [8c Ac] (a pair of Queens)
+hyperDONK618 collected 40 from pot
+sachafaeh77 finished the tournament in 2nd place
+hyperDONK618 wins the tournament and receives $600.00 - congratulations!
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Board [Jh Qs 5d 7c Qd]
+Seat 1: sachafaeh77 (button) (small blind) showed [8c Ac] and lost with a pair of Queens
+Seat 3: hyperDONK618 (big blind) showed [Th 7s] and won (40) with two pair, Queens and Sevens
