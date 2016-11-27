@@ -38,6 +38,12 @@ Tree.prototype.displayChildren = function(){
 }
 //Expects an integer value
 Tree.prototype.navigateToNextNode = function(nextNode){
-	this.currentNode = this.currentNode.children[nextNode];
+	if (this.currentNode.children[nextNode] !== undefined) {
+		this.currentNode = this.currentNode.children[nextNode];
+		return true;
+	}
+	else {
+		return false;
+	}
 }
 module.exports.Tree = Tree;

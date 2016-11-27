@@ -46,28 +46,45 @@ function goThroughOptions(action, game, tree){
 	}
 	if (action == 'navigateToNextNode'){
 		prompt.get(['nextNode'], function (err, result){
-			tree.navigateToNextNode(parseInt(result.nextNode));
-			process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
+			if (tree.navigateToNextNode(parseInt(result.nextNode))){
+				process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
+			}
+			else {
+				process.nextTick(function(){goThroughOptions('displayChildren', game, tree);});
+			}
 		});
 	}
 	if (action == 'getHoleCards') {
 		prompt.get(['cards'], function (err, result) {
-			cards = result.cards.match(/.{1,2}/g);
-			game.setHand(cards);
-			process.nextTick(function(){goThroughOptions('displayChildren', game, tree);});
-			process.nextTick(function(){goThroughOptions('updatePercentile', game, tree);});
+			var pattern = /^([2-9aqkjt][chsd]){1,3}$/;
+			if(pattern.test(result.cards)) {
+				cards = result.cards.match(/.{1,2}/g);				
+				game.setHand(cards);
+				process.nextTick(function(){goThroughOptions('displayChildren', game, tree);});
+				process.nextTick(function(){goThroughOptions('updatePercentile', game, tree);});
+			}else {
+				console.log("Error Entering Cards.  Try Again");
+				process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
+			}
 		});
 		
 	}
 	if(action == 'getCommunityCards'){//Get hole cards 
 		prompt.get(['flop'], function (err, result) {
-			cards = result.flop.match(/.{1,2}/g);
-			process.nextTick(function(){game.setCommunityHand(cards);});
-			if(nextNodeIsMe(tree)){
-				console.log("Calculating Best Move...");
-				setTimeout(function(){goToBestAction(tree, game)}, 5000);
-			}else {
-				goThroughOptions('displayChildren', game, tree);
+			var pattern = /^([2-9aqkjt][chsd]){1,3}$/;
+			if(pattern.test(result.flop)){
+				cards = result.flop.match(/.{1,2}/g);
+				process.nextTick(function(){game.setCommunityHand(cards);});
+				if(nextNodeIsMe(tree)){
+					console.log("Calculating Best Move...");
+					setTimeout(function(){goToBestAction(tree, game)}, 5000);
+				}else {
+					goThroughOptions('displayChildren', game, tree);
+				}
+			}
+			else {
+				console.log("Error Entering Cards.  Try Again");
+				process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
 			}
 		});
 	}
