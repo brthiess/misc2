@@ -5,7 +5,8 @@ var prompt = require('prompt');
 var Game = require('./game');
 var Tree = require('./tree');
 
-const actionRankings = ['ra', 'r3', 'r2', 'r1', 'r0.5', 'c', 'f'];
+const actionRankings = ['ra', 'r3', 'r2', 'r1', 'r0.5', 'c', 'f', 'ch'];
+const actionTranslator = {ra: 'All in', r3: 'Raise 3x', r2: 'Raise 2x', r1: 'Raise 1x', 'r0.5': 'Raise Half', 'c': 'Call', 'f': 'Fold', 'ch': 'Check'};
 
 
 var tree = new Tree.Tree('data/spin/refined/data.txt', startLoop);
@@ -33,9 +34,7 @@ function goThroughOptions(action, game, tree){
 			action = 'getCommunityCards';
 		}
 		else if (nextNodeIsMe(tree)){
-			var nextAction = getBestAction(tree.getChildren(), game);
-			//tree.navigateToNextNode(nextAction);
-			//process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
+			process.nextTick(function(){goToBestAction(tree, game);});
 		}
 		else {
 			action = 'displayChildren';
@@ -64,7 +63,12 @@ function goThroughOptions(action, game, tree){
 		prompt.get(['flop'], function (err, result) {
 			cards = result.flop.match(/.{1,2}/g);
 			process.nextTick(function(){game.setCommunityHand(cards);});
-			goThroughOptions('displayChildren', game, tree);
+			if(nextNodeIsMe(tree)){
+				console.log("Calculating Best Move...");
+				setTimeout(function(){goToBestAction(tree, game)}, 5000);
+			}else {
+				goThroughOptions('displayChildren', game, tree);
+			}
 		});
 	}
 
@@ -86,6 +90,8 @@ function nextNodeIsMe(tree){
 function getBestAction(children, game){
 	var currentPercentile = game.getPercentile();
 	console.log("Current Percentile: " + currentPercentile);
+	console.log("Children");
+	console.log(children);
 	var total = 0;
 	actionPercentiles = [];
 	for(var i = 0; i < children.length; i++){
@@ -99,17 +105,37 @@ function getBestAction(children, game){
 				actionPercentile = {};
 				actionPercentile.percentile = percentilePointer / total;
 				actionPercentile.name = children[i].name.substr(1);
+				actionPercentile.id = i;
 				actionPercentiles.push(actionPercentile);
 		
 			}
 		}
 	}
+	console.log(actionPercentiles);
 	for(var i = 0; i < actionPercentiles.length; i++){
 		if (currentPercentile >= actionPercentiles[i].percentile){
-			console.log("BEST ACTION: " + actionPercentiles[i].name);
+			console.log("BEST ACTION: " + translateActionToHumanReadable(actionPercentiles[i].name));
+			console.log(actionPercentiles[i]);
+			return actionPercentiles[i].id;
 			break;
 		}
 	}
-	console.log(actionPercentiles);
+	//console.log(actionPercentiles);
+}
+
+function translateActionToHumanReadable(action){
+	for(var actionKey in actionTranslator){
+		if(actionKey == action){
+			return actionTranslator[actionKey];
+		}
+	}
+	return action; //No translation found
+}
+
+function goToBestAction(tree, game){
+	console.log(tree);
+	var nextAction = getBestAction(tree.getChildren(), game);
+	tree.navigateToNextNode(nextAction);
+	process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
 }
       
