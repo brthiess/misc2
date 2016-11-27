@@ -1337,3 +1337,6 @@ Total pot 1100 | Rake 0
 Board [Js Ac 3d 9s 5s]
 Seat 1: drchilled (button) (small blind) showed [5c Jh] and lost with two pair, Jacks and Fives
 Seat 3: Weshero (big blind) showed [9d Ah] and won (1100) with two pair, Aces and Nines
+
+
+***NEW GAME***

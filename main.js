@@ -5,10 +5,10 @@ var prompt = require('prompt');
 var Game = require('./game');
 var Tree = require('./tree');
 
-const actionRankings = ['a', 'r3', 'r2', 'r1', 'r.5', 'c', 'f'];
+const actionRankings = ['ra', 'r3', 'r2', 'r1', 'r0.5', 'c', 'f'];
 
 
-var tree = new Tree.Tree('data.txt', startLoop);
+var tree = new Tree.Tree('data/spin/refined/data.txt', startLoop);
 
 currentPercentile = 0;
 //Initialize empty hand and community hand

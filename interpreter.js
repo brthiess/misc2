@@ -37,7 +37,7 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 	}
 	if (line.includes('PokerStars Hand #')) { //New Round
 		foundNewGame = true;
-		fileOutput = "\nc";
+		//fileOutput = "\nc";
 		foundNewRound = true;
 		finishedRound = false;
 		currentPosition = 'pb';
@@ -47,8 +47,11 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 		usersContributions = {};
 		handNumber = line.split(" ")[2];
 		console.log("\n\n***********************\n" + handNumber + "\n******************");
-		fileOutput = "\n\n***********************\n" + handNumber + "\n**********************\n";
+		//fileOutput = "\n\n***********************\n" + handNumber + "\n**********************\n";
 		printToFile = true;
+		currentBigBlind = 0;
+		myStack = 0;
+		cantPlay = false;
 	}
 	
 	if (line.includes('Seat ') && isNormalInteger(line.substr(5,1)) && !finishedRound && foundNewRound){
@@ -70,9 +73,18 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 			}
 			
 		}
+		//console.log("STACK SIZE: " + stackSize);
+		//console.log("SMALLEST STACK BEFORE: " + smallestStack);
 		smallestStack = (stackSize < smallestStack ? stackSize : smallestStack);
+		//console.log("SMALLEST :" + smallestStack);
 		biggestStack = (stackSize > biggestStack ? stackSize : biggestStack);
-		//console.log(currentUser);
+		var tempUser = getUserFromLine(line);
+		if(currentUser != '' && tempUser == currentUser){
+			myStack = stackSize;
+			//console.log("MY STACK: " + myStack);
+		}
+	
+		//console.log("CURRENT USER: " + currentUser);
 		
 	}
 	if(line.includes('posts small blind') && !bettingStarted){ //Get users small blind contribution
@@ -91,6 +103,9 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 		//console.log("CONTRIB: " + bigBlindTemp);
 		//console.log(usersContributions);
 	}
+	if(line.includes("posts big blind")){
+		currentBigBlind = getBigBlindFromLine(line);
+	}
 	if(line.includes(currentUser) && currentUser != ''){
 		if (line.includes('posts small blind')){
 			currentPosition = 'psb';
@@ -98,40 +113,57 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 		}
 		else if (line.includes('posts big blind')){
 			currentPosition = 'pbb';
-			currentBigBlind = getBigBlindFromLine(line);
-		}		
+		}
+		
+		if(currentPosition == 'pbb' && myStack != 0 && currentBigBlind != 0 && (myStack <= currentBigBlind)){
+			cantPlay = true;
+		}
+		else if (currentPosition == 'psb' && myStack != 0 && currentSmallBlind != 0 && (myStack <= currentSmallBlind)){
+			console.log("CANT PLAY");
+			cantPlay = true;
+		}
 	}
 	if(line.includes("*** HOLE CARDS ***") && currentUser != ''){
-	
+		if(currentBigBlind == 0 || myStack == 0){
+			console.log("ERROR FINDING BIG BLIND OR MY STACK");
+			console.log("current big blind: " + currentBigBlind);
+			console.log("myStack: " + myStack);
+		}
+		var stackSizeRelativeToBigBlind = getFileOutputStackSize(myStack, currentBigBlind);
+		//console.log("Stack size relative to big blind: " + stackSizeRelativeToBigBlind);
+		//console.log("CURRENT BIG bLIND: " + currentBigBlind);
 		bettingStarted = true;
 		preflop = true;
-		fileOutput = numPlayers + " " + currentPosition;
+		fileOutput = "\nc " + numPlayers + " " +  stackSizeRelativeToBigBlind + " " + currentPosition;
+		if(cantPlay){
+			fileOutput += " d";
+		}
 	}
-	if(line.includes("*** FLOP ***") && preflop == true && bettingStarted == true){
+	if(line.includes("*** FLOP ***") && preflop == true && bettingStarted == true && !cantPlay){
 		postflop = true;
 		preflop = false;
 		fileOutput = 'f'
 	}
-	if((line.includes("*** TURN ***") || line.includes("*** RIVER ***")) && postflop == true){
+	if((line.includes("*** TURN ***") || line.includes("*** RIVER ***")) && postflop == true && !cantPlay){
 		fileOutput = 'f'
 	}
 	if(bettingStarted && preflop == true && (line.includes(" calls ") || line.includes(" bets ") || line.includes(" raises ") || line.includes(" folds ") || line.includes(" checks "))){
-		console.log("\n\n" + line);
-		console.log("\nBEFORE");
-		console.log(usersContributions);
+		//console.log("\n\n" + line);
+		//console.log("\nBEFORE");
+		//console.log(usersContributions);
 		fileOutput = getAction(line, currentUser, currentBigBlind, usersContributions);
-		console.log("AFTER");
-		console.log(usersContributions);
+		//console.log("AFTER");
+		//console.log(usersContributions);
 	}
 	if(bettingStarted && postflop == true && (line.includes(" calls ") || line.includes(" bets ") || line.includes(" raises ") || line.includes(" folds ") || line.includes(" checks "))){
 		currentPotSize = getPotSize(usersContributions);
 		//console.log(usersContributions);
-		console.log("\n\n" + line);
-		console.log("\nBEFORE");
-		console.log(usersContributions);
+		//console.log("\n\n" + line);
+		//console.log("\nBEFORE");
+		//console.log(usersContributions);
 		fileOutput = getAction(line, currentUser, currentPotSize, usersContributions);
-		console.log("AFTER");
-		console.log(usersContributions);
+		//console.log("AFTER");
+		//console.log(usersContributions);
 	}
 	if(line.includes('*** SUMMARY ***')){
 		roundNumber++;
@@ -154,7 +186,7 @@ function getStackFromLine(lineVar){
 		var stackSize = lineVar.split(" ")[3].match(/\d/g).join("");
 	}
 	//console.log("STACK SIZE: " + stackSize);
-	return stackSize;
+	return parseInt(stackSize);
 }
 
 function getUserFromLine(lineVar){
@@ -231,6 +263,12 @@ function getAction(lineVar, currentUserVar, potBlind, usersContributions){
 			usersContributions[tempUser] = betAmount;
 		}
 		var betAmountInPots = betAmount / potBlind;
+		if(betAmountInPots < 0.8 && betAmountInPots > 0){
+			betAmountInPots = 0.5;
+		}
+		else if (betAmountInPots >= 0.8 && betAmountInPots < 1.5){
+			betAmountInPots = 1;
+		}
 		if(lineVar.includes("is all-in")){
 			betAmountInPots = 'a';
 		}
@@ -258,6 +296,12 @@ function getPreflopRaise(lineVar, potBlind){
 	}
 	if(lineVar.includes("is all-in")){
 		numberOfBigBlinds = 'a';
+	}
+	if(numberOfBigBlinds < 0.8 && numberOfBigBlinds > 0){
+		numberOfBigBlinds = 0.5;
+	}
+	else if (numberOfBigBlinds >= 0.8 && numberOfBigBlinds < 1.5){
+		numberOfBigBlinds = 1;
 	}
 	return numberOfBigBlinds;
 }
@@ -300,4 +344,19 @@ function getRaiseToCall(lineVar){
 		console.log("RAISE TO CALL AMOUNT ERROR");
 	}
 	return parseInt(callAmount);
+}
+
+function getFileOutputStackSize(stack, bigBlind){
+	if((stack / bigBlind) < 9 ){
+		return 'ss';
+	}
+	else if (stack / bigBlind < 20){
+		return 'sm';
+	}
+	else if (stack / bigBlind < 75) {
+		return 'sl';
+	}
+	else {
+		console.log("Stack / BigBlind error");
+	}
 }
