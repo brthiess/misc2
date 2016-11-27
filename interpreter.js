@@ -21,10 +21,20 @@ currentBigBlind = 0;
 currentSmallBlind = 0;
 currentCallingSize = 0;
 currentPotSize = 0;
+usersContributions = {};
 
 
 fs.readFileSync(data).toString().split('\n').forEach(function (line) { 
 	var fileOutput = '';
+	if(line.includes('***NEW GAME***')){ //NEW GAME
+		foundNewGame = true;
+		fileOutput = '';
+		preflop = false;
+		postflop = false;
+		roundNumber = 0;
+		finishedGame = false;
+		currentUser = '';
+	}
 	if (line.includes('PokerStars Hand #')) { //New Round
 		foundNewGame = true;
 		fileOutput = "\nc";
@@ -33,6 +43,12 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 		currentPosition = 'pb';
 		bettingStarted = false;
 		preflop = false;
+		postflop = false;
+		usersContributions = {};
+		handNumber = line.split(" ")[2];
+		console.log("\n\n***********************\n" + handNumber + "\n******************");
+		fileOutput = "\n\n***********************\n" + handNumber + "\n**********************\n";
+		printToFile = true;
 	}
 	
 	if (line.includes('Seat ') && isNormalInteger(line.substr(5,1)) && !finishedRound && foundNewRound){
@@ -59,6 +75,22 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 		//console.log(currentUser);
 		
 	}
+	if(line.includes('posts small blind') && !bettingStarted){ //Get users small blind contribution
+		var smallBlindTemp = getSmallBlindFromLine(line);
+		var userTemp = getUserFromBlindLine(line);
+		usersContributions[userTemp] = smallBlindTemp;
+		//console.log("USER: " + userTemp);
+		//console.log("CONTRIB: " + smallBlindTemp);
+		//console.log(usersContributions);
+	}
+	if(line.includes('posts big blind') && !bettingStarted){ //Get users big blind contribution
+		var bigBlindTemp = getBigBlindFromLine(line);
+		var userTemp = getUserFromBlindLine(line);		
+		usersContributions[userTemp] = bigBlindTemp;
+		//console.log("USER: " + userTemp);
+		//console.log("CONTRIB: " + bigBlindTemp);
+		//console.log(usersContributions);
+	}
 	if(line.includes(currentUser) && currentUser != ''){
 		if (line.includes('posts small blind')){
 			currentPosition = 'psb';
@@ -70,12 +102,36 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 		}		
 	}
 	if(line.includes("*** HOLE CARDS ***") && currentUser != ''){
+	
 		bettingStarted = true;
 		preflop = true;
 		fileOutput = numPlayers + " " + currentPosition;
 	}
-	if(bettingStarted && preflop == true && (line.includes("calls") || line.includes("bets") || line.includes("raises") || line.includes("folds"))){
-		fileOutput = getPreflopAction(line, currentUser, currentBigBlind);
+	if(line.includes("*** FLOP ***") && preflop == true && bettingStarted == true){
+		postflop = true;
+		preflop = false;
+		fileOutput = 'f'
+	}
+	if((line.includes("*** TURN ***") || line.includes("*** RIVER ***")) && postflop == true){
+		fileOutput = 'f'
+	}
+	if(bettingStarted && preflop == true && (line.includes(" calls ") || line.includes(" bets ") || line.includes(" raises ") || line.includes(" folds ") || line.includes(" checks "))){
+		console.log("\n\n" + line);
+		console.log("\nBEFORE");
+		console.log(usersContributions);
+		fileOutput = getAction(line, currentUser, currentBigBlind, usersContributions);
+		console.log("AFTER");
+		console.log(usersContributions);
+	}
+	if(bettingStarted && postflop == true && (line.includes(" calls ") || line.includes(" bets ") || line.includes(" raises ") || line.includes(" folds ") || line.includes(" checks "))){
+		currentPotSize = getPotSize(usersContributions);
+		//console.log(usersContributions);
+		console.log("\n\n" + line);
+		console.log("\nBEFORE");
+		console.log(usersContributions);
+		fileOutput = getAction(line, currentUser, currentPotSize, usersContributions);
+		console.log("AFTER");
+		console.log(usersContributions);
 	}
 	if(line.includes('*** SUMMARY ***')){
 		roundNumber++;
@@ -85,8 +141,9 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 		finishedRound = true;
 		foundNewRound = false;
 	}
-	if ((fileOutput != '' && currentUser != '') || (roundNumber == 5 && fileOutput != '')){
+	if ((fileOutput != '' && currentUser != '') || (roundNumber == 5 && fileOutput != '') || printToFile == true){
 		fs.appendFileSync('data/spin/refined/data.txt', fileOutput + ' ');
+		printToFile = false;
 	}
 	
 });
@@ -102,6 +159,10 @@ function getStackFromLine(lineVar){
 
 function getUserFromLine(lineVar){
 	var username = lineVar.split(" ")[2];
+	return username;
+}
+function getUserFromBlindLine(lineVar){
+	var username = lineVar.split(" ")[0].replace(":", "");
 	return username;
 }
 
@@ -125,7 +186,7 @@ function getSmallBlindFromLine(lineVar){
 	return parseInt(smallBlind);
 }
 
-function getPreflopAction(lineVar, currentUserVar, bigBlindVar){
+function getAction(lineVar, currentUserVar, potBlind, usersContributions){
 	var fileOutput = '';
 	if(lineVar.includes(currentUserVar)){
 		fileOutput += 'm';
@@ -134,20 +195,109 @@ function getPreflopAction(lineVar, currentUserVar, bigBlindVar){
 		fileOutput += 'o';
 	}
 	
-	if(line.includes("raises")){
-		getPreflopRaise(lineVar, bigBlindVar);
+	if(lineVar.includes(" raises ")){
+		raise = getPreflopRaise(lineVar, potBlind);
+		var amountToCall = getRaiseToCall(lineVar);
+		var tempUser = getUserFromActionLine(lineVar);
+		if(usersContributions[tempUser] !== undefined){
+			usersContributions[tempUser] += (amountToCall - usersContributions[tempUser]);
+		}
+		else {
+			usersContributions[tempUser] = amountToCall;
+		}
+		fileOutput += 'r' + raise;
 	}
-	else if (line.includes("calls")){
+	else if (lineVar.includes(" calls ")){
 		fileOutput += 'c';
+		var callAmount = getCallAmount(lineVar);
+		var tempUser = getUserFromActionLine(lineVar);
+		if(usersContributions[tempUser] !== undefined){
+			usersContributions[tempUser] += callAmount;
+		}
+		else {
+			usersContributions[tempUser] = callAmount;
+		}
 	}
-	else if(line.includes("folds")){
+	else if(lineVar.includes(" folds ")){
+		fileOutput += 'f';
+	}
+	else if (lineVar.includes(" bets ")){		
+		var betAmount = getBetAmount(lineVar);
+		var tempUser = getUserFromActionLine(lineVar);
+		if(usersContributions[tempUser] !== undefined){
+			usersContributions[tempUser] += betAmount;
+		}
+		else {
+			usersContributions[tempUser] = betAmount;
+		}
+		var betAmountInPots = betAmount / potBlind;
+		if(lineVar.includes("is all-in")){
+			betAmountInPots = 'a';
+		}
+		fileOutput += 'r' + betAmountInPots;
+	}
+	else if (lineVar.includes("Uncalled bet")){
 		
 	}
-	else if (line.includes("bets")){
-		
+	else if (lineVar.includes(" checks ")){
+		fileOutput += 'ch';
 	}
-	else if (line.includes("Uncalled bet")){
-		
+	return fileOutput;
+}
+
+function getPreflopRaise(lineVar, potBlind){
+	raiseAmount = parseInt(lineVar.split(" ")[2]);
+	if(!isNormalInteger(raiseAmount) || raiseAmount < 0 || raiseAmount > 1500){
+		console.log("**************ERROR*****************")
+		console.log("Incorrect Preflop Raise Amount");
 	}
-	
+	numberOfBigBlinds = raiseAmount / potBlind;
+	if(!isNormalInteger(numberOfBigBlinds)) {
+		console.log("**************ERROR*************");
+		console.log("INCORRECT NUMBER OF BLINDS");
+	}
+	if(lineVar.includes("is all-in")){
+		numberOfBigBlinds = 'a';
+	}
+	return numberOfBigBlinds;
+}
+function getPotSize(usersContributions){
+	var potSize = 0;
+	for(var key in usersContributions){
+		potSize += usersContributions[key];
+	}
+	if(!isNormalInteger(potSize) || potSize > 4500 || potSize < 0){
+		console.log("************** ERROR *************");
+		console.log("POT SIZE ERROR");
+	}
+	return potSize;
+}
+
+function getCallAmount(lineVar){
+	var callAmount = lineVar.split(" ")[2];
+	if(!isNormalInteger(callAmount) || callAmount > 1500 || callAmount < 0){
+		console.log("************** ERROR *************");
+		console.log("CALL AMOUNT ERROR");
+	}
+	return parseInt(callAmount);
+}
+function getBetAmount(lineVar){
+	var betAmount = lineVar.split(" ")[2];
+	if(!isNormalInteger(betAmount) || betAmount > 1500 || betAmount < 0){
+		console.log("************** ERROR *************");
+		console.log("BET AMOUNT ERROR");
+	}
+	return parseInt(betAmount);
+}
+function getUserFromActionLine(lineVar){
+	return lineVar.split(" ")[0].replace(":", "");
+}
+
+function getRaiseToCall(lineVar){
+	var callAmount = lineVar.split(" ")[4];
+	if(!isNormalInteger(callAmount) || callAmount > 1500 || callAmount < 0){
+		console.log("************** ERROR *************");
+		console.log("RAISE TO CALL AMOUNT ERROR");
+	}
+	return parseInt(callAmount);
 }
