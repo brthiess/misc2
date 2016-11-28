@@ -46,7 +46,13 @@ function goThroughOptions(action, game, tree){
 	}
 	if (action == 'navigateToNextNode'){
 		prompt.get(['nextNode'], function (err, result){
-			if (tree.navigateToNextNode(parseInt(result.nextNode))){
+			if(result.nextNode == 'r'){
+				tree.navigateToRoot();
+				game.resetGame();
+				
+				process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
+			}
+			else if (tree.navigateToNextNode(parseInt(result.nextNode))){
 				process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
 			}
 			else {
@@ -60,8 +66,14 @@ function goThroughOptions(action, game, tree){
 			if(pattern.test(result.cards)) {
 				cards = result.cards.match(/.{1,2}/g);				
 				game.setHand(cards);
-				process.nextTick(function(){goThroughOptions('displayChildren', game, tree);});
 				process.nextTick(function(){goThroughOptions('updatePercentile', game, tree);});
+				if(nextNodeIsMe(tree)){
+					console.log("Calculating Best Move...");
+					setTimeout(function(){goToBestAction(tree, game)}, 5000);
+				}else {
+					process.nextTick(function(){goThroughOptions('displayChildren', game, tree);});	
+				}
+				
 			}else {
 				console.log("Error Entering Cards.  Try Again");
 				process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
@@ -131,8 +143,8 @@ function getBestAction(children, game){
 	console.log(actionPercentiles);
 	for(var i = 0; i < actionPercentiles.length; i++){
 		if (currentPercentile >= actionPercentiles[i].percentile){
-			console.log("BEST ACTION: " + translateActionToHumanReadable(actionPercentiles[i].name));
-			console.log(actionPercentiles[i]);
+			console.log("\n**********************\nBEST ACTION: " + translateActionToHumanReadable(actionPercentiles[i].name));
+			//console.log(actionPercentiles[i]);
 			return actionPercentiles[i].id;
 			break;
 		}
@@ -150,7 +162,7 @@ function translateActionToHumanReadable(action){
 }
 
 function goToBestAction(tree, game){
-	console.log(tree);
+	//console.log(tree);
 	var nextAction = getBestAction(tree.getChildren(), game);
 	tree.navigateToNextNode(nextAction);
 	process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});

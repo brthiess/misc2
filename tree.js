@@ -7,7 +7,8 @@ function Tree(data, callback){
 	var instance = this;
 	BuildTree.buildTree(data, function(tree){
 		instance.tree = tree;
-		instance.currentNode = tree.children[0];
+		instance.currentNode = tree;
+		instance.root = instance.currentNode;
 		//console.log(instance.currentNode);
 		callback();
 	});
@@ -23,9 +24,6 @@ Tree.prototype.getChildren = function(){
 	return this.currentNode.children;
 }
 
-function translateActionToHumanReadable(action){
-	
-}
 
 Tree.prototype.displayChildren = function(){
 	var optionNumber = 1;
@@ -45,5 +43,8 @@ Tree.prototype.navigateToNextNode = function(nextNode){
 	else {
 		return false;
 	}
+}
+Tree.prototype.navigateToRoot = function(){
+	this.currentNode = this.root;
 }
 module.exports.Tree = Tree;

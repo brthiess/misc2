@@ -22,6 +22,8 @@ currentSmallBlind = 0;
 currentCallingSize = 0;
 currentPotSize = 0;
 usersContributions = {};
+var seatPattern = /Seat [0-9]: /;
+startedPrinting = false;
 
 
 fs.readFileSync(data).toString().split('\n').forEach(function (line) { 
@@ -46,14 +48,17 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 		postflop = false;
 		usersContributions = {};
 		handNumber = line.split(" ")[2];
-		console.log("\n\n***********************\n" + handNumber + "\n******************");
+		//console.log("\n\n**************\n" + handNumber + "\n**************");
 		//fileOutput = "\n\n***********************\n" + handNumber + "\n**********************\n";
-		printToFile = true;
+		printToFile = false;
 		currentBigBlind = 0;
 		myStack = 0;
 		cantPlay = false;
+		currentUserStillExists = false;
 	}
-	
+	if(seatPattern.test(line) && line.includes(currentUser)){
+		currentUserStillExists = true;
+	}
 	if (line.includes('Seat ') && isNormalInteger(line.substr(5,1)) && !finishedRound && foundNewRound){
 		numPlayers++;
 		//console.log(line);
@@ -77,8 +82,13 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 		//console.log("SMALLEST STACK BEFORE: " + smallestStack);
 		smallestStack = (stackSize < smallestStack ? stackSize : smallestStack);
 		//console.log("SMALLEST :" + smallestStack);
-		biggestStack = (stackSize > biggestStack ? stackSize : biggestStack);
 		var tempUser = getUserFromLine(line);
+		if(stackSize > biggestStack) {
+			biggestStack = stackSize;
+			biggestUserStack = tempUser;
+			//console.log("biggestUserStack: " + biggestUserStack);
+		}
+		
 		if(currentUser != '' && tempUser == currentUser){
 			myStack = stackSize;
 			//console.log("MY STACK: " + myStack);
@@ -87,10 +97,14 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 		//console.log("CURRENT USER: " + currentUser);
 		
 	}
+	
 	if(line.includes('posts small blind') && !bettingStarted){ //Get users small blind contribution
 		var smallBlindTemp = getSmallBlindFromLine(line);
 		var userTemp = getUserFromBlindLine(line);
 		usersContributions[userTemp] = smallBlindTemp;
+		if(userTemp == biggestUserStack){
+			biggestStackPosition = 'psb';
+		}
 		//console.log("USER: " + userTemp);
 		//console.log("CONTRIB: " + smallBlindTemp);
 		//console.log(usersContributions);
@@ -99,6 +113,9 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 		var bigBlindTemp = getBigBlindFromLine(line);
 		var userTemp = getUserFromBlindLine(line);		
 		usersContributions[userTemp] = bigBlindTemp;
+		if(userTemp == biggestUserStack){
+			biggestStackPosition = 'pbb';
+		}
 		//console.log("USER: " + userTemp);
 		//console.log("CONTRIB: " + bigBlindTemp);
 		//console.log(usersContributions);
@@ -124,6 +141,16 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 		}
 	}
 	if(line.includes("*** HOLE CARDS ***") && currentUser != ''){
+		if(!currentUserStillExists){  //Current user was eliminated.  Get new one
+			console.log("CURRENT USER " + currentUser + " Eliminated");
+			currentUser = biggestUserStack;
+			console.log("NEW USER " + currentUser + " added with a stack of " + biggestStack);
+			myStack = biggestStack;
+			if(biggestStackPosition == ''){
+				console.log("Biggest Stack Position Error");
+			}
+			currentPosition = biggestStackPosition;
+		}
 		if(currentBigBlind == 0 || myStack == 0){
 			console.log("ERROR FINDING BIG BLIND OR MY STACK");
 			console.log("current big blind: " + currentBigBlind);
@@ -134,10 +161,17 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 		//console.log("CURRENT BIG bLIND: " + currentBigBlind);
 		bettingStarted = true;
 		preflop = true;
-		fileOutput = "\nc " + numPlayers + " " +  stackSizeRelativeToBigBlind + " " + currentPosition;
+		if(startedPrinting == true){
+			fileOutput = "\n";
+		}
+		else {
+			fileOutput = "";
+		}
+		fileOutput += numPlayers + " " +  stackSizeRelativeToBigBlind + " " + currentPosition + " " + "c" + " ";
 		if(cantPlay){
 			fileOutput += " d";
 		}
+		startedPrinting = true;
 	}
 	if(line.includes("*** FLOP ***") && preflop == true && bettingStarted == true && !cantPlay){
 		postflop = true;
@@ -148,10 +182,11 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 		fileOutput = 'f'
 	}
 	if(bettingStarted && preflop == true && (line.includes(" calls ") || line.includes(" bets ") || line.includes(" raises ") || line.includes(" folds ") || line.includes(" checks "))){
+		currentPotSize = getPotSize(usersContributions);
 		//console.log("\n\n" + line);
 		//console.log("\nBEFORE");
 		//console.log(usersContributions);
-		fileOutput = getAction(line, currentUser, currentBigBlind, usersContributions);
+		fileOutput = getAction(line, currentUser, currentPotSize, usersContributions);
 		//console.log("AFTER");
 		//console.log(usersContributions);
 	}
@@ -303,6 +338,9 @@ function getPreflopRaise(lineVar, potBlind){
 	else if (numberOfBigBlinds >= 0.8 && numberOfBigBlinds < 1.5){
 		numberOfBigBlinds = 1;
 	}
+	else if (numberOfBigBlinds > 1.5){
+		numberOfBigBlinds = Math.round(numberOfBigBlinds);
+	}
 	return numberOfBigBlinds;
 }
 function getPotSize(usersContributions){
@@ -358,5 +396,7 @@ function getFileOutputStackSize(stack, bigBlind){
 	}
 	else {
 		console.log("Stack / BigBlind error");
+		console.log("Stack: " + stack);
+		console.log("Big Blind: " + bigBlind);
 	}
 }

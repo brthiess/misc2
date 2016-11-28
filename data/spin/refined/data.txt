@@ -1,51 +1,225 @@
-c 2 sl pbb of  
-c 2 sl psb mc ora mf  
-c 2 sl pbb oc mch f mch och f mr0.5 oc f mr1 of  
-c 2 sl psb mc ora mc f f f  
-c 2 sl pbb oc mr1 oc f mr0.5 oc f mr0.5 oc f  
-c 2 sl psb mc or1.5 mf  
-c 2 sl pbb oc mch f mch och f mch or0.5 mc f mch or0.5 mc  
-c 2 sm psb mf  
-c 2 sm pbb oc mr1 oc f mch or0.5 mc f mch or0.5 mc f mra oc  
-c 2 ss psb d       
-c 3 sl psb of mf  
-c 3 sl pb mf of  
-c 3 sl pbb of or1 mf  
-c 3 sl psb of mf  
-c 3 sl pb mr1 of of  
-c 3 sl pbb of of  
-c 3 sl psb of mf  
-c 3 sl pb mf or2 oc f or0.5 or0.5 oc f och ora of  
-c 3 sl pbb of or1 mc f or0.5 mf  
-c 3 sl psb of mf  
-c 3 sl pb mf ora oc f f f  
-c 2 sm pbb or1 mf  
-c 2 sm psb mr1 of  
-c 2 sm pbb or1 mra of  
-c 2 sm psb mr1 oc f och mra of  
-c 2 sl pbb or1 mc f mra of  
-c 2 sl psb mf  
-c 2 sl pbb or1 mra of  
-c 2 sl psb mf  
-c 2 sl pbb or1 mf  
-c 2 sl psb mr1 of  
-c 2 sl pbb oc mch f mch or0.5 mc f mch och f mch och  
-c 2 sl psb mr1 oc f och mch f och mch f och mch  
-c 2 sm pbb oc mch f mch or0.5 mf  
-c 2 sm psb mr1 of  
-c 2 sm pbb oc mch f mch or0.5 mf  
-c 2 sm psb mf  
-c 2 sm pbb or1 mf  
-c 2 sm psb mf  
-c 2 sm pbb or1 mf  
-c 2 sm psb mr1 of  
-c 2 sm pbb or1 mf  
-c 2 sm psb mr1 oc f och mra of  
-c 2 sm pbb or1 mra of  
-c 2 sm psb mf  
-c 2 sm pbb or1 mc f mch or0.5 mr0.5 oc f mch or0.5 mf  
-c 2 sm psb mr1 of  
-c 2 sm pbb oc mra of  
-c 2 ss psb mf  
-c 2 ss pbb oc mra of  
-c 2 sm psb mr1 ora mc f f f 
+2 sl pbb c  of 
+2 sl psb c  mc ora mf 
+2 sl pbb c  oc mch f mch och f mr0.5 oc f mr1 of 
+2 sl psb c  mc ora mc f f f 
+2 sl pbb c  oc mr0.5 oc f mr0.5 oc f mr0.5 oc f 
+2 sl psb c  mc or0.5 mf 
+2 sl pbb c  oc mch f mch och f mch or0.5 mc f mch or0.5 mc 
+2 sm psb c  mf 
+2 sm pbb c  oc mr0.5 oc f mch or0.5 mc f mch or0.5 mc f mra oc 
+2 ss psb c  d 
+3 sl psb c  of mf 
+3 sl pb c  mf of 
+3 sl pbb c  of or0.5 mf 
+3 sl psb c  of mf 
+3 sl pb c  mr0.5 of of 
+3 sl pbb c  of of 
+3 sl psb c  of mf 
+3 sl pb c  mf or1 oc f or0.5 or0.5 oc f och ora of 
+3 sl pbb c  of or0.5 mc f or0.5 mf 
+3 sl psb c  of mf 
+3 sl pb c  mf ora oc f f f 
+2 sm pbb c  or0.5 mf 
+2 sm psb c  mr0.5 of 
+2 sm pbb c  or0.5 mra of 
+2 sm psb c  mr0.5 oc f och mra of 
+2 sl pbb c  or0.5 mc f mra of 
+2 sl psb c  mf 
+2 sl pbb c  or0.5 mra of 
+2 sl psb c  mf 
+2 sl pbb c  or0.5 mf 
+2 sl psb c  mr0.5 of 
+2 sl pbb c  oc mch f mch or0.5 mc f mch och f mch och 
+2 sl psb c  mr0.5 oc f och mch f och mch f och mch 
+2 sm pbb c  oc mch f mch or0.5 mf 
+2 sm psb c  mr0.5 of 
+2 sm pbb c  oc mch f mch or0.5 mf 
+2 sm psb c  mf 
+2 sm pbb c  or0.5 mf 
+2 sm psb c  mf 
+2 sm pbb c  or0.5 mf 
+2 sm psb c  mr0.5 of 
+2 sm pbb c  or0.5 mf 
+2 sm psb c  mr0.5 oc f och mra of 
+2 sm pbb c  or0.5 mra of 
+2 sm psb c  mf 
+2 sm pbb c  or0.5 mc f mch or0.5 mr0.5 oc f mch or0.5 mf 
+2 sm psb c  mr0.5 of 
+2 sm pbb c  oc mra of 
+2 ss psb c  mf 
+2 ss pbb c  oc mra of 
+2 sm psb c  mr0.5 ora mc f f f 
+3 sl pb c  mc oc och f och och mch f or1 of mf 
+3 sl pbb c  oc oc mch f och mr1 ora of mf 
+3 sl psb c  of mr1 of 
+3 sl pb c  mc of och f or0.5 mc f or0.5 mf 
+3 sm pbb c  of ora mf 
+3 sm psb c  of mf 
+3 sm pb c  mra of of 
+3 sm pbb c  or1 of mf 
+3 sm psb c  of mra of 
+3 sm pb c  mf or1 of 
+3 sm pbb c  of oc mch f or0.5 mc f or0.5 mc f och mch 
+3 sm psb c  of mf 
+3 sm pb c  mc ora of mf 
+3 sm pbb c  of of 
+3 sm psb c  ora mf of 
+3 sm pb c  mf ora of 
+3 sm pbb c  of oc mch f ora mf 
+3 sm psb c  of mf 
+3 sm pb c  mr1 of ora mc f f f 
+3 ss pbb c  of ora mc f f f 
+2 sm pbb c  or0.5 mra of 
+2 sl psb c  mf 
+2 sl pbb c  oc mra of 
+2 sl psb c  mr1 or2 mr0.5 oc f f f 
+3 sl psb c  of mr0.5 oc f mch or0.5 mf 
+3 sl pb c  mf oc ora of 
+3 sl pbb c  or0.5 of mf 
+3 sl psb c  of mr0.5 oc f mr0.5 of 
+3 sm pb c  mf of 
+3 sm pbb c  or0.5 of mra oc f f f 
+3 sm psb c  of mf 
+3 sm pb c  mf ora of 
+3 sm pbb c  of oc mch f or0.5 mc f och mch f or0.5 mc 
+3 sl psb c  or0.5 mf of 
+3 sl pb c  mf oc och f och or0.5 oc f or0.5 oc f och och 
+3 sl pbb c  of oc mch f or0.5 mf 
+3 sm psb c  of mf 
+3 sm pb c  mf oc ora oc f f f 
+3 sm pbb c  ora of mc f f f 
+2 sl pbb c  oc mch f mch och f mch or0.5 mc f mch or0.5 mc 
+2 sm psb c  mr0.5 of 
+2 sm pbb c  of 
+2 sm psb c  mr0.5 of 
+2 sm pbb c  or0.5 mf 
+2 sm psb c  mr0.5 oc f och mch f och mr0.5 oc f och mch 
+2 sm pbb c  oc mch f mch or0.5 mc f mch och f mch och 
+2 sm psb c  mr0.5 of 
+2 sm pbb c  or0.5 mf 
+2 sm psb c  mr0.5 or1 mf 
+2 sm pbb c  oc mra of 
+2 sm psb c  mr0.5 ora mc f f f 
+2 sl pbb c  ora mc f f f 
+2 sl psb c  mf 
+2 sl pbb c  oc mch f mch or0.5 mr0.5 of 
+2 sl psb c  mr0.5 ora mf 
+2 sl pbb c  oc mch f mch or0.5 mr0.5 of 
+2 sl psb c  mra oc f f f 
+2 sm pbb c  oc mch f mch or0.5 mf 
+2 sm psb c  mra oc f f f 
+3 sl pbb c  of or0.5 mc f or0.5 mc f or0.5 mf 
+3 sl psb c  or0.5 mf oc f och och f och och f or0.5 of 
+3 sm pb c  mf or0.5 of 
+3 sm pbb c  of or0.5 mra of 
+3 sm psb c  ora mf of 
+3 sm pb c  mr0.5 of oc f och mr0.5 of 
+3 sm pbb c  of of 
+3 sm psb c  of mr0.5 oc f mr0.5 oc f mch or0.5 mc f mch och 
+3 sl pb c  mf ora of 
+3 sl pbb c  ora of mf 
+3 sl psb c  or0.5 mf oc f och or0.5 of 
+3 sl pb c  mf of 
+3 sl pbb c  of ora mf 
+3 sl psb c  of mr0.5 ora mc f f f 
+3 sm pb c  mra of of 
+3 sm pbb c  or0.5 ora mf of 
+3 sm psb c  ora mc of f f f 
+3 sl pb c  mr0.5 oc of f och mr0.5 ora mf 
+3 sl pbb c  or0.5 of mr5 oc f f f 
+3 ss psb c  ora mc ora mc f f f 
+3 sl psb c  of mf 
+3 sl pb c  mra oc of f f f 
+3 sm pbb c  ora of mf 
+3 ss psb c  of mra of 
+3 sm pb c  mra of of 
+3 sm pbb c  of oc mra of 
+3 sm psb c  or0.5 mf of 
+3 sm pb c  mf oc och f och och f och or1 of 
+3 sm pbb c  of oc mra of 
+3 sm psb c  or0.5 mf oc f och or0.5 of 
+3 sm pb c  mf of 
+3 sm pbb c  or0.5 of mra of 
+3 sm psb c  of mf 
+3 sm pb c  mf ora of 
+3 sm pbb c  oc oc mra of of 
+3 sm psb c  of mf 
+3 sm pb c  mf oc och f or0.5 of 
+3 sm pbb c  of ora mf 
+3 sm psb c  of mra of 
+3 sm pb c  mf of 
+3 sm pbb c  of ora mf 
+3 sm psb c  or0.5 mf oc f ora of 
+3 sm pb c  mf ora oc f f f 
+3 ss pbb c  of of 
+3 ss psb c  of mra oc f f f 
+3 ss pb c  mra ora of f f f 
+3 sm pbb c  of oc mr1 of 
+3 sm psb c  of mra oc f f f 
+3 sm pb c  mf ora oc f f f 
+3 sm pbb c  of oc mch f or0.5 mf 
+3 sm psb c  or0.5 mf of 
+3 sm pb c  mra oc of f f f 
+2 sm pbb c  or0.5 mf 
+2 sm psb c  mc or1 mf 
+2 sm pbb c  or0.5 mf 
+2 ss psb c  mf 
+2 ss pbb c  or0.5 mc f mch or0.5 mra oc f f 
+2 sl pbb c  oc mch f mch or0.5 mf 
+2 sl psb c  mr0.5 of 
+2 sl pbb c  oc mch f mch or0.5 mf 
+2 sl psb c  mc or1 mf 
+2 sl pbb c  or0.5 mf 
+2 sl psb c  mf 
+2 sl pbb c  oc mch f mch or0.5 mf 
+2 sl psb c  mr0.5 of 
+2 sl pbb c  or0.5 mf 
+2 sl psb c  mf 
+2 sl pbb c  or0.5 mf 
+2 sl psb c  mr0.5 of 
+2 sl pbb c  or0.5 mra of 
+2 sl psb c  mr1 of 
+2 sl pbb c  or0.5 mc f mch or0.5 mc f mch or0.5 mra oc f 
+2 sl psb c  mc f f f 
+3 sl pb c  mf of 
+3 sl pbb c  oc or1 mra of oc f f f 
+3 sl psb c  ora mf of 
+3 sl pb c  mf oc or1 oc f och ora oc f f 
+2 sl pbb c  ora mf 
+2 sl psb c  mc och f och mr0.5 oc f och mr0.5 oc f och mch 
+2 sl pbb c  or0.5 mf 
+2 sl psb c  mc or1 mc f or1 mc f ora mf 
+2 sm pbb c  or1 mc f mch och f mch och f mch och 
+2 sm psb c  mc och f och mch f or1 mf 
+2 sm pbb c  or1 mra of 
+2 sm psb c  mc or1 mc f or1 mf 
+2 sm pbb c  or1 mf 
+2 sm psb c  mc och f och mr0.5 oc f och mr0.5 oc f och mr1 of 
+2 sm pbb c  or1 mc f mch or1 mf 
+2 sm psb c  mf 
+2 sm pbb c  or1 mra of 
+2 sm psb c  mc och f och mr0.5 of 
+2 sm pbb c  of 
+2 sm psb c  mra oc f f f 
+3 sl pbb c  of oc mr1 oc f och mr0.5 of 
+3 sl psb c  of mc or0.5 mf 
+3 sl pb c  mf oc och f or0.5 of 
+3 sl pbb c  of oc mr1 oc f och mch f och mch f och mch 
+3 sl psb c  of mra of 
+3 sl pb c  mra of of 
+3 sl pbb c  of or0.5 mra of 
+3 sl psb c  ora mf of 
+3 sl pb c  mf ora of 
+3 sl pbb c  of of 
+3 sl psb c  of mf 
+3 sl pb c  mf oc och f or0.5 oc f or0.5 of 
+3 sl pbb c  or0.5 of mc f mch och f mch och f mch or0.5 mc 
+3 sl psb c  of mra oc f f f 
+3 sl pb c  mr0.5 oc ora mra of f f f 
+3 sm pbb c  of of 
+3 sm psb c  of mra of 
+3 sm pb c  mr0.5 of of 
+3 sm pbb c  of of 
+3 sm psb c  of mra oc f f f 
+2 sl psb c  mc or1 mf 
+2 sl pbb c  oc mch f mch or0.5 mr0.5 ora mc f f 

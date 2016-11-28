@@ -18,6 +18,15 @@ Game.prototype.setHand = function(cards){
 	this.hand.fillSpecified(cards);
 }
 
+Game.prototype.resetGame = function(){
+	this.percentile = 0;
+	this.numRuns = 0;
+	this.percentileAggregate = 0;
+	this.communityHand = new Hand.Hand(5);
+	this.hand = new Hand.Hand(2);
+	this.reset = true;
+}
+
 
 Game.prototype.getPercentile = function(){
 	return this.percentile;
@@ -67,7 +76,17 @@ Game.prototype.calculatePercentile = function(){
 	//console.log("Avg Percentile: " + this.percentile);
 	var self = this;
 	//console.log(this.numRuns);
-	setTimeout(function(){ self.calculatePercentile();}, 100);
+	if(this.reset == false){
+		setTimeout(function(){ self.calculatePercentile();}, 100);
+	}
+	else {
+		this.percentile = 0;
+		this.numRuns = 0;
+		this.percentileAggregate = 0;
+		this.communityHand = new Hand.Hand(5);
+		this.hand = new Hand.Hand(2);
+		this.reset = false;
+	}
 	//console.log("New Percentile: " + newPercentile);
 	//console.log("Num Runs: " + this.numRuns);
 	//console.log("Aggregate: " + this.percentileAggregate);

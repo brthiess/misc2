@@ -1340,3 +1340,4999 @@ Seat 3: Weshero (big blind) showed [9d Ah] and won (1100) with two pair, Aces an
 
 
 ***NEW GAME***
+PokerStars Hand #162068593978: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 19:50:37 ET
+Table '1741137669 1' 3-max Seat #1 is the button
+Seat 1: StanleyCat (500 in chips) 
+Seat 2: CuAt69UsdSng (500 in chips) 
+Seat 3: plngpple (500 in chips) 
+CuAt69UsdSng: posts small blind 10
+plngpple: posts big blind 20
+*** HOLE CARDS ***
+StanleyCat: calls 20
+CuAt69UsdSng: calls 10
+plngpple: checks 
+*** FLOP *** [4s Tc Ks]
+CuAt69UsdSng: checks 
+plngpple: checks 
+StanleyCat: bets 80
+CuAt69UsdSng: folds 
+plngpple: folds 
+Uncalled bet (80) returned to StanleyCat
+StanleyCat collected 60 from pot
+StanleyCat: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Board [4s Tc Ks]
+Seat 1: StanleyCat (button) collected (60)
+Seat 2: CuAt69UsdSng (small blind) folded on the Flop
+Seat 3: plngpple (big blind) folded on the Flop
+
+
+PokerStars Hand #162068614295: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 19:51:14 ET
+Table '1741137669 1' 3-max Seat #2 is the button
+Seat 1: StanleyCat (540 in chips) 
+Seat 2: CuAt69UsdSng (480 in chips) 
+Seat 3: plngpple (480 in chips) 
+plngpple: posts small blind 10
+StanleyCat: posts big blind 20
+*** HOLE CARDS ***
+CuAt69UsdSng: raises 20 to 40
+plngpple: folds 
+StanleyCat: calls 20
+*** FLOP *** [Qs 2h Jc]
+StanleyCat: checks 
+CuAt69UsdSng: checks 
+*** TURN *** [Qs 2h Jc] [6s]
+StanleyCat: bets 20
+CuAt69UsdSng: raises 50 to 70
+StanleyCat: folds 
+Uncalled bet (50) returned to CuAt69UsdSng
+CuAt69UsdSng collected 130 from pot
+CuAt69UsdSng: doesn't show hand 
+*** SUMMARY ***
+Total pot 130 | Rake 0 
+Board [Qs 2h Jc 6s]
+Seat 1: StanleyCat (big blind) folded on the Turn
+Seat 2: CuAt69UsdSng (button) collected (130)
+Seat 3: plngpple (small blind) folded before Flop
+
+
+PokerStars Hand #162068628976: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 19:51:42 ET
+Table '1741137669 1' 3-max Seat #3 is the button
+Seat 1: StanleyCat (480 in chips) 
+Seat 2: CuAt69UsdSng (550 in chips) 
+Seat 3: plngpple (470 in chips) 
+StanleyCat: posts small blind 10
+CuAt69UsdSng: posts big blind 20
+*** HOLE CARDS ***
+plngpple: raises 20 to 40
+StanleyCat: raises 440 to 480 and is all-in
+CuAt69UsdSng: folds 
+plngpple: folds 
+Uncalled bet (440) returned to StanleyCat
+StanleyCat collected 100 from pot
+StanleyCat: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: StanleyCat (small blind) collected (100)
+Seat 2: CuAt69UsdSng (big blind) folded before Flop
+Seat 3: plngpple (button) folded before Flop
+
+
+PokerStars Hand #162068633960: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 19:51:51 ET
+Table '1741137669 1' 3-max Seat #1 is the button
+Seat 1: StanleyCat (540 in chips) 
+Seat 2: CuAt69UsdSng (530 in chips) 
+Seat 3: plngpple (430 in chips) 
+CuAt69UsdSng: posts small blind 10
+plngpple: posts big blind 20
+*** HOLE CARDS ***
+StanleyCat: folds 
+CuAt69UsdSng: calls 10
+plngpple: raises 40 to 60
+CuAt69UsdSng: folds 
+Uncalled bet (40) returned to plngpple
+plngpple collected 40 from pot
+plngpple: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: StanleyCat (button) folded before Flop (didn't bet)
+Seat 2: CuAt69UsdSng (small blind) folded before Flop
+Seat 3: plngpple (big blind) collected (40)
+
+
+PokerStars Hand #162068641286: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 19:52:04 ET
+Table '1741137669 1' 3-max Seat #2 is the button
+Seat 1: StanleyCat (540 in chips) 
+Seat 2: CuAt69UsdSng (510 in chips) 
+Seat 3: plngpple (450 in chips) 
+plngpple: posts small blind 10
+StanleyCat: posts big blind 20
+*** HOLE CARDS ***
+CuAt69UsdSng: raises 20 to 40
+plngpple: calls 30
+StanleyCat: folds 
+*** FLOP *** [3h 7h Js]
+plngpple: checks 
+CuAt69UsdSng: bets 40
+plngpple: raises 90 to 130
+CuAt69UsdSng: folds 
+Uncalled bet (90) returned to plngpple
+plngpple collected 180 from pot
+plngpple: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Board [3h 7h Js]
+Seat 1: StanleyCat (big blind) folded before Flop
+Seat 2: CuAt69UsdSng (button) folded on the Flop
+Seat 3: plngpple (small blind) collected (180)
+
+
+PokerStars Hand #162068655072: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 19:52:30 ET
+Table '1741137669 1' 3-max Seat #3 is the button
+Seat 1: StanleyCat (520 in chips) 
+Seat 2: CuAt69UsdSng (430 in chips) 
+Seat 3: plngpple (550 in chips) 
+StanleyCat: posts small blind 10
+CuAt69UsdSng: posts big blind 20
+*** HOLE CARDS ***
+plngpple: calls 20
+StanleyCat: calls 10
+CuAt69UsdSng: checks 
+*** FLOP *** [4s 3s As]
+StanleyCat: checks 
+CuAt69UsdSng: checks 
+plngpple: checks 
+*** TURN *** [4s 3s As] [9s]
+StanleyCat: bets 60
+CuAt69UsdSng: folds 
+plngpple: folds 
+Uncalled bet (60) returned to StanleyCat
+StanleyCat collected 60 from pot
+StanleyCat: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Board [4s 3s As 9s]
+Seat 1: StanleyCat (small blind) collected (60)
+Seat 2: CuAt69UsdSng (big blind) folded on the Turn
+Seat 3: plngpple (button) folded on the Turn
+
+
+PokerStars Hand #162068672922: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 19:53:03 ET
+Table '1741137669 1' 3-max Seat #1 is the button
+Seat 1: StanleyCat (560 in chips) 
+Seat 2: CuAt69UsdSng (410 in chips) 
+Seat 3: plngpple (530 in chips) 
+CuAt69UsdSng: posts small blind 10
+plngpple: posts big blind 20
+*** HOLE CARDS ***
+StanleyCat: calls 20
+CuAt69UsdSng: calls 10
+plngpple: checks 
+*** FLOP *** [6d 9d 2h]
+CuAt69UsdSng: checks 
+plngpple: bets 60
+StanleyCat: raises 480 to 540 and is all-in
+CuAt69UsdSng: folds 
+plngpple: folds 
+Uncalled bet (480) returned to StanleyCat
+StanleyCat collected 180 from pot
+StanleyCat: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Board [6d 9d 2h]
+Seat 1: StanleyCat (button) collected (180)
+Seat 2: CuAt69UsdSng (small blind) folded on the Flop
+Seat 3: plngpple (big blind) folded on the Flop
+
+
+PokerStars Hand #162068682306: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 19:53:21 ET
+Table '1741137669 1' 3-max Seat #2 is the button
+Seat 1: StanleyCat (660 in chips) 
+Seat 2: CuAt69UsdSng (390 in chips) 
+Seat 3: plngpple (450 in chips) 
+plngpple: posts small blind 10
+StanleyCat: posts big blind 20
+*** HOLE CARDS ***
+CuAt69UsdSng: folds 
+plngpple: raises 40 to 60
+StanleyCat: folds 
+Uncalled bet (40) returned to plngpple
+plngpple collected 40 from pot
+plngpple: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: StanleyCat (big blind) folded before Flop
+Seat 2: CuAt69UsdSng (button) folded before Flop (didn't bet)
+Seat 3: plngpple (small blind) collected (40)
+
+
+PokerStars Hand #162068686171: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 19:53:28 ET
+Table '1741137669 1' 3-max Seat #3 is the button
+Seat 1: StanleyCat (640 in chips) 
+Seat 2: CuAt69UsdSng (390 in chips) 
+Seat 3: plngpple (470 in chips) 
+StanleyCat: posts small blind 10
+CuAt69UsdSng: posts big blind 20
+*** HOLE CARDS ***
+plngpple: calls 20
+StanleyCat: folds 
+CuAt69UsdSng: checks 
+*** FLOP *** [6h 6s 9c]
+CuAt69UsdSng: bets 25
+plngpple: calls 25
+*** TURN *** [6h 6s 9c] [Jh]
+CuAt69UsdSng: bets 40
+plngpple: folds 
+Uncalled bet (40) returned to CuAt69UsdSng
+CuAt69UsdSng collected 100 from pot
+CuAt69UsdSng: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Board [6h 6s 9c Jh]
+Seat 1: StanleyCat (small blind) folded before Flop
+Seat 2: CuAt69UsdSng (big blind) collected (100)
+Seat 3: plngpple (button) folded on the Turn
+
+PokerStars Hand #162068711958: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 19:54:02 ET
+Table '1741137669 1' 3-max Seat #1 is the button
+Seat 1: StanleyCat (630 in chips) 
+Seat 2: CuAt69UsdSng (445 in chips) 
+Seat 3: plngpple (425 in chips) 
+CuAt69UsdSng: posts small blind 15
+plngpple: posts big blind 30
+*** HOLE CARDS ***
+StanleyCat: folds 
+CuAt69UsdSng: raises 415 to 445 and is all-in
+plngpple: folds 
+Uncalled bet (415) returned to CuAt69UsdSng
+CuAt69UsdSng collected 60 from pot
+CuAt69UsdSng: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: StanleyCat (button) folded before Flop (didn't bet)
+Seat 2: CuAt69UsdSng (small blind) collected (60)
+Seat 3: plngpple (big blind) folded before Flop
+
+PokerStars Hand #162068719450: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 19:54:16 ET
+Table '1741137669 1' 3-max Seat #2 is the button
+Seat 1: StanleyCat (630 in chips) 
+Seat 2: CuAt69UsdSng (475 in chips) 
+Seat 3: plngpple (395 in chips) 
+plngpple: posts small blind 15
+StanleyCat: posts big blind 30
+*** HOLE CARDS ***
+CuAt69UsdSng: folds 
+plngpple: folds 
+Uncalled bet (15) returned to StanleyCat
+StanleyCat collected 30 from pot
+StanleyCat: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: StanleyCat (big blind) collected (30)
+Seat 2: CuAt69UsdSng (button) folded before Flop (didn't bet)
+Seat 3: plngpple (small blind) folded before Flop
+
+PokerStars Hand #162068721486: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 19:54:20 ET
+Table '1741137669 1' 3-max Seat #3 is the button
+Seat 1: StanleyCat (645 in chips) 
+Seat 2: CuAt69UsdSng (475 in chips) 
+Seat 3: plngpple (380 in chips) 
+StanleyCat: posts small blind 15
+CuAt69UsdSng: posts big blind 30
+*** HOLE CARDS ***
+plngpple: raises 350 to 380 and is all-in
+StanleyCat: folds 
+CuAt69UsdSng: folds 
+Uncalled bet (350) returned to plngpple
+plngpple collected 75 from pot
+plngpple: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: StanleyCat (small blind) folded before Flop
+Seat 2: CuAt69UsdSng (big blind) folded before Flop
+Seat 3: plngpple (button) collected (75)
+
+PokerStars Hand #162068725877: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 19:54:28 ET
+Table '1741137669 1' 3-max Seat #1 is the button
+Seat 1: StanleyCat (630 in chips) 
+Seat 2: CuAt69UsdSng (445 in chips) 
+Seat 3: plngpple (425 in chips) 
+CuAt69UsdSng: posts small blind 15
+plngpple: posts big blind 30
+*** HOLE CARDS ***
+StanleyCat: raises 60 to 90
+CuAt69UsdSng: folds 
+plngpple: folds 
+Uncalled bet (60) returned to StanleyCat
+StanleyCat collected 75 from pot
+StanleyCat: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: StanleyCat (button) collected (75)
+Seat 2: CuAt69UsdSng (small blind) folded before Flop
+Seat 3: plngpple (big blind) folded before Flop
+
+PokerStars Hand #162068736485: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 19:54:48 ET
+Table '1741137669 1' 3-max Seat #2 is the button
+Seat 1: StanleyCat (675 in chips) 
+Seat 2: CuAt69UsdSng (430 in chips) 
+Seat 3: plngpple (395 in chips) 
+plngpple: posts small blind 15
+StanleyCat: posts big blind 30
+*** HOLE CARDS ***
+CuAt69UsdSng: folds 
+plngpple: raises 365 to 395 and is all-in
+StanleyCat: folds 
+Uncalled bet (365) returned to plngpple
+plngpple collected 60 from pot
+plngpple: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: StanleyCat (big blind) folded before Flop
+Seat 2: CuAt69UsdSng (button) folded before Flop (didn't bet)
+Seat 3: plngpple (small blind) collected (60)
+
+PokerStars Hand #162068743450: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 19:55:01 ET
+Table '1741137669 1' 3-max Seat #3 is the button
+Seat 1: StanleyCat (645 in chips) 
+Seat 2: CuAt69UsdSng (430 in chips) 
+Seat 3: plngpple (425 in chips) 
+StanleyCat: posts small blind 15
+CuAt69UsdSng: posts big blind 30
+*** HOLE CARDS ***
+plngpple: folds 
+StanleyCat: raises 60 to 90
+CuAt69UsdSng: folds 
+Uncalled bet (60) returned to StanleyCat
+StanleyCat collected 60 from pot
+StanleyCat: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: StanleyCat (small blind) collected (60)
+Seat 2: CuAt69UsdSng (big blind) folded before Flop
+Seat 3: plngpple (button) folded before Flop (didn't bet)
+
+PokerStars Hand #162068747556: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 19:55:09 ET
+Table '1741137669 1' 3-max Seat #1 is the button
+Seat 1: StanleyCat (675 in chips) 
+Seat 2: CuAt69UsdSng (400 in chips) 
+Seat 3: plngpple (425 in chips) 
+CuAt69UsdSng: posts small blind 15
+plngpple: posts big blind 30
+*** HOLE CARDS ***
+StanleyCat: folds 
+CuAt69UsdSng: calls 15
+plngpple: checks 
+*** FLOP *** [7d Kc 3c]
+CuAt69UsdSng: bets 30
+plngpple: calls 30
+*** TURN *** [7d Kc 3c] [Qs]
+CuAt69UsdSng: bets 75
+plngpple: calls 75
+*** RIVER *** [7d Kc 3c Qs] [2h]
+CuAt69UsdSng: checks 
+plngpple: checks 
+*** SHOW DOWN ***
+CuAt69UsdSng: shows [8c 5d] (high card King)
+plngpple: shows [7h 9h] (a pair of Sevens)
+plngpple collected 270 from pot
+*** SUMMARY ***
+Total pot 270 | Rake 0 
+Board [7d Kc 3c Qs 2h]
+Seat 1: StanleyCat (button) folded before Flop (didn't bet)
+Seat 2: CuAt69UsdSng (small blind) showed [8c 5d] and lost with high card King
+Seat 3: plngpple (big blind) showed [7h 9h] and won (270) with a pair of Sevens
+
+
+PokerStars Hand #162068760807: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 19:55:39 ET
+Table '1741137669 1' 3-max Seat #2 is the button
+Seat 1: StanleyCat (675 in chips) 
+Seat 2: CuAt69UsdSng (265 in chips) 
+Seat 3: plngpple (560 in chips) 
+plngpple: posts small blind 15
+StanleyCat: posts big blind 30
+*** HOLE CARDS ***
+CuAt69UsdSng: folds 
+plngpple: folds 
+Uncalled bet (15) returned to StanleyCat
+StanleyCat collected 30 from pot
+StanleyCat: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: StanleyCat (big blind) collected (30)
+Seat 2: CuAt69UsdSng (button) folded before Flop (didn't bet)
+Seat 3: plngpple (small blind) folded before Flop
+
+
+PokerStars Hand #162068763736: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 19:55:46 ET
+Table '1741137669 1' 3-max Seat #3 is the button
+Seat 1: StanleyCat (690 in chips) 
+Seat 2: CuAt69UsdSng (265 in chips) 
+Seat 3: plngpple (545 in chips) 
+StanleyCat: posts small blind 15
+CuAt69UsdSng: posts big blind 30
+*** HOLE CARDS ***
+plngpple: calls 30
+StanleyCat: raises 660 to 690 and is all-in
+CuAt69UsdSng: folds 
+plngpple: folds 
+Uncalled bet (660) returned to StanleyCat
+StanleyCat collected 90 from pot
+StanleyCat: doesn't show hand 
+*** SUMMARY ***
+Total pot 90 | Rake 0 
+Seat 1: StanleyCat (small blind) collected (90)
+Seat 2: CuAt69UsdSng (big blind) folded before Flop
+Seat 3: plngpple (button) folded before Flop
+
+PokerStars Hand #162068768725: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 19:55:57 ET
+Table '1741137669 1' 3-max Seat #1 is the button
+Seat 1: StanleyCat (750 in chips) 
+Seat 2: CuAt69UsdSng (235 in chips) 
+Seat 3: plngpple (515 in chips) 
+CuAt69UsdSng: posts small blind 15
+plngpple: posts big blind 30
+*** HOLE CARDS ***
+StanleyCat: folds 
+CuAt69UsdSng: folds 
+Uncalled bet (15) returned to plngpple
+plngpple collected 30 from pot
+plngpple: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: StanleyCat (button) folded before Flop (didn't bet)
+Seat 2: CuAt69UsdSng (small blind) folded before Flop
+Seat 3: plngpple (big blind) collected (30)
+
+PokerStars Hand #162068773294: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 19:56:07 ET
+Table '1741137669 1' 3-max Seat #2 is the button
+Seat 1: StanleyCat (750 in chips) 
+Seat 2: CuAt69UsdSng (220 in chips) 
+Seat 3: plngpple (530 in chips) 
+plngpple: posts small blind 15
+StanleyCat: posts big blind 30
+*** HOLE CARDS ***
+CuAt69UsdSng: raises 190 to 220 and is all-in
+plngpple: folds 
+StanleyCat: folds 
+Uncalled bet (190) returned to CuAt69UsdSng
+CuAt69UsdSng collected 75 from pot
+CuAt69UsdSng: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: StanleyCat (big blind) folded before Flop
+Seat 2: CuAt69UsdSng (button) collected (75)
+Seat 3: plngpple (small blind) folded before Flop
+
+PokerStars Hand #162068778599: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 19:56:19 ET
+Table '1741137669 1' 3-max Seat #3 is the button
+Seat 1: StanleyCat (720 in chips) 
+Seat 2: CuAt69UsdSng (265 in chips) 
+Seat 3: plngpple (515 in chips) 
+StanleyCat: posts small blind 15
+CuAt69UsdSng: posts big blind 30
+*** HOLE CARDS ***
+plngpple: folds 
+StanleyCat: raises 690 to 720 and is all-in
+CuAt69UsdSng: folds 
+Uncalled bet (690) returned to StanleyCat
+StanleyCat collected 60 from pot
+StanleyCat: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: StanleyCat (small blind) collected (60)
+Seat 2: CuAt69UsdSng (big blind) folded before Flop
+Seat 3: plngpple (button) folded before Flop (didn't bet)
+
+PokerStars Hand #162068783395: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 19:56:30 ET
+Table '1741137669 1' 3-max Seat #1 is the button
+Seat 1: StanleyCat (750 in chips) 
+Seat 2: CuAt69UsdSng (235 in chips) 
+Seat 3: plngpple (515 in chips) 
+CuAt69UsdSng: posts small blind 15
+plngpple: posts big blind 30
+*** HOLE CARDS ***
+StanleyCat: folds 
+CuAt69UsdSng: calls 15
+plngpple: checks 
+*** FLOP *** [9h 7s Ts]
+CuAt69UsdSng: bets 205 and is all-in
+plngpple: folds 
+Uncalled bet (205) returned to CuAt69UsdSng
+CuAt69UsdSng collected 60 from pot
+CuAt69UsdSng: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Board [9h 7s Ts]
+Seat 1: StanleyCat (button) folded before Flop (didn't bet)
+Seat 2: CuAt69UsdSng (small blind) collected (60)
+Seat 3: plngpple (big blind) folded on the Flop
+
+PokerStars Hand #162068793176: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 19:56:51 ET
+Table '1741137669 1' 3-max Seat #2 is the button
+Seat 1: StanleyCat (750 in chips) 
+Seat 2: CuAt69UsdSng (265 in chips) 
+Seat 3: plngpple (485 in chips) 
+plngpple: posts small blind 20
+StanleyCat: posts big blind 40
+*** HOLE CARDS ***
+CuAt69UsdSng: folds 
+plngpple: folds 
+Uncalled bet (20) returned to StanleyCat
+StanleyCat collected 40 from pot
+StanleyCat: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: StanleyCat (big blind) collected (40)
+Seat 2: CuAt69UsdSng (button) folded before Flop (didn't bet)
+Seat 3: plngpple (small blind) folded before Flop
+
+PokerStars Hand #162068794810: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 19:56:55 ET
+Table '1741137669 1' 3-max Seat #3 is the button
+Seat 1: StanleyCat (770 in chips) 
+Seat 2: CuAt69UsdSng (265 in chips) 
+Seat 3: plngpple (465 in chips) 
+StanleyCat: posts small blind 20
+CuAt69UsdSng: posts big blind 40
+*** HOLE CARDS ***
+plngpple: raises 80 to 120
+StanleyCat: folds 
+CuAt69UsdSng: raises 145 to 265 and is all-in
+plngpple: calls 145
+*** FLOP *** [8s 8d 7d]
+*** TURN *** [8s 8d 7d] [4d]
+*** RIVER *** [8s 8d 7d 4d] [Ad]
+*** SHOW DOWN ***
+CuAt69UsdSng: shows [5d Ac] (a flush, Ace high)
+plngpple: shows [Jc Jh] (two pair, Jacks and Eights)
+CuAt69UsdSng collected 550 from pot
+*** SUMMARY ***
+Total pot 550 | Rake 0 
+Board [8s 8d 7d 4d Ad]
+Seat 1: StanleyCat (small blind) folded before Flop
+Seat 2: CuAt69UsdSng (big blind) showed [5d Ac] and won (550) with a flush, Ace high
+Seat 3: plngpple (button) showed [Jc Jh] and lost with two pair, Jacks and Eights
+
+PokerStars Hand #162068805472: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 19:57:18 ET
+Table '1741137669 1' 3-max Seat #1 is the button
+Seat 1: StanleyCat (750 in chips) 
+Seat 2: CuAt69UsdSng (550 in chips) 
+Seat 3: plngpple (200 in chips) 
+CuAt69UsdSng: posts small blind 20
+plngpple: posts big blind 40
+*** HOLE CARDS ***
+StanleyCat: folds 
+CuAt69UsdSng: raises 510 to 550 and is all-in
+plngpple: calls 160 and is all-in
+Uncalled bet (350) returned to CuAt69UsdSng
+*** FLOP *** [3d 9d Kc]
+*** TURN *** [3d 9d Kc] [Kd]
+*** RIVER *** [3d 9d Kc Kd] [4h]
+*** SHOW DOWN ***
+CuAt69UsdSng: shows [Td 5d] (a flush, King high)
+plngpple: shows [8c 8d] (two pair, Kings and Eights)
+CuAt69UsdSng collected 400 from pot
+plngpple finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 400 | Rake 0 
+Board [3d 9d Kc Kd 4h]
+Seat 1: StanleyCat (button) folded before Flop (didn't bet)
+Seat 2: CuAt69UsdSng (small blind) showed [Td 5d] and won (400) with a flush, King high
+Seat 3: plngpple (big blind) showed [8c 8d] and lost with two pair, Kings and Eights
+
+PokerStars Hand #162068814301: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 19:57:38 ET
+Table '1741137669 1' 3-max Seat #2 is the button
+Seat 1: StanleyCat (750 in chips) 
+Seat 2: CuAt69UsdSng (750 in chips) 
+CuAt69UsdSng: posts small blind 20
+StanleyCat: posts big blind 40
+*** HOLE CARDS ***
+CuAt69UsdSng: raises 40 to 80
+StanleyCat: raises 670 to 750 and is all-in
+CuAt69UsdSng: folds 
+Uncalled bet (670) returned to StanleyCat
+StanleyCat collected 160 from pot
+StanleyCat: doesn't show hand 
+*** SUMMARY ***
+Total pot 160 | Rake 0 
+Seat 1: StanleyCat (big blind) collected (160)
+Seat 2: CuAt69UsdSng (button) (small blind) folded before Flop
+
+
+PokerStars Hand #162068820097: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 19:57:51 ET
+Table '1741137669 1' 3-max Seat #1 is the button
+Seat 1: StanleyCat (830 in chips) 
+Seat 2: CuAt69UsdSng (670 in chips) 
+StanleyCat: posts small blind 20
+CuAt69UsdSng: posts big blind 40
+*** HOLE CARDS ***
+StanleyCat: folds 
+Uncalled bet (20) returned to CuAt69UsdSng
+CuAt69UsdSng collected 40 from pot
+CuAt69UsdSng: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: StanleyCat (button) (small blind) folded before Flop
+Seat 2: CuAt69UsdSng (big blind) collected (40)
+
+
+PokerStars Hand #162068822877: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 19:57:57 ET
+Table '1741137669 1' 3-max Seat #2 is the button
+Seat 1: StanleyCat (810 in chips) 
+Seat 2: CuAt69UsdSng (690 in chips) 
+CuAt69UsdSng: posts small blind 20
+StanleyCat: posts big blind 40
+*** HOLE CARDS ***
+CuAt69UsdSng: calls 20
+StanleyCat: raises 770 to 810 and is all-in
+CuAt69UsdSng: folds 
+Uncalled bet (770) returned to StanleyCat
+StanleyCat collected 80 from pot
+StanleyCat: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: StanleyCat (big blind) collected (80)
+Seat 2: CuAt69UsdSng (button) (small blind) folded before Flop
+
+PokerStars Hand #162068827868: Tournament #1741137669, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 19:58:08 ET
+Table '1741137669 1' 3-max Seat #1 is the button
+Seat 1: StanleyCat (850 in chips) 
+Seat 2: CuAt69UsdSng (650 in chips) 
+StanleyCat: posts small blind 20
+CuAt69UsdSng: posts big blind 40
+*** HOLE CARDS ***
+StanleyCat: raises 80 to 120
+CuAt69UsdSng: raises 355 to 475
+StanleyCat: raises 355 to 830
+CuAt69UsdSng: calls 175 and is all-in
+Uncalled bet (180) returned to StanleyCat
+*** FLOP *** [Jh Kd 6c]
+*** TURN *** [Jh Kd 6c] [5d]
+*** RIVER *** [Jh Kd 6c 5d] [6h]
+*** SHOW DOWN ***
+CuAt69UsdSng: shows [Ah Ts] (a pair of Sixes)
+StanleyCat: shows [Ks 6s] (a full house, Sixes full of Kings)
+StanleyCat collected 1300 from pot
+CuAt69UsdSng finished the tournament in 2nd place
+StanleyCat wins the tournament and receives $600.00 - congratulations!
+*** SUMMARY ***
+Total pot 1300 | Rake 0 
+Board [Jh Kd 6c 5d 6h]
+Seat 1: StanleyCat (button) (small blind) showed [Ks 6s] and won (1300) with a full house, Sixes full of Kings
+Seat 2: CuAt69UsdSng (big blind) showed [Ah Ts] and lost with a pair of Sixes
+
+***NEW GAME***
+PokerStars Hand #162071319729: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:27:30 ET
+Table '1741193428 1' 3-max Seat #1 is the button
+Seat 1: brunolimao (500 in chips) 
+Seat 2: kofi89 (500 in chips) 
+Seat 3: kapralos.88 (500 in chips) 
+kofi89: posts small blind 10
+kapralos.88: posts big blind 20
+*** HOLE CARDS ***
+brunolimao: folds 
+kofi89: folds 
+Uncalled bet (10) returned to kapralos.88
+kapralos.88 collected 20 from pot
+kapralos.88: doesn't show hand 
+*** SUMMARY ***
+Total pot 20 | Rake 0 
+Seat 1: brunolimao (button) folded before Flop (didn't bet)
+Seat 2: kofi89 (small blind) folded before Flop
+Seat 3: kapralos.88 (big blind) collected (20)
+
+PokerStars Hand #162071324814: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:27:42 ET
+Table '1741193428 1' 3-max Seat #2 is the button
+Seat 1: brunolimao (500 in chips) 
+Seat 2: kofi89 (490 in chips) 
+Seat 3: kapralos.88 (510 in chips) 
+kapralos.88: posts small blind 10
+brunolimao: posts big blind 20
+*** HOLE CARDS ***
+kofi89: folds 
+kapralos.88: folds 
+Uncalled bet (10) returned to brunolimao
+brunolimao collected 20 from pot
+brunolimao: doesn't show hand 
+*** SUMMARY ***
+Total pot 20 | Rake 0 
+Seat 1: brunolimao (big blind) collected (20)
+Seat 2: kofi89 (button) folded before Flop (didn't bet)
+Seat 3: kapralos.88 (small blind) folded before Flop
+
+
+PokerStars Hand #162071326763: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:27:48 ET
+Table '1741193428 1' 3-max Seat #3 is the button
+Seat 1: brunolimao (510 in chips) 
+Seat 2: kofi89 (490 in chips) 
+Seat 3: kapralos.88 (500 in chips) 
+brunolimao: posts small blind 10
+kofi89: posts big blind 20
+*** HOLE CARDS ***
+kapralos.88: calls 20
+brunolimao: calls 10
+kofi89: checks 
+*** FLOP *** [5s 8s 2s]
+brunolimao: checks 
+kofi89: checks 
+kapralos.88: checks 
+*** TURN *** [5s 8s 2s] [Qd]
+brunolimao: checks 
+kofi89: checks 
+kapralos.88: checks 
+*** RIVER *** [5s 8s 2s Qd] [7s]
+brunolimao: checks 
+kofi89: checks 
+kapralos.88: checks 
+*** SHOW DOWN ***
+brunolimao: shows [7c 4c] (a pair of Sevens)
+kofi89: shows [Qs 4s] (a flush, Queen high)
+kapralos.88: mucks hand 
+kofi89 collected 60 from pot
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Board [5s 8s 2s Qd 7s]
+Seat 1: brunolimao (small blind) showed [7c 4c] and lost with a pair of Sevens
+Seat 2: kofi89 (big blind) showed [Qs 4s] and won (60) with a flush, Queen high
+Seat 3: kapralos.88 (button) mucked
+
+
+PokerStars Hand #162071341204: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:28:24 ET
+Table '1741193428 1' 3-max Seat #1 is the button
+Seat 1: brunolimao (490 in chips) 
+Seat 2: kofi89 (530 in chips) 
+Seat 3: kapralos.88 (480 in chips) 
+kofi89: posts small blind 10
+kapralos.88: posts big blind 20
+*** HOLE CARDS ***
+brunolimao: folds 
+kofi89: calls 10
+kapralos.88: checks 
+*** FLOP *** [2c 6d 3h]
+kofi89: checks 
+kapralos.88: bets 26
+kofi89: calls 26
+*** TURN *** [2c 6d 3h] [Qs]
+kofi89: checks 
+kapralos.88: checks 
+*** RIVER *** [2c 6d 3h Qs] [2s]
+kofi89: bets 60
+kapralos.88: calls 60
+*** SHOW DOWN ***
+kofi89: shows [4c 4d] (two pair, Fours and Deuces)
+kapralos.88: shows [9h 6s] (two pair, Sixes and Deuces)
+kapralos.88 collected 212 from pot
+*** SUMMARY ***
+Total pot 212 | Rake 0 
+Board [2c 6d 3h Qs 2s]
+Seat 1: brunolimao (button) folded before Flop (didn't bet)
+Seat 2: kofi89 (small blind) showed [4c 4d] and lost with two pair, Fours and Deuces
+Seat 3: kapralos.88 (big blind) showed [9h 6s] and won (212) with two pair, Sixes and Deuces
+
+PokerStars Hand #162071357703: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:29:05 ET
+Table '1741193428 1' 3-max Seat #2 is the button
+Seat 1: brunolimao (490 in chips) 
+Seat 2: kofi89 (424 in chips) 
+Seat 3: kapralos.88 (586 in chips) 
+kapralos.88: posts small blind 10
+brunolimao: posts big blind 20
+*** HOLE CARDS ***
+kofi89: folds 
+kapralos.88: calls 10
+brunolimao: checks 
+*** FLOP *** [Td Qc 5d]
+kapralos.88: bets 20
+brunolimao: raises 40 to 60
+kapralos.88: calls 40
+*** TURN *** [Td Qc 5d] [5c]
+kapralos.88: checks 
+brunolimao: checks 
+*** RIVER *** [Td Qc 5d 5c] [3d]
+kapralos.88: checks 
+brunolimao: bets 100
+kapralos.88: folds 
+Uncalled bet (100) returned to brunolimao
+brunolimao collected 160 from pot
+brunolimao: doesn't show hand 
+*** SUMMARY ***
+Total pot 160 | Rake 0 
+Board [Td Qc 5d 5c 3d]
+Seat 1: brunolimao (big blind) collected (160)
+Seat 2: kofi89 (button) folded before Flop (didn't bet)
+Seat 3: kapralos.88 (small blind) folded on the River
+
+
+PokerStars Hand #162071372978: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:29:43 ET
+Table '1741193428 1' 3-max Seat #3 is the button
+Seat 1: brunolimao (570 in chips) 
+Seat 2: kofi89 (424 in chips) 
+Seat 3: kapralos.88 (506 in chips) 
+brunolimao: posts small blind 10
+kofi89: posts big blind 20
+*** HOLE CARDS ***
+kapralos.88: folds 
+brunolimao: raises 20 to 40
+kofi89: calls 20
+*** FLOP *** [5d 3h 8c]
+brunolimao: checks 
+kofi89: bets 40
+brunolimao: folds 
+Uncalled bet (40) returned to kofi89
+kofi89 collected 80 from pot
+kofi89: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Board [5d 3h 8c]
+Seat 1: brunolimao (small blind) folded on the Flop
+Seat 2: kofi89 (big blind) collected (80)
+Seat 3: kapralos.88 (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #162071379571: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:30:00 ET
+Table '1741193428 1' 3-max Seat #1 is the button
+Seat 1: brunolimao (530 in chips) 
+Seat 2: kofi89 (464 in chips) 
+Seat 3: kapralos.88 (506 in chips) 
+kofi89: posts small blind 10
+kapralos.88: posts big blind 20
+*** HOLE CARDS ***
+brunolimao: folds 
+kofi89: calls 10
+kapralos.88: raises 486 to 506 and is all-in
+kofi89: folds 
+Uncalled bet (486) returned to kapralos.88
+kapralos.88 collected 40 from pot
+kapralos.88: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: brunolimao (button) folded before Flop (didn't bet)
+Seat 2: kofi89 (small blind) folded before Flop
+Seat 3: kapralos.88 (big blind) collected (40)
+
+
+PokerStars Hand #162071385094: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:30:13 ET
+Table '1741193428 1' 3-max Seat #2 is the button
+Seat 1: brunolimao (530 in chips) 
+Seat 2: kofi89 (444 in chips) 
+Seat 3: kapralos.88 (526 in chips) 
+kapralos.88: posts small blind 10
+brunolimao: posts big blind 20
+*** HOLE CARDS ***
+kofi89: raises 20 to 40
+kapralos.88: folds 
+brunolimao: folds 
+Uncalled bet (20) returned to kofi89
+kofi89 collected 50 from pot
+kofi89: doesn't show hand 
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Seat 1: brunolimao (big blind) folded before Flop
+Seat 2: kofi89 (button) collected (50)
+Seat 3: kapralos.88 (small blind) folded before Flop
+
+
+PokerStars Hand #162071388663: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:30:22 ET
+Table '1741193428 1' 3-max Seat #3 is the button
+Seat 1: brunolimao (510 in chips) 
+Seat 2: kofi89 (474 in chips) 
+Seat 3: kapralos.88 (516 in chips) 
+brunolimao: posts small blind 10
+kofi89: posts big blind 20
+*** HOLE CARDS ***
+kapralos.88: folds 
+brunolimao: raises 20 to 40
+kofi89: calls 20
+*** FLOP *** [4h Ad 5h]
+brunolimao: bets 40
+kofi89: folds 
+Uncalled bet (40) returned to brunolimao
+brunolimao collected 80 from pot
+brunolimao: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Board [4h Ad 5h]
+Seat 1: brunolimao (small blind) collected (80)
+Seat 2: kofi89 (big blind) folded on the Flop
+Seat 3: kapralos.88 (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #162071397576: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:30:44 ET
+Table '1741193428 1' 3-max Seat #1 is the button
+Seat 1: brunolimao (550 in chips) 
+Seat 2: kofi89 (434 in chips) 
+Seat 3: kapralos.88 (516 in chips) 
+kofi89: posts small blind 15
+kapralos.88: posts big blind 30
+*** HOLE CARDS ***
+brunolimao: folds 
+kofi89: folds 
+Uncalled bet (15) returned to kapralos.88
+kapralos.88 collected 30 from pot
+kapralos.88: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: brunolimao (button) folded before Flop (didn't bet)
+Seat 2: kofi89 (small blind) folded before Flop
+Seat 3: kapralos.88 (big blind) collected (30)
+
+
+PokerStars Hand #162071399660: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:30:50 ET
+Table '1741193428 1' 3-max Seat #2 is the button
+Seat 1: brunolimao (550 in chips) 
+Seat 2: kofi89 (419 in chips) 
+Seat 3: kapralos.88 (531 in chips) 
+kapralos.88: posts small blind 15
+brunolimao: posts big blind 30
+*** HOLE CARDS ***
+kofi89: raises 30 to 60
+kapralos.88: folds 
+brunolimao: raises 490 to 550 and is all-in
+kofi89: calls 359 and is all-in
+Uncalled bet (131) returned to brunolimao
+*** FLOP *** [3s 9s 4h]
+*** TURN *** [3s 9s 4h] [Tc]
+*** RIVER *** [3s 9s 4h Tc] [6h]
+*** SHOW DOWN ***
+brunolimao: shows [Ad Qd] (high card Ace)
+kofi89: shows [Qc As] (high card Ace)
+brunolimao collected 427 from pot
+kofi89 collected 426 from pot
+*** SUMMARY ***
+Total pot 853 | Rake 0 
+Board [3s 9s 4h Tc 6h]
+Seat 1: brunolimao (big blind) showed [Ad Qd] and won (427) with high card Ace
+Seat 2: kofi89 (button) showed [Qc As] and won (426) with high card Ace
+Seat 3: kapralos.88 (small blind) folded before Flop
+
+
+PokerStars Hand #162071406458: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:31:07 ET
+Table '1741193428 1' 3-max Seat #3 is the button
+Seat 1: brunolimao (558 in chips) 
+Seat 2: kofi89 (426 in chips) 
+Seat 3: kapralos.88 (516 in chips) 
+brunolimao: posts small blind 15
+kofi89: posts big blind 30
+*** HOLE CARDS ***
+kapralos.88: folds 
+brunolimao: folds 
+Uncalled bet (15) returned to kofi89
+kofi89 collected 30 from pot
+kofi89: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: brunolimao (small blind) folded before Flop
+Seat 2: kofi89 (big blind) collected (30)
+Seat 3: kapralos.88 (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #162071411050: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:31:18 ET
+Table '1741193428 1' 3-max Seat #1 is the button
+Seat 1: brunolimao (543 in chips) 
+Seat 2: kofi89 (441 in chips) 
+Seat 3: kapralos.88 (516 in chips) 
+kofi89: posts small blind 15
+kapralos.88: posts big blind 30
+*** HOLE CARDS ***
+brunolimao: folds 
+kofi89: raises 411 to 441 and is all-in
+kapralos.88: folds 
+Uncalled bet (411) returned to kofi89
+kofi89 collected 60 from pot
+kofi89: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: brunolimao (button) folded before Flop (didn't bet)
+Seat 2: kofi89 (small blind) collected (60)
+Seat 3: kapralos.88 (big blind) folded before Flop
+
+
+PokerStars Hand #162071414321: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:31:26 ET
+Table '1741193428 1' 3-max Seat #2 is the button
+Seat 1: brunolimao (543 in chips) 
+Seat 2: kofi89 (471 in chips) 
+Seat 3: kapralos.88 (486 in chips) 
+kapralos.88: posts small blind 15
+brunolimao: posts big blind 30
+*** HOLE CARDS ***
+kofi89: folds 
+kapralos.88: calls 15
+brunolimao: checks 
+*** FLOP *** [9s As Kc]
+kapralos.88: bets 30
+brunolimao: calls 30
+*** TURN *** [9s As Kc] [Ad]
+kapralos.88: checks 
+brunolimao: checks 
+*** RIVER *** [9s As Kc Ad] [Td]
+kapralos.88: bets 30
+brunolimao: calls 30
+*** SHOW DOWN ***
+kapralos.88: shows [Tc Jh] (two pair, Aces and Tens)
+brunolimao: shows [Kh 4s] (two pair, Aces and Kings)
+brunolimao collected 180 from pot
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Board [9s As Kc Ad Td]
+Seat 1: brunolimao (big blind) showed [Kh 4s] and won (180) with two pair, Aces and Kings
+Seat 2: kofi89 (button) folded before Flop (didn't bet)
+Seat 3: kapralos.88 (small blind) showed [Tc Jh] and lost with two pair, Aces and Tens
+
+
+PokerStars Hand #162071421952: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:31:46 ET
+Table '1741193428 1' 3-max Seat #3 is the button
+Seat 1: brunolimao (633 in chips) 
+Seat 2: kofi89 (471 in chips) 
+Seat 3: kapralos.88 (396 in chips) 
+brunolimao: posts small blind 15
+kofi89: posts big blind 30
+*** HOLE CARDS ***
+kapralos.88: raises 30 to 60
+brunolimao: folds 
+kofi89: folds 
+Uncalled bet (30) returned to kapralos.88
+kapralos.88 collected 75 from pot
+kapralos.88: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: brunolimao (small blind) folded before Flop
+Seat 2: kofi89 (big blind) folded before Flop
+Seat 3: kapralos.88 (button) collected (75)
+
+
+PokerStars Hand #162071424650: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:31:53 ET
+Table '1741193428 1' 3-max Seat #1 is the button
+Seat 1: brunolimao (618 in chips) 
+Seat 2: kofi89 (441 in chips) 
+Seat 3: kapralos.88 (441 in chips) 
+kofi89: posts small blind 15
+kapralos.88: posts big blind 30
+*** HOLE CARDS ***
+brunolimao: folds 
+kofi89: calls 15
+kapralos.88: checks 
+*** FLOP *** [8c Kc 4h]
+kofi89: checks 
+kapralos.88: bets 30
+kofi89: calls 30
+*** TURN *** [8c Kc 4h] [8d]
+kofi89: bets 54
+kapralos.88: calls 54
+*** RIVER *** [8c Kc 4h 8d] [Ks]
+kofi89: checks 
+kapralos.88: checks 
+*** SHOW DOWN ***
+kofi89: shows [9d 8h] (a full house, Eights full of Kings)
+kapralos.88: mucks hand 
+kofi89 collected 228 from pot
+*** SUMMARY ***
+Total pot 228 | Rake 0 
+Board [8c Kc 4h 8d Ks]
+Seat 1: brunolimao (button) folded before Flop (didn't bet)
+Seat 2: kofi89 (small blind) showed [9d 8h] and won (228) with a full house, Eights full of Kings
+Seat 3: kapralos.88 (big blind) mucked
+
+
+PokerStars Hand #162071435483: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:32:20 ET
+Table '1741193428 1' 3-max Seat #2 is the button
+Seat 1: brunolimao (618 in chips) 
+Seat 2: kofi89 (555 in chips) 
+Seat 3: kapralos.88 (327 in chips) 
+kapralos.88: posts small blind 15
+brunolimao: posts big blind 30
+*** HOLE CARDS ***
+kofi89: folds 
+kapralos.88: calls 15
+brunolimao: checks 
+*** FLOP *** [9c Js Qd]
+kapralos.88: bets 30
+brunolimao: folds 
+Uncalled bet (30) returned to kapralos.88
+kapralos.88 collected 60 from pot
+kapralos.88: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Board [9c Js Qd]
+Seat 1: brunolimao (big blind) folded on the Flop
+Seat 2: kofi89 (button) folded before Flop (didn't bet)
+Seat 3: kapralos.88 (small blind) collected (60)
+
+
+PokerStars Hand #162071440100: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:32:32 ET
+Table '1741193428 1' 3-max Seat #3 is the button
+Seat 1: brunolimao (588 in chips) 
+Seat 2: kofi89 (555 in chips) 
+Seat 3: kapralos.88 (357 in chips) 
+brunolimao: posts small blind 15
+kofi89: posts big blind 30
+*** HOLE CARDS ***
+kapralos.88: folds 
+brunolimao: folds 
+Uncalled bet (15) returned to kofi89
+kofi89 collected 30 from pot
+kofi89: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: brunolimao (small blind) folded before Flop
+Seat 2: kofi89 (big blind) collected (30)
+Seat 3: kapralos.88 (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #162071442317: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:32:38 ET
+Table '1741193428 1' 3-max Seat #1 is the button
+Seat 1: brunolimao (573 in chips) 
+Seat 2: kofi89 (570 in chips) 
+Seat 3: kapralos.88 (357 in chips) 
+kofi89: posts small blind 15
+kapralos.88: posts big blind 30
+*** HOLE CARDS ***
+brunolimao: folds 
+kofi89: calls 15
+kapralos.88: raises 327 to 357 and is all-in
+kofi89: calls 327
+*** FLOP *** [7d 5c 3h]
+*** TURN *** [7d 5c 3h] [Jh]
+*** RIVER *** [7d 5c 3h Jh] [8c]
+*** SHOW DOWN ***
+kofi89: shows [Ah Kd] (high card Ace)
+kapralos.88: shows [8h Ad] (a pair of Eights)
+kapralos.88 collected 714 from pot
+*** SUMMARY ***
+Total pot 714 | Rake 0 
+Board [7d 5c 3h Jh 8c]
+Seat 1: brunolimao (button) folded before Flop (didn't bet)
+Seat 2: kofi89 (small blind) showed [Ah Kd] and lost with high card Ace
+Seat 3: kapralos.88 (big blind) showed [8h Ad] and won (714) with a pair of Eights
+
+
+PokerStars Hand #162071449524: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:32:56 ET
+Table '1741193428 1' 3-max Seat #2 is the button
+Seat 1: brunolimao (573 in chips) 
+Seat 2: kofi89 (213 in chips) 
+Seat 3: kapralos.88 (714 in chips) 
+kapralos.88: posts small blind 15
+brunolimao: posts big blind 30
+*** HOLE CARDS ***
+kofi89: raises 183 to 213 and is all-in
+kapralos.88: folds 
+brunolimao: calls 183
+*** FLOP *** [Ts Js Qd]
+*** TURN *** [Ts Js Qd] [Ks]
+*** RIVER *** [Ts Js Qd Ks] [5d]
+*** SHOW DOWN ***
+brunolimao: shows [Ah 9c] (a straight, Ten to Ace)
+kofi89: shows [Kd Jd] (two pair, Kings and Jacks)
+brunolimao collected 441 from pot
+kofi89 finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 441 | Rake 0 
+Board [Ts Js Qd Ks 5d]
+Seat 1: brunolimao (big blind) showed [Ah 9c] and won (441) with a straight, Ten to Ace
+Seat 2: kofi89 (button) showed [Kd Jd] and lost with two pair, Kings and Jacks
+Seat 3: kapralos.88 (small blind) folded before Flop
+
+
+PokerStars Hand #162071456434: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:33:13 ET
+Table '1741193428 1' 3-max Seat #3 is the button
+Seat 1: brunolimao (801 in chips) 
+Seat 3: kapralos.88 (699 in chips) 
+kapralos.88: posts small blind 15
+brunolimao: posts big blind 30
+*** HOLE CARDS ***
+kapralos.88: calls 15
+brunolimao: checks 
+*** FLOP *** [Js 6c 3h]
+brunolimao: checks 
+kapralos.88: checks 
+*** TURN *** [Js 6c 3h] [9d]
+brunolimao: checks 
+kapralos.88: bets 30
+brunolimao: calls 30
+*** RIVER *** [Js 6c 3h 9d] [8c]
+brunolimao: checks 
+kapralos.88: bets 60
+brunolimao: calls 60
+*** SHOW DOWN ***
+kapralos.88: shows [Tc Ts] (a pair of Tens)
+brunolimao: mucks hand 
+kapralos.88 collected 240 from pot
+*** SUMMARY ***
+Total pot 240 | Rake 0 
+Board [Js 6c 3h 9d 8c]
+Seat 1: brunolimao (big blind) mucked
+Seat 3: kapralos.88 (button) (small blind) showed [Tc Ts] and won (240) with a pair of Tens
+
+
+PokerStars Hand #162071467001: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:33:41 ET
+Table '1741193428 1' 3-max Seat #1 is the button
+Seat 1: brunolimao (681 in chips) 
+Seat 3: kapralos.88 (819 in chips) 
+brunolimao: posts small blind 20
+kapralos.88: posts big blind 40
+*** HOLE CARDS ***
+brunolimao: raises 40 to 80
+kapralos.88: folds 
+Uncalled bet (40) returned to brunolimao
+brunolimao collected 80 from pot
+brunolimao: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: brunolimao (button) (small blind) collected (80)
+Seat 3: kapralos.88 (big blind) folded before Flop
+
+
+PokerStars Hand #162071470496: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:33:49 ET
+Table '1741193428 1' 3-max Seat #3 is the button
+Seat 1: brunolimao (721 in chips) 
+Seat 3: kapralos.88 (779 in chips) 
+kapralos.88: posts small blind 20
+brunolimao: posts big blind 40
+*** HOLE CARDS ***
+kapralos.88: folds 
+Uncalled bet (20) returned to brunolimao
+brunolimao collected 40 from pot
+brunolimao: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: brunolimao (big blind) collected (40)
+Seat 3: kapralos.88 (button) (small blind) folded before Flop
+
+
+PokerStars Hand #162071471818: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:33:53 ET
+Table '1741193428 1' 3-max Seat #1 is the button
+Seat 1: brunolimao (741 in chips) 
+Seat 3: kapralos.88 (759 in chips) 
+brunolimao: posts small blind 20
+kapralos.88: posts big blind 40
+*** HOLE CARDS ***
+brunolimao: raises 40 to 80
+kapralos.88: folds 
+Uncalled bet (40) returned to brunolimao
+brunolimao collected 80 from pot
+brunolimao: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: brunolimao (button) (small blind) collected (80)
+Seat 3: kapralos.88 (big blind) folded before Flop
+
+
+PokerStars Hand #162071474293: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:33:59 ET
+Table '1741193428 1' 3-max Seat #3 is the button
+Seat 1: brunolimao (781 in chips) 
+Seat 3: kapralos.88 (719 in chips) 
+kapralos.88: posts small blind 20
+brunolimao: posts big blind 40
+*** HOLE CARDS ***
+kapralos.88: raises 40 to 80
+brunolimao: folds 
+Uncalled bet (40) returned to kapralos.88
+kapralos.88 collected 80 from pot
+kapralos.88: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: brunolimao (big blind) folded before Flop
+Seat 3: kapralos.88 (button) (small blind) collected (80)
+
+
+PokerStars Hand #162071477154: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:34:07 ET
+Table '1741193428 1' 3-max Seat #1 is the button
+Seat 1: brunolimao (741 in chips) 
+Seat 3: kapralos.88 (759 in chips) 
+brunolimao: posts small blind 20
+kapralos.88: posts big blind 40
+*** HOLE CARDS ***
+brunolimao: raises 40 to 80
+kapralos.88: calls 40
+*** FLOP *** [Js Ac Qs]
+kapralos.88: checks 
+brunolimao: checks 
+*** TURN *** [Js Ac Qs] [7h]
+kapralos.88: checks 
+brunolimao: bets 80
+kapralos.88: calls 80
+*** RIVER *** [Js Ac Qs 7h] [8d]
+kapralos.88: checks 
+brunolimao: checks 
+*** SHOW DOWN ***
+kapralos.88: shows [Kd Jd] (a pair of Jacks)
+brunolimao: mucks hand 
+kapralos.88 collected 320 from pot
+*** SUMMARY ***
+Total pot 320 | Rake 0 
+Board [Js Ac Qs 7h 8d]
+Seat 1: brunolimao (button) (small blind) mucked
+Seat 3: kapralos.88 (big blind) showed [Kd Jd] and won (320) with a pair of Jacks
+
+
+PokerStars Hand #162071486829: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:34:32 ET
+Table '1741193428 1' 3-max Seat #3 is the button
+Seat 1: brunolimao (581 in chips) 
+Seat 3: kapralos.88 (919 in chips) 
+kapralos.88: posts small blind 20
+brunolimao: posts big blind 40
+*** HOLE CARDS ***
+kapralos.88: calls 20
+brunolimao: checks 
+*** FLOP *** [8c 2d Jd]
+brunolimao: checks 
+kapralos.88: bets 40
+brunolimao: calls 40
+*** TURN *** [8c 2d Jd] [9h]
+brunolimao: checks 
+kapralos.88: checks 
+*** RIVER *** [8c 2d Jd 9h] [6c]
+brunolimao: checks 
+kapralos.88: checks 
+*** SHOW DOWN ***
+brunolimao: shows [8s Qs] (a pair of Eights)
+kapralos.88: mucks hand 
+brunolimao collected 160 from pot
+*** SUMMARY ***
+Total pot 160 | Rake 0 
+Board [8c 2d Jd 9h 6c]
+Seat 1: brunolimao (big blind) showed [8s Qs] and won (160) with a pair of Eights
+Seat 3: kapralos.88 (button) (small blind) mucked
+
+
+PokerStars Hand #162071494254: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:34:51 ET
+Table '1741193428 1' 3-max Seat #1 is the button
+Seat 1: brunolimao (661 in chips) 
+Seat 3: kapralos.88 (839 in chips) 
+brunolimao: posts small blind 20
+kapralos.88: posts big blind 40
+*** HOLE CARDS ***
+brunolimao: raises 40 to 80
+kapralos.88: folds 
+Uncalled bet (40) returned to brunolimao
+brunolimao collected 80 from pot
+brunolimao: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: brunolimao (button) (small blind) collected (80)
+Seat 3: kapralos.88 (big blind) folded before Flop
+
+
+PokerStars Hand #162071496406: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:34:56 ET
+Table '1741193428 1' 3-max Seat #3 is the button
+Seat 1: brunolimao (701 in chips) 
+Seat 3: kapralos.88 (799 in chips) 
+kapralos.88: posts small blind 20
+brunolimao: posts big blind 40
+*** HOLE CARDS ***
+kapralos.88: raises 40 to 80
+brunolimao: folds 
+Uncalled bet (40) returned to kapralos.88
+kapralos.88 collected 80 from pot
+kapralos.88: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: brunolimao (big blind) folded before Flop
+Seat 3: kapralos.88 (button) (small blind) collected (80)
+
+
+PokerStars Hand #162071498985: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:35:03 ET
+Table '1741193428 1' 3-max Seat #1 is the button
+Seat 1: brunolimao (661 in chips) 
+Seat 3: kapralos.88 (839 in chips) 
+brunolimao: posts small blind 20
+kapralos.88: posts big blind 40
+*** HOLE CARDS ***
+brunolimao: raises 40 to 80
+kapralos.88: raises 120 to 200
+brunolimao: folds 
+Uncalled bet (120) returned to kapralos.88
+kapralos.88 collected 160 from pot
+kapralos.88: doesn't show hand 
+*** SUMMARY ***
+Total pot 160 | Rake 0 
+Seat 1: brunolimao (button) (small blind) folded before Flop
+Seat 3: kapralos.88 (big blind) collected (160)
+
+
+PokerStars Hand #162071502528: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:35:12 ET
+Table '1741193428 1' 3-max Seat #3 is the button
+Seat 1: brunolimao (581 in chips) 
+Seat 3: kapralos.88 (919 in chips) 
+kapralos.88: posts small blind 20
+brunolimao: posts big blind 40
+*** HOLE CARDS ***
+kapralos.88: calls 20
+brunolimao: raises 541 to 581 and is all-in
+kapralos.88: folds 
+Uncalled bet (541) returned to brunolimao
+brunolimao collected 80 from pot
+brunolimao: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: brunolimao (big blind) collected (80)
+Seat 3: kapralos.88 (button) (small blind) folded before Flop
+
+
+PokerStars Hand #162071505560: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:35:20 ET
+Table '1741193428 1' 3-max Seat #1 is the button
+Seat 1: brunolimao (621 in chips) 
+Seat 3: kapralos.88 (879 in chips) 
+brunolimao: posts small blind 20
+kapralos.88: posts big blind 40
+*** HOLE CARDS ***
+brunolimao: raises 40 to 80
+kapralos.88: raises 799 to 879 and is all-in
+brunolimao: calls 541 and is all-in
+Uncalled bet (258) returned to kapralos.88
+*** FLOP *** [Tc 2d Th]
+*** TURN *** [Tc 2d Th] [Ts]
+*** RIVER *** [Tc 2d Th Ts] [2h]
+*** SHOW DOWN ***
+kapralos.88: shows [Ad Jc] (a full house, Tens full of Deuces)
+brunolimao: shows [5d 5h] (a full house, Tens full of Fives)
+brunolimao collected 1242 from pot
+*** SUMMARY ***
+Total pot 1242 | Rake 0 
+Board [Tc 2d Th Ts 2h]
+Seat 1: brunolimao (button) (small blind) showed [5d 5h] and won (1242) with a full house, Tens full of Fives
+Seat 3: kapralos.88 (big blind) showed [Ad Jc] and lost with a full house, Tens full of Deuces
+
+
+PokerStars Hand #162071510616: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:35:33 ET
+Table '1741193428 1' 3-max Seat #3 is the button
+Seat 1: brunolimao (1242 in chips) 
+Seat 3: kapralos.88 (258 in chips) 
+kapralos.88: posts small blind 20
+brunolimao: posts big blind 40
+*** HOLE CARDS ***
+kapralos.88: raises 218 to 258 and is all-in
+brunolimao: calls 218
+*** FLOP *** [Th Td 8h]
+*** TURN *** [Th Td 8h] [Qd]
+*** RIVER *** [Th Td 8h Qd] [9c]
+*** SHOW DOWN ***
+brunolimao: shows [6d Ah] (a pair of Tens)
+kapralos.88: shows [2h 2d] (two pair, Tens and Deuces)
+kapralos.88 collected 516 from pot
+*** SUMMARY ***
+Total pot 516 | Rake 0 
+Board [Th Td 8h Qd 9c]
+Seat 1: brunolimao (big blind) showed [6d Ah] and lost with a pair of Tens
+Seat 3: kapralos.88 (button) (small blind) showed [2h 2d] and won (516) with two pair, Tens and Deuces
+
+
+PokerStars Hand #162071514898: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:35:44 ET
+Table '1741193428 1' 3-max Seat #1 is the button
+Seat 1: brunolimao (984 in chips) 
+Seat 3: kapralos.88 (516 in chips) 
+brunolimao: posts small blind 20
+kapralos.88: posts big blind 40
+*** HOLE CARDS ***
+brunolimao: folds 
+Uncalled bet (20) returned to kapralos.88
+kapralos.88 collected 40 from pot
+kapralos.88: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: brunolimao (button) (small blind) folded before Flop
+Seat 3: kapralos.88 (big blind) collected (40)
+
+
+PokerStars Hand #162071516360: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:35:48 ET
+Table '1741193428 1' 3-max Seat #3 is the button
+Seat 1: brunolimao (964 in chips) 
+Seat 3: kapralos.88 (536 in chips) 
+kapralos.88: posts small blind 20
+brunolimao: posts big blind 40
+*** HOLE CARDS ***
+kapralos.88: calls 20
+brunolimao: checks 
+*** FLOP *** [Td Jh 2d]
+brunolimao: checks 
+kapralos.88: bets 40
+brunolimao: raises 80 to 120
+kapralos.88: folds 
+Uncalled bet (80) returned to brunolimao
+brunolimao collected 160 from pot
+brunolimao: doesn't show hand 
+*** SUMMARY ***
+Total pot 160 | Rake 0 
+Board [Td Jh 2d]
+Seat 1: brunolimao (big blind) collected (160)
+Seat 3: kapralos.88 (button) (small blind) folded on the Flop
+
+
+PokerStars Hand #162071521556: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:36:01 ET
+Table '1741193428 1' 3-max Seat #1 is the button
+Seat 1: brunolimao (1044 in chips) 
+Seat 3: kapralos.88 (456 in chips) 
+brunolimao: posts small blind 20
+kapralos.88: posts big blind 40
+*** HOLE CARDS ***
+brunolimao: raises 40 to 80
+kapralos.88: raises 376 to 456 and is all-in
+brunolimao: folds 
+Uncalled bet (376) returned to kapralos.88
+kapralos.88 collected 160 from pot
+kapralos.88: doesn't show hand 
+*** SUMMARY ***
+Total pot 160 | Rake 0 
+Seat 1: brunolimao (button) (small blind) folded before Flop
+Seat 3: kapralos.88 (big blind) collected (160)
+
+
+PokerStars Hand #162071524411: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:36:09 ET
+Table '1741193428 1' 3-max Seat #3 is the button
+Seat 1: brunolimao (964 in chips) 
+Seat 3: kapralos.88 (536 in chips) 
+kapralos.88: posts small blind 20
+brunolimao: posts big blind 40
+*** HOLE CARDS ***
+kapralos.88: calls 20
+brunolimao: checks 
+*** FLOP *** [Qh 9s 7h]
+brunolimao: checks 
+kapralos.88: bets 52
+brunolimao: raises 68 to 120
+kapralos.88: folds 
+Uncalled bet (68) returned to brunolimao
+brunolimao collected 184 from pot
+brunolimao: doesn't show hand 
+*** SUMMARY ***
+Total pot 184 | Rake 0 
+Board [Qh 9s 7h]
+Seat 1: brunolimao (big blind) collected (184)
+Seat 3: kapralos.88 (button) (small blind) folded on the Flop
+
+
+PokerStars Hand #162071528800: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:36:20 ET
+Table '1741193428 1' 3-max Seat #1 is the button
+Seat 1: brunolimao (1056 in chips) 
+Seat 3: kapralos.88 (444 in chips) 
+brunolimao: posts small blind 20
+kapralos.88: posts big blind 40
+*** HOLE CARDS ***
+brunolimao: raises 1016 to 1056 and is all-in
+kapralos.88: calls 404 and is all-in
+Uncalled bet (612) returned to brunolimao
+*** FLOP *** [3h Jc 3d]
+*** TURN *** [3h Jc 3d] [6d]
+*** RIVER *** [3h Jc 3d 6d] [2c]
+*** SHOW DOWN ***
+kapralos.88: shows [Th Ts] (two pair, Tens and Threes)
+brunolimao: shows [5h 5d] (two pair, Fives and Threes)
+kapralos.88 collected 888 from pot
+*** SUMMARY ***
+Total pot 888 | Rake 0 
+Board [3h Jc 3d 6d 2c]
+Seat 1: brunolimao (button) (small blind) showed [5h 5d] and lost with two pair, Fives and Threes
+Seat 3: kapralos.88 (big blind) showed [Th Ts] and won (888) with two pair, Tens and Threes
+
+
+PokerStars Hand #162071535000: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level IV (30/60) - 2016/11/27 21:36:36 ET
+Table '1741193428 1' 3-max Seat #3 is the button
+Seat 1: brunolimao (612 in chips) 
+Seat 3: kapralos.88 (888 in chips) 
+kapralos.88: posts small blind 30
+brunolimao: posts big blind 60
+*** HOLE CARDS ***
+kapralos.88: calls 30
+brunolimao: checks 
+*** FLOP *** [Qc 8c 6c]
+brunolimao: checks 
+kapralos.88: bets 60
+brunolimao: folds 
+Uncalled bet (60) returned to kapralos.88
+kapralos.88 collected 120 from pot
+kapralos.88: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Board [Qc 8c 6c]
+Seat 1: brunolimao (big blind) folded on the Flop
+Seat 3: kapralos.88 (button) (small blind) collected (120)
+
+
+PokerStars Hand #162071538870: Tournament #1741193428, $95+$5 USD Hold'em No Limit - Level IV (30/60) - 2016/11/27 21:36:47 ET
+Table '1741193428 1' 3-max Seat #1 is the button
+Seat 1: brunolimao (552 in chips) 
+Seat 3: kapralos.88 (948 in chips) 
+brunolimao: posts small blind 30
+kapralos.88: posts big blind 60
+*** HOLE CARDS ***
+brunolimao: raises 492 to 552 and is all-in
+kapralos.88: calls 492
+*** FLOP *** [Qc Kc Kh]
+*** TURN *** [Qc Kc Kh] [2d]
+*** RIVER *** [Qc Kc Kh 2d] [Ts]
+*** SHOW DOWN ***
+kapralos.88: shows [9s 9c] (two pair, Kings and Nines)
+brunolimao: shows [6h 6s] (two pair, Kings and Sixes)
+kapralos.88 collected 1104 from pot
+brunolimao finished the tournament in 2nd place
+kapralos.88 wins the tournament and receives $1000.00 - congratulations!
+*** SUMMARY ***
+Total pot 1104 | Rake 0 
+Board [Qc Kc Kh 2d Ts]
+Seat 1: brunolimao (button) (small blind) showed [6h 6s] and lost with two pair, Kings and Sixes
+Seat 3: kapralos.88 (big blind) showed [9s 9c] and won (1104) with two pair, Kings and Nines
+
+
+***NEW GAME***
+PokerStars Hand #162071520222: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:35:58 ET
+Table '1741197489 1' 3-max Seat #1 is the button
+Seat 1: Velmuzhov (500 in chips) 
+Seat 2: NYstile (500 in chips) 
+Seat 3: TheCronic420 (500 in chips) 
+NYstile: posts small blind 10
+TheCronic420: posts big blind 20
+*** HOLE CARDS ***
+Velmuzhov: folds 
+NYstile: raises 20 to 40
+TheCronic420: raises 460 to 500 and is all-in
+NYstile: folds 
+Uncalled bet (460) returned to TheCronic420
+TheCronic420 collected 80 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: Velmuzhov (button) folded before Flop (didn't bet)
+Seat 2: NYstile (small blind) folded before Flop
+Seat 3: TheCronic420 (big blind) collected (80)
+
+
+PokerStars Hand #162071524052: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:36:08 ET
+Table '1741197489 1' 3-max Seat #2 is the button
+Seat 1: Velmuzhov (500 in chips) 
+Seat 2: NYstile (460 in chips) 
+Seat 3: TheCronic420 (540 in chips) 
+TheCronic420: posts small blind 10
+Velmuzhov: posts big blind 20
+*** HOLE CARDS ***
+NYstile: folds 
+TheCronic420: calls 10
+Velmuzhov: checks 
+*** FLOP *** [3c Qh Qs]
+TheCronic420: checks 
+Velmuzhov: checks 
+*** TURN *** [3c Qh Qs] [3s]
+TheCronic420: bets 20
+Velmuzhov: folds 
+Uncalled bet (20) returned to TheCronic420
+TheCronic420 collected 40 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Board [3c Qh Qs 3s]
+Seat 1: Velmuzhov (big blind) folded on the Turn
+Seat 2: NYstile (button) folded before Flop (didn't bet)
+Seat 3: TheCronic420 (small blind) collected (40)
+
+
+PokerStars Hand #162071541935: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:36:54 ET
+Table '1741197489 1' 3-max Seat #3 is the button
+Seat 1: Velmuzhov (480 in chips) 
+Seat 2: NYstile (460 in chips) 
+Seat 3: TheCronic420 (560 in chips) 
+Velmuzhov: posts small blind 10
+NYstile: posts big blind 20
+*** HOLE CARDS ***
+TheCronic420: folds 
+Velmuzhov: raises 20 to 40
+NYstile: raises 400 to 440
+Velmuzhov: folds 
+Uncalled bet (400) returned to NYstile
+NYstile collected 80 from pot
+NYstile: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: Velmuzhov (small blind) folded before Flop
+Seat 2: NYstile (big blind) collected (80)
+Seat 3: TheCronic420 (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #162071552045: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:37:20 ET
+Table '1741197489 1' 3-max Seat #1 is the button
+Seat 1: Velmuzhov (440 in chips) 
+Seat 2: NYstile (500 in chips) 
+Seat 3: TheCronic420 (560 in chips) 
+NYstile: posts small blind 10
+TheCronic420: posts big blind 20
+*** HOLE CARDS ***
+Velmuzhov: folds 
+NYstile: raises 20 to 40
+TheCronic420: calls 20
+*** FLOP *** [As 5s Jd]
+NYstile: bets 40
+TheCronic420: folds 
+Uncalled bet (40) returned to NYstile
+NYstile collected 80 from pot
+NYstile: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Board [As 5s Jd]
+Seat 1: Velmuzhov (button) folded before Flop (didn't bet)
+Seat 2: NYstile (small blind) collected (80)
+Seat 3: TheCronic420 (big blind) folded on the Flop
+
+
+PokerStars Hand #162071559167: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:37:39 ET
+Table '1741197489 1' 3-max Seat #2 is the button
+Seat 1: Velmuzhov (440 in chips) 
+Seat 2: NYstile (540 in chips) 
+Seat 3: TheCronic420 (520 in chips) 
+TheCronic420: posts small blind 10
+Velmuzhov: posts big blind 20
+*** HOLE CARDS ***
+NYstile: folds 
+TheCronic420: raises 20 to 40
+Velmuzhov: calls 20
+*** FLOP *** [3s 4s Qc]
+TheCronic420: bets 38
+Velmuzhov: calls 38
+*** TURN *** [3s 4s Qc] [7s]
+TheCronic420: checks 
+Velmuzhov: bets 90
+TheCronic420: folds 
+Uncalled bet (90) returned to Velmuzhov
+Velmuzhov collected 156 from pot
+*** SUMMARY ***
+Total pot 156 | Rake 0 
+Board [3s 4s Qc 7s]
+Seat 1: Velmuzhov (big blind) collected (156)
+Seat 2: NYstile (button) folded before Flop (didn't bet)
+Seat 3: TheCronic420 (small blind) folded on the Turn
+
+PokerStars Hand #162071572579: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:38:14 ET
+Table '1741197489 1' 3-max Seat #3 is the button
+Seat 1: Velmuzhov (518 in chips) 
+Seat 2: NYstile (540 in chips) 
+Seat 3: TheCronic420 (442 in chips) 
+Velmuzhov: posts small blind 10
+NYstile: posts big blind 20
+*** HOLE CARDS ***
+TheCronic420: folds 
+Velmuzhov: raises 20 to 40
+NYstile: calls 20
+*** FLOP *** [8c 7h Qc]
+Velmuzhov: bets 40
+NYstile: calls 40
+*** TURN *** [8c 7h Qc] [3s]
+Velmuzhov: bets 100
+NYstile: folds 
+Uncalled bet (100) returned to Velmuzhov
+Velmuzhov collected 160 from pot
+*** SUMMARY ***
+Total pot 160 | Rake 0 
+Board [8c 7h Qc 3s]
+Seat 1: Velmuzhov (small blind) collected (160)
+Seat 2: NYstile (big blind) folded on the Turn
+Seat 3: TheCronic420 (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #162071583482: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:38:42 ET
+Table '1741197489 1' 3-max Seat #1 is the button
+Seat 1: Velmuzhov (598 in chips) 
+Seat 2: NYstile (460 in chips) 
+Seat 3: TheCronic420 (442 in chips) 
+NYstile: posts small blind 10
+TheCronic420: posts big blind 20
+*** HOLE CARDS ***
+Velmuzhov: raises 20 to 40
+NYstile: folds 
+TheCronic420: calls 20
+*** FLOP *** [Th Jh 7s]
+TheCronic420: checks 
+Velmuzhov: checks 
+*** TURN *** [Th Jh 7s] [Kd]
+TheCronic420: checks 
+Velmuzhov: checks 
+*** RIVER *** [Th Jh 7s Kd] [Kh]
+TheCronic420: bets 40
+Velmuzhov: folds 
+Uncalled bet (40) returned to TheCronic420
+TheCronic420 collected 90 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 90 | Rake 0 
+Board [Th Jh 7s Kd Kh]
+Seat 1: Velmuzhov (button) folded on the River
+Seat 2: NYstile (small blind) folded before Flop
+Seat 3: TheCronic420 (big blind) collected (90)
+
+
+PokerStars Hand #162071602306: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:39:30 ET
+Table '1741197489 1' 3-max Seat #2 is the button
+Seat 1: Velmuzhov (558 in chips) 
+Seat 2: NYstile (450 in chips) 
+Seat 3: TheCronic420 (492 in chips) 
+TheCronic420: posts small blind 15
+Velmuzhov: posts big blind 30
+*** HOLE CARDS ***
+NYstile: folds 
+TheCronic420: raises 30 to 60
+Velmuzhov: folds 
+Uncalled bet (30) returned to TheCronic420
+TheCronic420 collected 60 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: Velmuzhov (big blind) folded before Flop
+Seat 2: NYstile (button) folded before Flop (didn't bet)
+Seat 3: TheCronic420 (small blind) collected (60)
+
+
+PokerStars Hand #162071606914: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:39:43 ET
+Table '1741197489 1' 3-max Seat #3 is the button
+Seat 1: Velmuzhov (528 in chips) 
+Seat 2: NYstile (450 in chips) 
+Seat 3: TheCronic420 (522 in chips) 
+Velmuzhov: posts small blind 15
+NYstile: posts big blind 30
+*** HOLE CARDS ***
+TheCronic420: folds 
+Velmuzhov: raises 30 to 60
+NYstile: raises 390 to 450 and is all-in
+Velmuzhov: folds 
+Uncalled bet (390) returned to NYstile
+NYstile collected 120 from pot
+NYstile: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Seat 1: Velmuzhov (small blind) folded before Flop
+Seat 2: NYstile (big blind) collected (120)
+Seat 3: TheCronic420 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #162071612114: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:39:56 ET
+Table '1741197489 1' 3-max Seat #1 is the button
+Seat 1: Velmuzhov (468 in chips) 
+Seat 2: NYstile (510 in chips) 
+Seat 3: TheCronic420 (522 in chips) 
+NYstile: posts small blind 15
+TheCronic420: posts big blind 30
+*** HOLE CARDS ***
+Velmuzhov: raises 438 to 468 and is all-in
+NYstile: folds 
+TheCronic420: folds 
+Uncalled bet (438) returned to Velmuzhov
+Velmuzhov collected 75 from pot
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: Velmuzhov (button) collected (75)
+Seat 2: NYstile (small blind) folded before Flop
+Seat 3: TheCronic420 (big blind) folded before Flop
+
+
+PokerStars Hand #162071614859: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:40:03 ET
+Table '1741197489 1' 3-max Seat #2 is the button
+Seat 1: Velmuzhov (513 in chips) 
+Seat 2: NYstile (495 in chips) 
+Seat 3: TheCronic420 (492 in chips) 
+TheCronic420: posts small blind 15
+Velmuzhov: posts big blind 30
+*** HOLE CARDS ***
+NYstile: raises 30 to 60
+TheCronic420: folds 
+Velmuzhov: calls 30
+*** FLOP *** [6s Ah Td]
+Velmuzhov: checks 
+NYstile: bets 60
+Velmuzhov: folds 
+Uncalled bet (60) returned to NYstile
+NYstile collected 135 from pot
+NYstile: doesn't show hand 
+*** SUMMARY ***
+Total pot 135 | Rake 0 
+Board [6s Ah Td]
+Seat 1: Velmuzhov (big blind) folded on the Flop
+Seat 2: NYstile (button) collected (135)
+Seat 3: TheCronic420 (small blind) folded before Flop
+
+
+PokerStars Hand #162071620595: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:40:19 ET
+Table '1741197489 1' 3-max Seat #3 is the button
+Seat 1: Velmuzhov (453 in chips) 
+Seat 2: NYstile (570 in chips) 
+Seat 3: TheCronic420 (477 in chips) 
+Velmuzhov: posts small blind 15
+NYstile: posts big blind 30
+*** HOLE CARDS ***
+TheCronic420: folds 
+Velmuzhov: folds 
+Uncalled bet (15) returned to NYstile
+NYstile collected 30 from pot
+NYstile: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: Velmuzhov (small blind) folded before Flop
+Seat 2: NYstile (big blind) collected (30)
+Seat 3: TheCronic420 (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #162071624750: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:40:29 ET
+Table '1741197489 1' 3-max Seat #1 is the button
+Seat 1: Velmuzhov (438 in chips) 
+Seat 2: NYstile (585 in chips) 
+Seat 3: TheCronic420 (477 in chips) 
+NYstile: posts small blind 15
+TheCronic420: posts big blind 30
+*** HOLE CARDS ***
+Velmuzhov: folds 
+NYstile: raises 30 to 60
+TheCronic420: calls 30
+*** FLOP *** [Kd Qs 2d]
+NYstile: bets 60
+TheCronic420: calls 60
+*** TURN *** [Kd Qs 2d] [5d]
+NYstile: checks 
+TheCronic420: bets 90
+NYstile: calls 90
+*** RIVER *** [Kd Qs 2d 5d] [As]
+NYstile: checks 
+TheCronic420: checks 
+*** SHOW DOWN ***
+NYstile: shows [Kc 8c] (a pair of Kings)
+TheCronic420: mucks hand 
+NYstile collected 420 from pot
+*** SUMMARY ***
+Total pot 420 | Rake 0 
+Board [Kd Qs 2d 5d As]
+Seat 1: Velmuzhov (button) folded before Flop (didn't bet)
+Seat 2: NYstile (small blind) showed [Kc 8c] and won (420) with a pair of Kings
+Seat 3: TheCronic420 (big blind) mucked
+
+
+PokerStars Hand #162071640666: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:41:11 ET
+Table '1741197489 1' 3-max Seat #2 is the button
+Seat 1: Velmuzhov (438 in chips) 
+Seat 2: NYstile (795 in chips) 
+Seat 3: TheCronic420 (267 in chips) 
+TheCronic420: posts small blind 15
+Velmuzhov: posts big blind 30
+*** HOLE CARDS ***
+NYstile: folds 
+TheCronic420: raises 237 to 267 and is all-in
+Velmuzhov: folds 
+Uncalled bet (237) returned to TheCronic420
+TheCronic420 collected 60 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: Velmuzhov (big blind) folded before Flop
+Seat 2: NYstile (button) folded before Flop (didn't bet)
+Seat 3: TheCronic420 (small blind) collected (60)
+
+
+PokerStars Hand #162071643596: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:41:19 ET
+Table '1741197489 1' 3-max Seat #3 is the button
+Seat 1: Velmuzhov (408 in chips) 
+Seat 2: NYstile (795 in chips) 
+Seat 3: TheCronic420 (297 in chips) 
+Velmuzhov: posts small blind 15
+NYstile: posts big blind 30
+*** HOLE CARDS ***
+TheCronic420: raises 267 to 297 and is all-in
+Velmuzhov: folds 
+NYstile: folds 
+Uncalled bet (267) returned to TheCronic420
+TheCronic420 collected 75 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: Velmuzhov (small blind) folded before Flop
+Seat 2: NYstile (big blind) folded before Flop
+Seat 3: TheCronic420 (button) collected (75)
+
+
+PokerStars Hand #162071648102: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:41:31 ET
+Table '1741197489 1' 3-max Seat #1 is the button
+Seat 1: Velmuzhov (393 in chips) 
+Seat 2: NYstile (765 in chips) 
+Seat 3: TheCronic420 (342 in chips) 
+NYstile: posts small blind 15
+TheCronic420: posts big blind 30
+*** HOLE CARDS ***
+Velmuzhov: raises 30 to 60
+NYstile: folds 
+TheCronic420: calls 30
+*** FLOP *** [2h 8d Kc]
+TheCronic420: checks 
+Velmuzhov: bets 60
+TheCronic420: folds 
+Uncalled bet (60) returned to Velmuzhov
+Velmuzhov collected 135 from pot
+*** SUMMARY ***
+Total pot 135 | Rake 0 
+Board [2h 8d Kc]
+Seat 1: Velmuzhov (button) collected (135)
+Seat 2: NYstile (small blind) folded before Flop
+Seat 3: TheCronic420 (big blind) folded on the Flop
+
+
+PokerStars Hand #162071653660: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:41:45 ET
+Table '1741197489 1' 3-max Seat #2 is the button
+Seat 1: Velmuzhov (468 in chips) 
+Seat 2: NYstile (750 in chips) 
+Seat 3: TheCronic420 (282 in chips) 
+TheCronic420: posts small blind 15
+Velmuzhov: posts big blind 30
+*** HOLE CARDS ***
+NYstile: folds 
+TheCronic420: folds 
+Uncalled bet (15) returned to Velmuzhov
+Velmuzhov collected 30 from pot
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: Velmuzhov (big blind) collected (30)
+Seat 2: NYstile (button) folded before Flop (didn't bet)
+Seat 3: TheCronic420 (small blind) folded before Flop
+
+PokerStars Hand #162071655437: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:41:50 ET
+Table '1741197489 1' 3-max Seat #3 is the button
+Seat 1: Velmuzhov (483 in chips) 
+Seat 2: NYstile (750 in chips) 
+Seat 3: TheCronic420 (267 in chips) 
+Velmuzhov: posts small blind 15
+NYstile: posts big blind 30
+*** HOLE CARDS ***
+TheCronic420: folds 
+Velmuzhov: raises 453 to 483 and is all-in
+NYstile: folds 
+Uncalled bet (453) returned to Velmuzhov
+Velmuzhov collected 60 from pot
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: Velmuzhov (small blind) collected (60)
+Seat 2: NYstile (big blind) folded before Flop
+Seat 3: TheCronic420 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #162071658002: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:41:57 ET
+Table '1741197489 1' 3-max Seat #1 is the button
+Seat 1: Velmuzhov (513 in chips) 
+Seat 2: NYstile (720 in chips) 
+Seat 3: TheCronic420 (267 in chips) 
+NYstile: posts small blind 15
+TheCronic420: posts big blind 30
+*** HOLE CARDS ***
+Velmuzhov: folds 
+NYstile: raises 30 to 60
+TheCronic420: raises 207 to 267 and is all-in
+NYstile: calls 207
+*** FLOP *** [2d 9c Kc]
+*** TURN *** [2d 9c Kc] [Ad]
+*** RIVER *** [2d 9c Kc Ad] [Ah]
+*** SHOW DOWN ***
+NYstile: shows [8c Qh] (a pair of Aces)
+TheCronic420: shows [Kh 7c] (two pair, Aces and Kings)
+TheCronic420 collected 534 from pot
+*** SUMMARY ***
+Total pot 534 | Rake 0 
+Board [2d 9c Kc Ad Ah]
+Seat 1: Velmuzhov (button) folded before Flop (didn't bet)
+Seat 2: NYstile (small blind) showed [8c Qh] and lost with a pair of Aces
+Seat 3: TheCronic420 (big blind) showed [Kh 7c] and won (534) with two pair, Aces and Kings
+
+
+PokerStars Hand #162071666441: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:42:19 ET
+Table '1741197489 1' 3-max Seat #2 is the button
+Seat 1: Velmuzhov (513 in chips) 
+Seat 2: NYstile (453 in chips) 
+Seat 3: TheCronic420 (534 in chips) 
+TheCronic420: posts small blind 20
+Velmuzhov: posts big blind 40
+*** HOLE CARDS ***
+NYstile: raises 413 to 453 and is all-in
+TheCronic420: folds 
+Velmuzhov: folds 
+Uncalled bet (413) returned to NYstile
+NYstile collected 100 from pot
+NYstile: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: Velmuzhov (big blind) folded before Flop
+Seat 2: NYstile (button) collected (100)
+Seat 3: TheCronic420 (small blind) folded before Flop
+
+
+PokerStars Hand #162071669066: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:42:26 ET
+Table '1741197489 1' 3-max Seat #3 is the button
+Seat 1: Velmuzhov (473 in chips) 
+Seat 2: NYstile (513 in chips) 
+Seat 3: TheCronic420 (514 in chips) 
+Velmuzhov: posts small blind 20
+NYstile: posts big blind 40
+*** HOLE CARDS ***
+TheCronic420: raises 40 to 80
+Velmuzhov: raises 393 to 473 and is all-in
+NYstile: folds 
+TheCronic420: folds 
+Uncalled bet (393) returned to Velmuzhov
+Velmuzhov collected 200 from pot
+*** SUMMARY ***
+Total pot 200 | Rake 0 
+Seat 1: Velmuzhov (small blind) collected (200)
+Seat 2: NYstile (big blind) folded before Flop
+Seat 3: TheCronic420 (button) folded before Flop
+
+
+PokerStars Hand #162071672634: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:42:36 ET
+Table '1741197489 1' 3-max Seat #1 is the button
+Seat 1: Velmuzhov (593 in chips) 
+Seat 2: NYstile (473 in chips) 
+Seat 3: TheCronic420 (434 in chips) 
+NYstile: posts small blind 20
+TheCronic420: posts big blind 40
+*** HOLE CARDS ***
+Velmuzhov: raises 553 to 593 and is all-in
+NYstile: calls 453 and is all-in
+TheCronic420: folds 
+Uncalled bet (120) returned to Velmuzhov
+*** FLOP *** [Qd 8c 3h]
+*** TURN *** [Qd 8c 3h] [6d]
+*** RIVER *** [Qd 8c 3h 6d] [2s]
+*** SHOW DOWN ***
+NYstile: shows [6s Ad] (a pair of Sixes)
+Velmuzhov: shows [As 7h] (high card Ace)
+NYstile collected 986 from pot
+*** SUMMARY ***
+Total pot 986 | Rake 0 
+Board [Qd 8c 3h 6d 2s]
+Seat 1: Velmuzhov (button) showed [As 7h] and lost with high card Ace
+Seat 2: NYstile (small blind) showed [6s Ad] and won (986) with a pair of Sixes
+Seat 3: TheCronic420 (big blind) folded before Flop
+
+
+PokerStars Hand #162071678937: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:42:52 ET
+Table '1741197489 1' 3-max Seat #2 is the button
+Seat 1: Velmuzhov (120 in chips) 
+Seat 2: NYstile (986 in chips) 
+Seat 3: TheCronic420 (394 in chips) 
+TheCronic420: posts small blind 20
+Velmuzhov: posts big blind 40
+*** HOLE CARDS ***
+NYstile: raises 40 to 80
+TheCronic420: calls 60
+Velmuzhov: folds 
+*** FLOP *** [2c 5c 4c]
+TheCronic420: checks 
+NYstile: bets 40
+TheCronic420: raises 274 to 314 and is all-in
+NYstile: folds 
+Uncalled bet (274) returned to TheCronic420
+TheCronic420 collected 280 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 280 | Rake 0 
+Board [2c 5c 4c]
+Seat 1: Velmuzhov (big blind) folded before Flop
+Seat 2: NYstile (button) folded on the Flop
+Seat 3: TheCronic420 (small blind) collected (280)
+
+
+PokerStars Hand #162071687063: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:43:14 ET
+Table '1741197489 1' 3-max Seat #3 is the button
+Seat 1: Velmuzhov (80 in chips) 
+Seat 2: NYstile (866 in chips) 
+Seat 3: TheCronic420 (554 in chips) 
+Velmuzhov: posts small blind 20
+NYstile: posts big blind 40
+*** HOLE CARDS ***
+TheCronic420: raises 40 to 80
+Velmuzhov: folds 
+NYstile: raises 680 to 760
+TheCronic420: calls 474 and is all-in
+Uncalled bet (206) returned to NYstile
+*** FLOP *** [Qs Qh 6c]
+*** TURN *** [Qs Qh 6c] [3s]
+*** RIVER *** [Qs Qh 6c 3s] [5d]
+*** SHOW DOWN ***
+NYstile: shows [7h 8h] (a pair of Queens)
+TheCronic420: shows [Jh Kh] (a pair of Queens - King kicker)
+TheCronic420 collected 1128 from pot
+*** SUMMARY ***
+Total pot 1128 | Rake 0 
+Board [Qs Qh 6c 3s 5d]
+Seat 1: Velmuzhov (small blind) folded before Flop
+Seat 2: NYstile (big blind) showed [7h 8h] and lost with a pair of Queens
+Seat 3: TheCronic420 (button) showed [Jh Kh] and won (1128) with a pair of Queens
+
+
+PokerStars Hand #162071695123: Tournament #1741197489, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:43:35 ET
+Table '1741197489 1' 3-max Seat #1 is the button
+Seat 1: Velmuzhov (60 in chips) 
+Seat 2: NYstile (312 in chips) 
+Seat 3: TheCronic420 (1128 in chips) 
+NYstile: posts small blind 20
+TheCronic420: posts big blind 40
+*** HOLE CARDS ***
+Velmuzhov: raises 20 to 60 and is all-in
+NYstile: calls 40
+TheCronic420: raises 1068 to 1128 and is all-in
+NYstile: calls 252 and is all-in
+Uncalled bet (816) returned to TheCronic420
+*** FLOP *** [Js 8c 8h]
+*** TURN *** [Js 8c 8h] [Ad]
+*** RIVER *** [Js 8c 8h Ad] [4s]
+*** SHOW DOWN ***
+NYstile: shows [5d Td] (a pair of Eights)
+TheCronic420: shows [7c Kh] (a pair of Eights - Ace+King kicker)
+TheCronic420 collected 504 from side pot
+Velmuzhov: shows [7s 9c] (a pair of Eights - lower kicker)
+TheCronic420 collected 180 from main pot
+NYstile finished the tournament in 2nd place
+Velmuzhov finished the tournament in 3rd place
+TheCronic420 wins the tournament and receives $600.00 - congratulations!
+*** SUMMARY ***
+Total pot 684 Main pot 180. Side pot 504. | Rake 0 
+Board [Js 8c 8h Ad 4s]
+Seat 1: Velmuzhov (button) showed [7s 9c] and lost with a pair of Eights
+Seat 2: NYstile (small blind) showed [5d Td] and lost with a pair of Eights
+Seat 3: TheCronic420 (big blind) showed [7c Kh] and won (684) with a pair of Eights
+
+
+
+***NEW GAME***
+PokerStars Hand #162071689319: Tournament #1741200953, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:43:20 ET
+Table '1741200953 1' 3-max Seat #1 is the button
+Seat 1: solidier19 (500 in chips) 
+Seat 2: enzodimitri (500 in chips) 
+Seat 3: ALEX_K9777 (500 in chips) 
+enzodimitri: posts small blind 10
+ALEX_K9777: posts big blind 20
+*** HOLE CARDS ***
+solidier19: folds 
+enzodimitri: calls 10
+ALEX_K9777: checks 
+*** FLOP *** [Jd 6d Qs]
+enzodimitri: bets 20
+ALEX_K9777: folds 
+Uncalled bet (20) returned to enzodimitri
+enzodimitri collected 40 from pot
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Board [Jd 6d Qs]
+Seat 1: solidier19 (button) folded before Flop (didn't bet)
+Seat 2: enzodimitri (small blind) collected (40)
+Seat 3: ALEX_K9777 (big blind) folded on the Flop
+
+
+PokerStars Hand #162071694880: Tournament #1741200953, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:43:34 ET
+Table '1741200953 1' 3-max Seat #2 is the button
+Seat 1: solidier19 (500 in chips) 
+Seat 2: enzodimitri (520 in chips) 
+Seat 3: ALEX_K9777 (480 in chips) 
+ALEX_K9777: posts small blind 10
+solidier19: posts big blind 20
+*** HOLE CARDS ***
+enzodimitri: folds 
+ALEX_K9777: raises 20 to 40
+solidier19: raises 40 to 80
+ALEX_K9777: calls 40
+*** FLOP *** [Ts 6d Js]
+ALEX_K9777: checks 
+solidier19: bets 96
+ALEX_K9777: calls 96
+*** TURN *** [Ts 6d Js] [Ah]
+ALEX_K9777: checks 
+solidier19: bets 105
+ALEX_K9777: folds 
+Uncalled bet (105) returned to solidier19
+solidier19 collected 352 from pot
+solidier19: doesn't show hand 
+*** SUMMARY ***
+Total pot 352 | Rake 0 
+Board [Ts 6d Js Ah]
+Seat 1: solidier19 (big blind) collected (352)
+Seat 2: enzodimitri (button) folded before Flop (didn't bet)
+Seat 3: ALEX_K9777 (small blind) folded on the Turn
+
+
+PokerStars Hand #162071703851: Tournament #1741200953, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:43:58 ET
+Table '1741200953 1' 3-max Seat #3 is the button
+Seat 1: solidier19 (676 in chips) 
+Seat 2: enzodimitri (520 in chips) 
+Seat 3: ALEX_K9777 (304 in chips) 
+solidier19: posts small blind 10
+enzodimitri: posts big blind 20
+*** HOLE CARDS ***
+ALEX_K9777: raises 20 to 40
+solidier19: calls 30
+enzodimitri: raises 480 to 520 and is all-in
+ALEX_K9777: folds 
+solidier19: calls 480
+*** FLOP *** [Js 7s 2c]
+*** TURN *** [Js 7s 2c] [7h]
+*** RIVER *** [Js 7s 2c 7h] [Qh]
+*** SHOW DOWN ***
+solidier19: shows [3h 3c] (two pair, Sevens and Threes)
+enzodimitri: shows [Ah 6h] (a pair of Sevens)
+solidier19 collected 1080 from pot
+enzodimitri finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 1080 | Rake 0 
+Board [Js 7s 2c 7h Qh]
+Seat 1: solidier19 (small blind) showed [3h 3c] and won (1080) with two pair, Sevens and Threes
+Seat 2: enzodimitri (big blind) showed [Ah 6h] and lost with a pair of Sevens
+Seat 3: ALEX_K9777 (button) folded before Flop
+
+
+PokerStars Hand #162071713986: Tournament #1741200953, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:44:25 ET
+Table '1741200953 1' 3-max Seat #1 is the button
+Seat 1: solidier19 (1236 in chips) 
+Seat 3: ALEX_K9777 (264 in chips) 
+solidier19: posts small blind 10
+ALEX_K9777: posts big blind 20
+*** HOLE CARDS ***
+solidier19: raises 20 to 40
+ALEX_K9777: raises 224 to 264 and is all-in
+solidier19: calls 224
+*** FLOP *** [Kd Ad Th]
+*** TURN *** [Kd Ad Th] [9h]
+*** RIVER *** [Kd Ad Th 9h] [Qh]
+*** SHOW DOWN ***
+ALEX_K9777: shows [As 2c] (a pair of Aces)
+solidier19: shows [Js Kh] (a straight, Ten to Ace)
+solidier19 collected 528 from pot
+ALEX_K9777 finished the tournament in 2nd place
+solidier19 wins the tournament and receives $600.00 - congratulations!
+*** SUMMARY ***
+Total pot 528 | Rake 0 
+Board [Kd Ad Th 9h Qh]
+Seat 1: solidier19 (button) (small blind) showed [Js Kh] and won (528) with a straight, Ten to Ace
+Seat 3: ALEX_K9777 (big blind) showed [As 2c] and lost with a pair of Aces
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+***NEW GAME***
+PokerStars Hand #162071733350: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:45:17 ET
+Table '1741201742 1' 3-max Seat #1 is the button
+Seat 1: no122 (500 in chips) 
+Seat 2: BagusBali (500 in chips) 
+Seat 3: TheCronic420 (500 in chips) 
+BagusBali: posts small blind 10
+TheCronic420: posts big blind 20
+*** HOLE CARDS ***
+no122: folds 
+BagusBali: calls 10
+TheCronic420: raises 40 to 60
+BagusBali: folds 
+Uncalled bet (40) returned to TheCronic420
+TheCronic420 collected 40 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: no122 (button) folded before Flop (didn't bet)
+Seat 2: BagusBali (small blind) folded before Flop
+Seat 3: TheCronic420 (big blind) collected (40)
+
+PokerStars Hand #162071740889: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:45:37 ET
+Table '1741201742 1' 3-max Seat #2 is the button
+Seat 1: no122 (500 in chips) 
+Seat 2: BagusBali (480 in chips) 
+Seat 3: TheCronic420 (520 in chips) 
+TheCronic420: posts small blind 10
+no122: posts big blind 20
+*** HOLE CARDS ***
+BagusBali: raises 20 to 40
+TheCronic420: folds 
+no122: calls 20
+*** FLOP *** [7c Ac 5h]
+no122: checks 
+BagusBali: bets 45
+no122: calls 45
+*** TURN *** [7c Ac 5h] [Qh]
+no122: checks 
+BagusBali: checks 
+*** RIVER *** [7c Ac 5h Qh] [5c]
+no122: bets 90
+BagusBali: calls 90
+*** SHOW DOWN ***
+no122: shows [4c 9c] (a flush, Ace high)
+BagusBali: mucks hand 
+no122 collected 360 from pot
+*** SUMMARY ***
+Total pot 360 | Rake 0 
+Board [7c Ac 5h Qh 5c]
+Seat 1: no122 (big blind) showed [4c 9c] and won (360) with a flush, Ace high
+Seat 2: BagusBali (button) mucked
+Seat 3: TheCronic420 (small blind) folded before Flop
+
+
+PokerStars Hand #162071756802: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:46:19 ET
+Table '1741201742 1' 3-max Seat #3 is the button
+Seat 1: no122 (685 in chips) 
+Seat 2: BagusBali (305 in chips) 
+Seat 3: TheCronic420 (510 in chips) 
+no122: posts small blind 10
+BagusBali: posts big blind 20
+*** HOLE CARDS ***
+TheCronic420: folds 
+no122: raises 24 to 44
+BagusBali: calls 24
+*** FLOP *** [4h Ac Ah]
+no122: checks 
+BagusBali: checks 
+*** TURN *** [4h Ac Ah] [Ad]
+no122: checks 
+BagusBali: checks 
+*** RIVER *** [4h Ac Ah Ad] [Jh]
+no122: checks 
+BagusBali: checks 
+*** SHOW DOWN ***
+no122: shows [Ts 6s] (three of a kind, Aces)
+BagusBali: shows [3h Kd] (three of a kind, Aces - King kicker)
+BagusBali collected 88 from pot
+*** SUMMARY ***
+Total pot 88 | Rake 0 
+Board [4h Ac Ah Ad Jh]
+Seat 1: no122 (small blind) showed [Ts 6s] and lost with three of a kind, Aces
+Seat 2: BagusBali (big blind) showed [3h Kd] and won (88) with three of a kind, Aces
+Seat 3: TheCronic420 (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #162071779359: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:47:19 ET
+Table '1741201742 1' 3-max Seat #1 is the button
+Seat 1: no122 (641 in chips) 
+Seat 2: BagusBali (349 in chips) 
+Seat 3: TheCronic420 (510 in chips) 
+BagusBali: posts small blind 10
+TheCronic420: posts big blind 20
+*** HOLE CARDS ***
+no122: raises 20 to 40
+BagusBali: folds 
+TheCronic420: folds 
+Uncalled bet (20) returned to no122
+no122 collected 50 from pot
+no122: doesn't show hand 
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Seat 1: no122 (button) collected (50)
+Seat 2: BagusBali (small blind) folded before Flop
+Seat 3: TheCronic420 (big blind) folded before Flop
+
+
+PokerStars Hand #162071786107: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:47:37 ET
+Table '1741201742 1' 3-max Seat #2 is the button
+Seat 1: no122 (671 in chips) 
+Seat 2: BagusBali (339 in chips) 
+Seat 3: TheCronic420 (490 in chips) 
+TheCronic420: posts small blind 10
+no122: posts big blind 20
+*** HOLE CARDS ***
+BagusBali: folds 
+TheCronic420: raises 20 to 40
+no122: folds 
+Uncalled bet (20) returned to TheCronic420
+TheCronic420 collected 40 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: no122 (big blind) folded before Flop
+Seat 2: BagusBali (button) folded before Flop (didn't bet)
+Seat 3: TheCronic420 (small blind) collected (40)
+
+
+PokerStars Hand #162071795467: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:48:02 ET
+Table '1741201742 1' 3-max Seat #3 is the button
+Seat 1: no122 (651 in chips) 
+Seat 2: BagusBali (339 in chips) 
+Seat 3: TheCronic420 (510 in chips) 
+no122: posts small blind 10
+BagusBali: posts big blind 20
+*** HOLE CARDS ***
+TheCronic420: folds 
+no122: folds 
+Uncalled bet (10) returned to BagusBali
+BagusBali collected 20 from pot
+BagusBali: doesn't show hand 
+*** SUMMARY ***
+Total pot 20 | Rake 0 
+Seat 1: no122 (small blind) folded before Flop
+Seat 2: BagusBali (big blind) collected (20)
+Seat 3: TheCronic420 (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #162071798543: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:48:11 ET
+Table '1741201742 1' 3-max Seat #1 is the button
+Seat 1: no122 (641 in chips) 
+Seat 2: BagusBali (349 in chips) 
+Seat 3: TheCronic420 (510 in chips) 
+BagusBali: posts small blind 10
+TheCronic420: posts big blind 20
+*** HOLE CARDS ***
+no122: raises 621 to 641 and is all-in
+BagusBali: calls 339 and is all-in
+TheCronic420: folds 
+Uncalled bet (292) returned to no122
+*** FLOP *** [7s Jc 2c]
+*** TURN *** [7s Jc 2c] [3h]
+*** RIVER *** [7s Jc 2c 3h] [As]
+*** SHOW DOWN ***
+BagusBali: shows [Qs Ac] (a pair of Aces)
+no122: shows [4h 4d] (a pair of Fours)
+BagusBali collected 718 from pot
+*** SUMMARY ***
+Total pot 718 | Rake 0 
+Board [7s Jc 2c 3h As]
+Seat 1: no122 (button) showed [4h 4d] and lost with a pair of Fours
+Seat 2: BagusBali (small blind) showed [Qs Ac] and won (718) with a pair of Aces
+Seat 3: TheCronic420 (big blind) folded before Flop
+
+
+PokerStars Hand #162071810062: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:48:41 ET
+Table '1741201742 1' 3-max Seat #2 is the button
+Seat 1: no122 (292 in chips) 
+Seat 2: BagusBali (718 in chips) 
+Seat 3: TheCronic420 (490 in chips) 
+TheCronic420: posts small blind 15
+no122: posts big blind 30
+*** HOLE CARDS ***
+BagusBali: raises 688 to 718 and is all-in
+TheCronic420: folds 
+no122: folds 
+Uncalled bet (688) returned to BagusBali
+BagusBali collected 75 from pot
+BagusBali: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: no122 (big blind) folded before Flop
+Seat 2: BagusBali (button) collected (75)
+Seat 3: TheCronic420 (small blind) folded before Flop
+
+
+PokerStars Hand #162071819944: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:49:08 ET
+Table '1741201742 1' 3-max Seat #3 is the button
+Seat 1: no122 (262 in chips) 
+Seat 2: BagusBali (763 in chips) 
+Seat 3: TheCronic420 (475 in chips) 
+no122: posts small blind 15
+BagusBali: posts big blind 30
+*** HOLE CARDS ***
+TheCronic420: folds 
+no122: raises 232 to 262 and is all-in
+BagusBali: folds 
+Uncalled bet (232) returned to no122
+no122 collected 60 from pot
+no122: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: no122 (small blind) collected (60)
+Seat 2: BagusBali (big blind) folded before Flop
+Seat 3: TheCronic420 (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #162071824338: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:49:20 ET
+Table '1741201742 1' 3-max Seat #1 is the button
+Seat 1: no122 (292 in chips) 
+Seat 2: BagusBali (733 in chips) 
+Seat 3: TheCronic420 (475 in chips) 
+BagusBali: posts small blind 15
+TheCronic420: posts big blind 30
+*** HOLE CARDS ***
+no122: raises 262 to 292 and is all-in
+BagusBali: folds 
+TheCronic420: folds 
+Uncalled bet (262) returned to no122
+no122 collected 75 from pot
+no122: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: no122 (button) collected (75)
+Seat 2: BagusBali (small blind) folded before Flop
+Seat 3: TheCronic420 (big blind) folded before Flop
+
+
+PokerStars Hand #162071828166: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:49:30 ET
+Table '1741201742 1' 3-max Seat #2 is the button
+Seat 1: no122 (337 in chips) 
+Seat 2: BagusBali (718 in chips) 
+Seat 3: TheCronic420 (445 in chips) 
+TheCronic420: posts small blind 15
+no122: posts big blind 30
+*** HOLE CARDS ***
+BagusBali has timed out
+BagusBali: folds 
+BagusBali is sitting out
+BagusBali has returned
+TheCronic420: calls 15
+no122: raises 307 to 337 and is all-in
+TheCronic420: folds 
+Uncalled bet (307) returned to no122
+no122 collected 60 from pot
+no122: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: no122 (big blind) collected (60)
+Seat 2: BagusBali (button) folded before Flop (didn't bet)
+Seat 3: TheCronic420 (small blind) folded before Flop
+
+
+PokerStars Hand #162071839758: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:50:01 ET
+Table '1741201742 1' 3-max Seat #3 is the button
+Seat 1: no122 (367 in chips) 
+Seat 2: BagusBali (718 in chips) 
+Seat 3: TheCronic420 (415 in chips) 
+no122: posts small blind 15
+BagusBali: posts big blind 30
+*** HOLE CARDS ***
+TheCronic420: raises 30 to 60
+no122: folds 
+BagusBali: folds 
+Uncalled bet (30) returned to TheCronic420
+TheCronic420 collected 75 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: no122 (small blind) folded before Flop
+Seat 2: BagusBali (big blind) folded before Flop
+Seat 3: TheCronic420 (button) collected (75)
+
+PokerStars Hand #162071844221: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:50:14 ET
+Table '1741201742 1' 3-max Seat #1 is the button
+Seat 1: no122 (352 in chips) 
+Seat 2: BagusBali (688 in chips) 
+Seat 3: TheCronic420 (460 in chips) 
+BagusBali: posts small blind 15
+TheCronic420: posts big blind 30
+*** HOLE CARDS ***
+no122: folds 
+BagusBali: calls 15
+TheCronic420: checks 
+*** FLOP *** [4h Qs 5d]
+BagusBali: checks 
+TheCronic420: checks 
+*** TURN *** [4h Qs 5d] [6d]
+BagusBali: checks 
+TheCronic420: bets 60
+BagusBali: folds 
+Uncalled bet (60) returned to TheCronic420
+TheCronic420 collected 60 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Board [4h Qs 5d 6d]
+Seat 1: no122 (button) folded before Flop (didn't bet)
+Seat 2: BagusBali (small blind) folded on the Turn
+Seat 3: TheCronic420 (big blind) collected (60)
+
+PokerStars Hand #162071858143: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:50:52 ET
+Table '1741201742 1' 3-max Seat #2 is the button
+Seat 1: no122 (352 in chips) 
+Seat 2: BagusBali (658 in chips) 
+Seat 3: TheCronic420 (490 in chips) 
+TheCronic420: posts small blind 15
+no122: posts big blind 30
+*** HOLE CARDS ***
+BagusBali: folds 
+TheCronic420: calls 15
+no122: raises 322 to 352 and is all-in
+TheCronic420: folds 
+Uncalled bet (322) returned to no122
+no122 collected 60 from pot
+no122: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: no122 (big blind) collected (60)
+Seat 2: BagusBali (button) folded before Flop (didn't bet)
+Seat 3: TheCronic420 (small blind) folded before Flop
+
+PokerStars Hand #162071865424: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:51:12 ET
+Table '1741201742 1' 3-max Seat #3 is the button
+Seat 1: no122 (382 in chips) 
+Seat 2: BagusBali (658 in chips) 
+Seat 3: TheCronic420 (460 in chips) 
+no122: posts small blind 15
+BagusBali: posts big blind 30
+*** HOLE CARDS ***
+TheCronic420: raises 30 to 60
+no122: folds 
+BagusBali: calls 30
+*** FLOP *** [6h 4d Js]
+BagusBali: checks 
+TheCronic420: bets 58
+BagusBali: folds 
+Uncalled bet (58) returned to TheCronic420
+TheCronic420 collected 135 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 135 | Rake 0 
+Board [6h 4d Js]
+Seat 1: no122 (small blind) folded before Flop
+Seat 2: BagusBali (big blind) folded on the Flop
+Seat 3: TheCronic420 (button) collected (135)
+
+
+PokerStars Hand #162071877288: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:51:45 ET
+Table '1741201742 1' 3-max Seat #1 is the button
+Seat 1: no122 (367 in chips) 
+Seat 2: BagusBali (598 in chips) 
+Seat 3: TheCronic420 (535 in chips) 
+BagusBali: posts small blind 20
+TheCronic420: posts big blind 40
+*** HOLE CARDS ***
+no122: folds 
+BagusBali: folds 
+Uncalled bet (20) returned to TheCronic420
+TheCronic420 collected 40 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: no122 (button) folded before Flop (didn't bet)
+Seat 2: BagusBali (small blind) folded before Flop
+Seat 3: TheCronic420 (big blind) collected (40)
+
+PokerStars Hand #162071880242: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:51:53 ET
+Table '1741201742 1' 3-max Seat #2 is the button
+Seat 1: no122 (367 in chips) 
+Seat 2: BagusBali (578 in chips) 
+Seat 3: TheCronic420 (555 in chips) 
+TheCronic420: posts small blind 20
+no122: posts big blind 40
+*** HOLE CARDS ***
+BagusBali: raises 40 to 80
+TheCronic420: folds 
+no122: raises 287 to 367 and is all-in
+BagusBali: folds 
+Uncalled bet (287) returned to no122
+no122 collected 180 from pot
+no122: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Seat 1: no122 (big blind) collected (180)
+Seat 2: BagusBali (button) folded before Flop
+Seat 3: TheCronic420 (small blind) folded before Flop
+
+
+PokerStars Hand #162071887825: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:52:13 ET
+Table '1741201742 1' 3-max Seat #3 is the button
+Seat 1: no122 (467 in chips) 
+Seat 2: BagusBali (498 in chips) 
+Seat 3: TheCronic420 (535 in chips) 
+no122: posts small blind 20
+BagusBali: posts big blind 40
+*** HOLE CARDS ***
+TheCronic420: folds 
+no122: folds 
+Uncalled bet (20) returned to BagusBali
+BagusBali collected 40 from pot
+BagusBali: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: no122 (small blind) folded before Flop
+Seat 2: BagusBali (big blind) collected (40)
+Seat 3: TheCronic420 (button) folded before Flop (didn't bet)
+
+
+
+PokerStars Hand #162071889568: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:52:18 ET
+Table '1741201742 1' 3-max Seat #1 is the button
+Seat 1: no122 (447 in chips) 
+Seat 2: BagusBali (518 in chips) 
+Seat 3: TheCronic420 (535 in chips) 
+BagusBali: posts small blind 20
+TheCronic420: posts big blind 40
+*** HOLE CARDS ***
+no122: folds 
+BagusBali: raises 478 to 518 and is all-in
+TheCronic420: folds 
+Uncalled bet (478) returned to BagusBali
+BagusBali collected 80 from pot
+BagusBali: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: no122 (button) folded before Flop (didn't bet)
+Seat 2: BagusBali (small blind) collected (80)
+Seat 3: TheCronic420 (big blind) folded before Flop
+
+PokerStars Hand #162071901800: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:52:33 ET
+Table '1741201742 1' 3-max Seat #2 is the button
+Seat 1: no122 (447 in chips) 
+Seat 2: BagusBali (558 in chips) 
+Seat 3: TheCronic420 (495 in chips) 
+TheCronic420: posts small blind 20
+no122: posts big blind 40
+*** HOLE CARDS ***
+BagusBali: calls 40
+TheCronic420: calls 20
+no122: raises 407 to 447 and is all-in
+BagusBali: folds 
+TheCronic420: folds 
+Uncalled bet (407) returned to no122
+no122 collected 120 from pot
+no122: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Seat 1: no122 (big blind) collected (120)
+Seat 2: BagusBali (button) folded before Flop
+Seat 3: TheCronic420 (small blind) folded before Flop
+
+PokerStars Hand #162071906276: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:52:45 ET
+Table '1741201742 1' 3-max Seat #3 is the button
+Seat 1: no122 (527 in chips) 
+Seat 2: BagusBali (518 in chips) 
+Seat 3: TheCronic420 (455 in chips) 
+no122: posts small blind 20
+BagusBali: posts big blind 40
+*** HOLE CARDS ***
+TheCronic420: folds 
+no122: folds 
+Uncalled bet (20) returned to BagusBali
+BagusBali collected 40 from pot
+BagusBali: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: no122 (small blind) folded before Flop
+Seat 2: BagusBali (big blind) collected (40)
+Seat 3: TheCronic420 (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #162071907822: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:52:49 ET
+Table '1741201742 1' 3-max Seat #1 is the button
+Seat 1: no122 (507 in chips) 
+Seat 2: BagusBali (538 in chips) 
+Seat 3: TheCronic420 (455 in chips) 
+BagusBali: posts small blind 20
+TheCronic420: posts big blind 40
+*** HOLE CARDS ***
+no122: folds 
+BagusBali: calls 20
+TheCronic420: checks 
+*** FLOP *** [Ad 5c 2s]
+BagusBali: bets 40
+TheCronic420: folds 
+Uncalled bet (40) returned to BagusBali
+BagusBali collected 80 from pot
+BagusBali: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Board [Ad 5c 2s]
+Seat 1: no122 (button) folded before Flop (didn't bet)
+Seat 2: BagusBali (small blind) collected (80)
+Seat 3: TheCronic420 (big blind) folded on the Flop
+
+PokerStars Hand #162071913721: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:53:06 ET
+Table '1741201742 1' 3-max Seat #2 is the button
+Seat 1: no122 (507 in chips) 
+Seat 2: BagusBali (578 in chips) 
+Seat 3: TheCronic420 (415 in chips) 
+TheCronic420: posts small blind 20
+no122: posts big blind 40
+*** HOLE CARDS ***
+BagusBali: folds 
+TheCronic420: raises 375 to 415 and is all-in
+no122: folds 
+Uncalled bet (375) returned to TheCronic420
+TheCronic420 collected 80 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: no122 (big blind) folded before Flop
+Seat 2: BagusBali (button) folded before Flop (didn't bet)
+Seat 3: TheCronic420 (small blind) collected (80)
+
+PokerStars Hand #162071916828: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:53:14 ET
+Table '1741201742 1' 3-max Seat #3 is the button
+Seat 1: no122 (467 in chips) 
+Seat 2: BagusBali (578 in chips) 
+Seat 3: TheCronic420 (455 in chips) 
+no122: posts small blind 20
+BagusBali: posts big blind 40
+*** HOLE CARDS ***
+TheCronic420: folds 
+no122: raises 427 to 467 and is all-in
+BagusBali: folds 
+Uncalled bet (427) returned to no122
+no122 collected 80 from pot
+no122: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: no122 (small blind) collected (80)
+Seat 2: BagusBali (big blind) folded before Flop
+Seat 3: TheCronic420 (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #162071919625: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:53:22 ET
+Table '1741201742 1' 3-max Seat #1 is the button
+Seat 1: no122 (507 in chips) 
+Seat 2: BagusBali (538 in chips) 
+Seat 3: TheCronic420 (455 in chips) 
+BagusBali: posts small blind 20
+TheCronic420: posts big blind 40
+*** HOLE CARDS ***
+no122: folds 
+BagusBali: folds 
+Uncalled bet (20) returned to TheCronic420
+TheCronic420 collected 40 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: no122 (button) folded before Flop (didn't bet)
+Seat 2: BagusBali (small blind) folded before Flop
+Seat 3: TheCronic420 (big blind) collected (40)
+
+
+PokerStars Hand #162071922699: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:53:31 ET
+Table '1741201742 1' 3-max Seat #2 is the button
+Seat 1: no122 (507 in chips) 
+Seat 2: BagusBali (518 in chips) 
+Seat 3: TheCronic420 (475 in chips) 
+TheCronic420: posts small blind 20
+no122: posts big blind 40
+*** HOLE CARDS ***
+BagusBali: folds 
+TheCronic420: raises 435 to 475 and is all-in
+no122: folds 
+Uncalled bet (435) returned to TheCronic420
+TheCronic420 collected 80 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: no122 (big blind) folded before Flop
+Seat 2: BagusBali (button) folded before Flop (didn't bet)
+Seat 3: TheCronic420 (small blind) collected (80)
+
+
+PokerStars Hand #162071926460: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:53:41 ET
+Table '1741201742 1' 3-max Seat #3 is the button
+Seat 1: no122 (467 in chips) 
+Seat 2: BagusBali (518 in chips) 
+Seat 3: TheCronic420 (515 in chips) 
+no122: posts small blind 20
+BagusBali: posts big blind 40
+*** HOLE CARDS ***
+TheCronic420: raises 40 to 80
+no122: folds 
+BagusBali: calls 40
+*** FLOP *** [8d 6s 5d]
+BagusBali: bets 438 and is all-in
+TheCronic420: folds 
+Uncalled bet (438) returned to BagusBali
+BagusBali collected 180 from pot
+BagusBali: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Board [8d 6s 5d]
+Seat 1: no122 (small blind) folded before Flop
+Seat 2: BagusBali (big blind) collected (180)
+Seat 3: TheCronic420 (button) folded on the Flop
+
+
+PokerStars Hand #162071932573: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 21:53:58 ET
+Table '1741201742 1' 3-max Seat #1 is the button
+Seat 1: no122 (447 in chips) 
+Seat 2: BagusBali (618 in chips) 
+Seat 3: TheCronic420 (435 in chips) 
+BagusBali: posts small blind 20
+TheCronic420: posts big blind 40
+*** HOLE CARDS ***
+no122: folds 
+BagusBali: raises 578 to 618 and is all-in
+TheCronic420: calls 395 and is all-in
+Uncalled bet (183) returned to BagusBali
+*** FLOP *** [2s 6h 4s]
+*** TURN *** [2s 6h 4s] [Tc]
+*** RIVER *** [2s 6h 4s Tc] [9s]
+*** SHOW DOWN ***
+BagusBali: shows [Jh Ks] (high card King)
+TheCronic420: shows [2d Ad] (a pair of Deuces)
+TheCronic420 collected 870 from pot
+*** SUMMARY ***
+Total pot 870 | Rake 0 
+Board [2s 6h 4s Tc 9s]
+Seat 1: no122 (button) folded before Flop (didn't bet)
+Seat 2: BagusBali (small blind) showed [Jh Ks] and lost with high card King
+Seat 3: TheCronic420 (big blind) showed [2d Ad] and won (870) with a pair of Deuces
+
+
+PokerStars Hand #162071941775: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level IV (30/60) - 2016/11/27 21:54:24 ET
+Table '1741201742 1' 3-max Seat #2 is the button
+Seat 1: no122 (447 in chips) 
+Seat 2: BagusBali (183 in chips) 
+Seat 3: TheCronic420 (870 in chips) 
+TheCronic420: posts small blind 30
+no122: posts big blind 60
+*** HOLE CARDS ***
+BagusBali: folds 
+TheCronic420: folds 
+Uncalled bet (30) returned to no122
+no122 collected 60 from pot
+no122: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: no122 (big blind) collected (60)
+Seat 2: BagusBali (button) folded before Flop (didn't bet)
+Seat 3: TheCronic420 (small blind) folded before Flop
+
+
+PokerStars Hand #162071943838: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level IV (30/60) - 2016/11/27 21:54:29 ET
+Table '1741201742 1' 3-max Seat #3 is the button
+Seat 1: no122 (477 in chips) 
+Seat 2: BagusBali (183 in chips) 
+Seat 3: TheCronic420 (840 in chips) 
+no122: posts small blind 30
+BagusBali: posts big blind 60
+*** HOLE CARDS ***
+TheCronic420: folds 
+no122: raises 417 to 477 and is all-in
+BagusBali: calls 123 and is all-in
+Uncalled bet (294) returned to no122
+*** FLOP *** [Th 2d 4h]
+*** TURN *** [Th 2d 4h] [7s]
+*** RIVER *** [Th 2d 4h 7s] [6c]
+*** SHOW DOWN ***
+no122: shows [Kh 3h] (high card King)
+BagusBali: shows [Kc 9h] (high card King - Ten+Nine kicker)
+BagusBali collected 366 from pot
+*** SUMMARY ***
+Total pot 366 | Rake 0 
+Board [Th 2d 4h 7s 6c]
+Seat 1: no122 (small blind) showed [Kh 3h] and lost with high card King
+Seat 2: BagusBali (big blind) showed [Kc 9h] and won (366) with high card King
+Seat 3: TheCronic420 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #162071953052: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level IV (30/60) - 2016/11/27 21:54:55 ET
+Table '1741201742 1' 3-max Seat #1 is the button
+Seat 1: no122 (294 in chips) 
+Seat 2: BagusBali (366 in chips) 
+Seat 3: TheCronic420 (840 in chips) 
+BagusBali: posts small blind 30
+TheCronic420: posts big blind 60
+*** HOLE CARDS ***
+no122: raises 234 to 294 and is all-in
+BagusBali: raises 72 to 366 and is all-in
+TheCronic420: folds 
+Uncalled bet (72) returned to BagusBali
+*** FLOP *** [Kd 9s Js]
+*** TURN *** [Kd 9s Js] [Qs]
+*** RIVER *** [Kd 9s Js Qs] [2d]
+*** SHOW DOWN ***
+BagusBali: shows [7s 7c] (a pair of Sevens)
+no122: shows [9c Tc] (a straight, Nine to King)
+no122 collected 648 from pot
+*** SUMMARY ***
+Total pot 648 | Rake 0 
+Board [Kd 9s Js Qs 2d]
+Seat 1: no122 (button) showed [9c Tc] and won (648) with a straight, Nine to King
+Seat 2: BagusBali (small blind) showed [7s 7c] and lost with a pair of Sevens
+Seat 3: TheCronic420 (big blind) folded before Flop
+
+PokerStars Hand #162071960922: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level IV (30/60) - 2016/11/27 21:55:18 ET
+Table '1741201742 1' 3-max Seat #2 is the button
+Seat 1: no122 (648 in chips) 
+Seat 2: BagusBali (72 in chips) 
+Seat 3: TheCronic420 (780 in chips) 
+TheCronic420: posts small blind 30
+no122: posts big blind 60
+*** HOLE CARDS ***
+BagusBali: folds 
+TheCronic420: calls 30
+no122: raises 120 to 180
+TheCronic420: folds 
+Uncalled bet (120) returned to no122
+no122 collected 120 from pot
+no122: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Seat 1: no122 (big blind) collected (120)
+Seat 2: BagusBali (button) folded before Flop (didn't bet)
+Seat 3: TheCronic420 (small blind) folded before Flop
+
+
+PokerStars Hand #162071967488: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level IV (30/60) - 2016/11/27 21:55:40 ET
+Table '1741201742 1' 3-max Seat #3 is the button
+Seat 1: no122 (708 in chips) 
+Seat 2: BagusBali (72 in chips) 
+Seat 3: TheCronic420 (720 in chips) 
+no122: posts small blind 30
+BagusBali: posts big blind 60
+*** HOLE CARDS ***
+TheCronic420: folds 
+no122: raises 648 to 708 and is all-in
+BagusBali: calls 12 and is all-in
+Uncalled bet (636) returned to no122
+*** FLOP *** [Kc Qd Ah]
+*** TURN *** [Kc Qd Ah] [Th]
+*** RIVER *** [Kc Qd Ah Th] [4c]
+*** SHOW DOWN ***
+no122: shows [9h 3c] (high card Ace)
+BagusBali: shows [2s Kd] (a pair of Kings)
+BagusBali collected 144 from pot
+*** SUMMARY ***
+Total pot 144 | Rake 0 
+Board [Kc Qd Ah Th 4c]
+Seat 1: no122 (small blind) showed [9h 3c] and lost with high card Ace
+Seat 2: BagusBali (big blind) showed [2s Kd] and won (144) with a pair of Kings
+Seat 3: TheCronic420 (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #162071971770: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level IV (30/60) - 2016/11/27 21:55:54 ET
+Table '1741201742 1' 3-max Seat #1 is the button
+Seat 1: no122 (636 in chips) 
+Seat 2: BagusBali (144 in chips) 
+Seat 3: TheCronic420 (720 in chips) 
+BagusBali: posts small blind 30
+TheCronic420: posts big blind 60
+*** HOLE CARDS ***
+no122: folds 
+BagusBali: raises 84 to 144 and is all-in
+TheCronic420: calls 84
+*** FLOP *** [7h Js 7d]
+*** TURN *** [7h Js 7d] [Ac]
+*** RIVER *** [7h Js 7d Ac] [4s]
+*** SHOW DOWN ***
+BagusBali: shows [4c 6c] (two pair, Sevens and Fours)
+TheCronic420: shows [8d 2c] (a pair of Sevens)
+BagusBali collected 288 from pot
+*** SUMMARY ***
+Total pot 288 | Rake 0 
+Board [7h Js 7d Ac 4s]
+Seat 1: no122 (button) folded before Flop (didn't bet)
+Seat 2: BagusBali (small blind) showed [4c 6c] and won (288) with two pair, Sevens and Fours
+Seat 3: TheCronic420 (big blind) showed [8d 2c] and lost with a pair of Sevens
+
+
+PokerStars Hand #162071978242: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level IV (30/60) - 2016/11/27 21:56:15 ET
+Table '1741201742 1' 3-max Seat #2 is the button
+Seat 1: no122 (636 in chips) 
+Seat 2: BagusBali (288 in chips) 
+Seat 3: TheCronic420 (576 in chips) 
+TheCronic420: posts small blind 30
+no122: posts big blind 60
+*** HOLE CARDS ***
+BagusBali: folds 
+TheCronic420: calls 30
+no122: checks 
+*** FLOP *** [6s 3s Ah]
+TheCronic420: bets 60
+no122: folds 
+Uncalled bet (60) returned to TheCronic420
+TheCronic420 collected 120 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Board [6s 3s Ah]
+Seat 1: no122 (big blind) folded on the Flop
+Seat 2: BagusBali (button) folded before Flop (didn't bet)
+Seat 3: TheCronic420 (small blind) collected (120)
+
+PokerStars Hand #162071983316: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level IV (30/60) - 2016/11/27 21:56:31 ET
+Table '1741201742 1' 3-max Seat #3 is the button
+Seat 1: no122 (576 in chips) 
+Seat 2: BagusBali (288 in chips) 
+Seat 3: TheCronic420 (636 in chips) 
+no122: posts small blind 30
+BagusBali: posts big blind 60
+*** HOLE CARDS ***
+TheCronic420: raises 60 to 120
+no122: folds 
+BagusBali: folds 
+Uncalled bet (60) returned to TheCronic420
+TheCronic420 collected 150 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 150 | Rake 0 
+Seat 1: no122 (small blind) folded before Flop
+Seat 2: BagusBali (big blind) folded before Flop
+Seat 3: TheCronic420 (button) collected (150)
+
+PokerStars Hand #162071985994: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level IV (30/60) - 2016/11/27 21:56:40 ET
+Table '1741201742 1' 3-max Seat #1 is the button
+Seat 1: no122 (546 in chips) 
+Seat 2: BagusBali (228 in chips) 
+Seat 3: TheCronic420 (726 in chips) 
+BagusBali: posts small blind 30
+TheCronic420: posts big blind 60
+*** HOLE CARDS ***
+no122: raises 486 to 546 and is all-in
+BagusBali: calls 198 and is all-in
+TheCronic420: folds 
+Uncalled bet (318) returned to no122
+*** FLOP *** [7d 3s Th]
+*** TURN *** [7d 3s Th] [Qd]
+*** RIVER *** [7d 3s Th Qd] [Ah]
+*** SHOW DOWN ***
+BagusBali: shows [9c Kh] (high card Ace)
+no122: shows [7c 7s] (three of a kind, Sevens)
+no122 collected 516 from pot
+BagusBali finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 516 | Rake 0 
+Board [7d 3s Th Qd Ah]
+Seat 1: no122 (button) showed [7c 7s] and won (516) with three of a kind, Sevens
+Seat 2: BagusBali (small blind) showed [9c Kh] and lost with high card Ace
+Seat 3: TheCronic420 (big blind) folded before Flop
+
+PokerStars Hand #162071992377: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level IV (30/60) - 2016/11/27 21:57:00 ET
+Table '1741201742 1' 3-max Seat #3 is the button
+Seat 1: no122 (834 in chips) 
+Seat 3: TheCronic420 (666 in chips) 
+TheCronic420: posts small blind 30
+no122: posts big blind 60
+*** HOLE CARDS ***
+TheCronic420: raises 60 to 120
+no122: folds 
+Uncalled bet (60) returned to TheCronic420
+TheCronic420 collected 120 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Seat 1: no122 (big blind) folded before Flop
+Seat 3: TheCronic420 (button) (small blind) collected (120)
+
+PokerStars Hand #162071994188: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level IV (30/60) - 2016/11/27 21:57:07 ET
+Table '1741201742 1' 3-max Seat #1 is the button
+Seat 1: no122 (774 in chips) 
+Seat 3: TheCronic420 (726 in chips) 
+no122: posts small blind 30
+TheCronic420: posts big blind 60
+*** HOLE CARDS ***
+no122: calls 30
+TheCronic420: raises 120 to 180
+no122: folds 
+Uncalled bet (120) returned to TheCronic420
+TheCronic420 collected 120 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Seat 1: no122 (button) (small blind) folded before Flop
+Seat 3: TheCronic420 (big blind) collected (120)
+
+PokerStars Hand #162071997403: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level IV (30/60) - 2016/11/27 21:57:17 ET
+Table '1741201742 1' 3-max Seat #3 is the button
+Seat 1: no122 (714 in chips) 
+Seat 3: TheCronic420 (786 in chips) 
+TheCronic420: posts small blind 30
+no122: posts big blind 60
+*** HOLE CARDS ***
+TheCronic420: raises 60 to 120
+no122: folds 
+Uncalled bet (60) returned to TheCronic420
+TheCronic420 collected 120 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Seat 1: no122 (big blind) folded before Flop
+Seat 3: TheCronic420 (button) (small blind) collected (120)
+
+
+PokerStars Hand #162072000754: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level V (40/80) - 2016/11/27 21:57:27 ET
+Table '1741201742 1' 3-max Seat #1 is the button
+Seat 1: no122 (654 in chips) 
+Seat 3: TheCronic420 (846 in chips) 
+no122: posts small blind 40
+TheCronic420: posts big blind 80
+*** HOLE CARDS ***
+no122: folds 
+Uncalled bet (40) returned to TheCronic420
+TheCronic420 collected 80 from pot
+TheCronic420: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: no122 (button) (small blind) folded before Flop
+Seat 3: TheCronic420 (big blind) collected (80)
+
+PokerStars Hand #162072002384: Tournament #1741201742, $95+$5 USD Hold'em No Limit - Level V (40/80) - 2016/11/27 21:57:32 ET
+Table '1741201742 1' 3-max Seat #3 is the button
+Seat 1: no122 (614 in chips) 
+Seat 3: TheCronic420 (886 in chips) 
+TheCronic420: posts small blind 40
+no122: posts big blind 80
+*** HOLE CARDS ***
+TheCronic420: raises 80 to 160
+no122: calls 80
+*** FLOP *** [7d Ac Ad]
+no122: checks 
+TheCronic420: bets 160
+no122: raises 294 to 454 and is all-in
+TheCronic420: calls 294
+*** TURN *** [7d Ac Ad] [2c]
+*** RIVER *** [7d Ac Ad 2c] [8h]
+*** SHOW DOWN ***
+no122: shows [4s Kc] (a pair of Aces)
+TheCronic420: shows [9d 9c] (two pair, Aces and Nines)
+TheCronic420 collected 1228 from pot
+no122 finished the tournament in 2nd place
+TheCronic420 wins the tournament and receives $400.00 - congratulations!
+*** SUMMARY ***
+Total pot 1228 | Rake 0 
+Board [7d Ac Ad 2c 8h]
+Seat 1: no122 (big blind) showed [4s Kc] and lost with a pair of Aces
+Seat 3: TheCronic420 (button) (small blind) showed [9d 9c] and won (1228) with two pair, Aces and Nines
+
+
+
+
+
+
+
+
+
+
+
+***NEW GAME***
+PokerStars Hand #162071820300: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:49:09 ET
+Table '1741202892 1' 3-max Seat #2 is the button
+Seat 1: kropnicovic (500 in chips) 
+Seat 2: yuriij (700 in chips) 
+Seat 3: Romzes1975 (300 in chips) 
+Romzes1975: posts small blind 10
+kropnicovic: posts big blind 20
+*** HOLE CARDS ***
+yuriij: folds 
+Romzes1975: folds 
+Uncalled bet (10) returned to kropnicovic
+kropnicovic collected 20 from pot
+kropnicovic: doesn't show hand 
+*** SUMMARY ***
+Total pot 20 | Rake 0 
+Seat 1: kropnicovic (big blind) collected (20)
+Seat 2: yuriij (button) folded before Flop (didn't bet)
+Seat 3: Romzes1975 (small blind) folded before Flop
+
+PokerStars Hand #162071822492: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:49:15 ET
+Table '1741202892 1' 3-max Seat #3 is the button
+Seat 1: kropnicovic (510 in chips) 
+Seat 2: yuriij (700 in chips) 
+Seat 3: Romzes1975 (290 in chips) 
+kropnicovic: posts small blind 10
+yuriij: posts big blind 20
+*** HOLE CARDS ***
+Romzes1975: raises 20 to 40
+kropnicovic: calls 30
+yuriij: folds 
+*** FLOP *** [Qs 4d 9d]
+kropnicovic: checks 
+Romzes1975: checks 
+*** TURN *** [Qs 4d 9d] [8c]
+kropnicovic: bets 50
+Romzes1975: folds 
+Uncalled bet (50) returned to kropnicovic
+kropnicovic collected 100 from pot
+kropnicovic: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Board [Qs 4d 9d 8c]
+Seat 1: kropnicovic (small blind) collected (100)
+Seat 2: yuriij (big blind) folded before Flop
+Seat 3: Romzes1975 (button) folded on the Turn
+
+PokerStars Hand #162071827683: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:49:29 ET
+Table '1741202892 1' 3-max Seat #1 is the button
+Seat 1: kropnicovic (570 in chips) 
+Seat 2: yuriij (680 in chips) 
+Seat 3: Romzes1975 (250 in chips) 
+yuriij: posts small blind 10
+Romzes1975: posts big blind 20
+*** HOLE CARDS ***
+kropnicovic: raises 30 to 50
+yuriij: folds 
+Romzes1975: raises 200 to 250 and is all-in
+kropnicovic: calls 200
+*** FLOP *** [2d Kc Qh]
+*** TURN *** [2d Kc Qh] [2c]
+*** RIVER *** [2d Kc Qh 2c] [7s]
+*** SHOW DOWN ***
+Romzes1975: shows [6c Ac] (a pair of Deuces)
+kropnicovic: shows [Kd Qc] (two pair, Kings and Queens)
+kropnicovic collected 510 from pot
+Romzes1975 finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 510 | Rake 0 
+Board [2d Kc Qh 2c 7s]
+Seat 1: kropnicovic (button) showed [Kd Qc] and won (510) with two pair, Kings and Queens
+Seat 2: yuriij (small blind) folded before Flop
+Seat 3: Romzes1975 (big blind) showed [6c Ac] and lost with a pair of Deuces
+
+PokerStars Hand #162071835721: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:49:50 ET
+Table '1741202892 1' 3-max Seat #2 is the button
+Seat 1: kropnicovic (830 in chips) 
+Seat 2: yuriij (670 in chips) 
+yuriij: posts small blind 10
+kropnicovic: posts big blind 20
+*** HOLE CARDS ***
+yuriij: raises 20 to 40
+kropnicovic: raises 790 to 830 and is all-in
+yuriij: folds 
+Uncalled bet (790) returned to kropnicovic
+kropnicovic collected 80 from pot
+kropnicovic: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: kropnicovic (big blind) collected (80)
+Seat 2: yuriij (button) (small blind) folded before Flop
+
+PokerStars Hand #162071838771: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:49:59 ET
+Table '1741202892 1' 3-max Seat #1 is the button
+Seat 1: kropnicovic (870 in chips) 
+Seat 2: yuriij (630 in chips) 
+kropnicovic: posts small blind 10
+yuriij: posts big blind 20
+*** HOLE CARDS ***
+kropnicovic: raises 20 to 40
+yuriij: calls 20
+*** FLOP *** [Ad 8s Qc]
+yuriij: checks 
+kropnicovic: bets 30
+yuriij: calls 30
+*** TURN *** [Ad 8s Qc] [7h]
+yuriij: checks 
+kropnicovic: checks 
+*** RIVER *** [Ad 8s Qc 7h] [9h]
+yuriij: checks 
+kropnicovic: checks 
+*** SHOW DOWN ***
+yuriij: shows [9s Jh] (a pair of Nines)
+kropnicovic: mucks hand 
+yuriij collected 140 from pot
+*** SUMMARY ***
+Total pot 140 | Rake 0 
+Board [Ad 8s Qc 7h 9h]
+Seat 1: kropnicovic (button) (small blind) mucked
+Seat 2: yuriij (big blind) showed [9s Jh] and won (140) with a pair of Nines
+
+
+PokerStars Hand #162071853016: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:50:38 ET
+Table '1741202892 1' 3-max Seat #2 is the button
+Seat 1: kropnicovic (800 in chips) 
+Seat 2: yuriij (700 in chips) 
+yuriij: posts small blind 15
+kropnicovic: posts big blind 30
+*** HOLE CARDS ***
+yuriij: calls 15
+kropnicovic: checks 
+*** FLOP *** [Kd 3d Tc]
+kropnicovic: checks 
+yuriij: bets 30
+kropnicovic: folds 
+Uncalled bet (30) returned to yuriij
+yuriij collected 60 from pot
+yuriij: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Board [Kd 3d Tc]
+Seat 1: kropnicovic (big blind) folded on the Flop
+Seat 2: yuriij (button) (small blind) collected (60)
+
+PokerStars Hand #162071858263: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:50:52 ET
+Table '1741202892 1' 3-max Seat #1 is the button
+Seat 1: kropnicovic (770 in chips) 
+Seat 2: yuriij (730 in chips) 
+kropnicovic: posts small blind 15
+yuriij: posts big blind 30
+*** HOLE CARDS ***
+kropnicovic: raises 30 to 60
+yuriij: folds 
+Uncalled bet (30) returned to kropnicovic
+kropnicovic collected 60 from pot
+kropnicovic: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: kropnicovic (button) (small blind) collected (60)
+Seat 2: yuriij (big blind) folded before Flop
+
+
+PokerStars Hand #162071860500: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:50:59 ET
+Table '1741202892 1' 3-max Seat #2 is the button
+Seat 1: kropnicovic (800 in chips) 
+Seat 2: yuriij (700 in chips) 
+yuriij: posts small blind 15
+kropnicovic: posts big blind 30
+*** HOLE CARDS ***
+yuriij: calls 15
+kropnicovic: checks 
+*** FLOP *** [7d Td Ts]
+kropnicovic: checks 
+yuriij: bets 30
+kropnicovic: folds 
+Uncalled bet (30) returned to yuriij
+yuriij collected 60 from pot
+yuriij: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Board [7d Td Ts]
+Seat 1: kropnicovic (big blind) folded on the Flop
+Seat 2: yuriij (button) (small blind) collected (60)
+
+PokerStars Hand #162071866938: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:51:16 ET
+Table '1741202892 1' 3-max Seat #1 is the button
+Seat 1: kropnicovic (770 in chips) 
+Seat 2: yuriij (730 in chips) 
+kropnicovic: posts small blind 15
+yuriij: posts big blind 30
+*** HOLE CARDS ***
+kropnicovic: calls 15
+yuriij: raises 60 to 90
+kropnicovic: folds 
+Uncalled bet (60) returned to yuriij
+yuriij collected 60 from pot
+yuriij: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: kropnicovic (button) (small blind) folded before Flop
+Seat 2: yuriij (big blind) collected (60)
+
+PokerStars Hand #162071873516: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:51:34 ET
+Table '1741202892 1' 3-max Seat #2 is the button
+Seat 1: kropnicovic (740 in chips) 
+Seat 2: yuriij (760 in chips) 
+yuriij: posts small blind 15
+kropnicovic: posts big blind 30
+*** HOLE CARDS ***
+yuriij: raises 30 to 60
+kropnicovic: folds 
+Uncalled bet (30) returned to yuriij
+yuriij collected 60 from pot
+yuriij: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: kropnicovic (big blind) folded before Flop
+Seat 2: yuriij (button) (small blind) collected (60)
+
+PokerStars Hand #162071876457: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:51:43 ET
+Table '1741202892 1' 3-max Seat #1 is the button
+Seat 1: kropnicovic (710 in chips) 
+Seat 2: yuriij (790 in chips) 
+kropnicovic: posts small blind 15
+yuriij: posts big blind 30
+*** HOLE CARDS ***
+kropnicovic: folds 
+Uncalled bet (15) returned to yuriij
+yuriij collected 30 from pot
+yuriij: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: kropnicovic (button) (small blind) folded before Flop
+Seat 2: yuriij (big blind) collected (30)
+
+
+PokerStars Hand #162071877915: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:51:46 ET
+Table '1741202892 1' 3-max Seat #2 is the button
+Seat 1: kropnicovic (695 in chips) 
+Seat 2: yuriij (805 in chips) 
+yuriij: posts small blind 15
+kropnicovic: posts big blind 30
+*** HOLE CARDS ***
+yuriij: calls 15
+kropnicovic: checks 
+*** FLOP *** [8c 6c Kd]
+kropnicovic: checks 
+yuriij: bets 30
+kropnicovic: folds 
+Uncalled bet (30) returned to yuriij
+yuriij collected 60 from pot
+yuriij: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Board [8c 6c Kd]
+Seat 1: kropnicovic (big blind) folded on the Flop
+Seat 2: yuriij (button) (small blind) collected (60)
+
+PokerStars Hand #162071882893: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:52:00 ET
+Table '1741202892 1' 3-max Seat #1 is the button
+Seat 1: kropnicovic (665 in chips) 
+Seat 2: yuriij (835 in chips) 
+kropnicovic: posts small blind 15
+yuriij: posts big blind 30
+*** HOLE CARDS ***
+kropnicovic: raises 30 to 60
+yuriij: folds 
+Uncalled bet (30) returned to kropnicovic
+kropnicovic collected 60 from pot
+kropnicovic: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: kropnicovic (button) (small blind) collected (60)
+Seat 2: yuriij (big blind) folded before Flop
+
+PokerStars Hand #162071884821: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:52:05 ET
+Table '1741202892 1' 3-max Seat #2 is the button
+Seat 1: kropnicovic (695 in chips) 
+Seat 2: yuriij (805 in chips) 
+yuriij: posts small blind 15
+kropnicovic: posts big blind 30
+*** HOLE CARDS ***
+yuriij: raises 30 to 60
+kropnicovic: folds 
+Uncalled bet (30) returned to yuriij
+yuriij collected 60 from pot
+yuriij: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: kropnicovic (big blind) folded before Flop
+Seat 2: yuriij (button) (small blind) collected (60)
+
+PokerStars Hand #162071887873: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:52:14 ET
+Table '1741202892 1' 3-max Seat #1 is the button
+Seat 1: kropnicovic (665 in chips) 
+Seat 2: yuriij (835 in chips) 
+kropnicovic: posts small blind 15
+yuriij: posts big blind 30
+*** HOLE CARDS ***
+kropnicovic: folds 
+Uncalled bet (15) returned to yuriij
+yuriij collected 30 from pot
+yuriij: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: kropnicovic (button) (small blind) folded before Flop
+Seat 2: yuriij (big blind) collected (30)
+
+PokerStars Hand #162071889852: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:52:19 ET
+Table '1741202892 1' 3-max Seat #2 is the button
+Seat 1: kropnicovic (650 in chips) 
+Seat 2: yuriij (850 in chips) 
+yuriij: posts small blind 15
+kropnicovic: posts big blind 30
+*** HOLE CARDS ***
+yuriij: raises 30 to 60
+kropnicovic: folds 
+Uncalled bet (30) returned to yuriij
+yuriij collected 60 from pot
+yuriij: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: kropnicovic (big blind) folded before Flop
+Seat 2: yuriij (button) (small blind) collected (60)
+
+PokerStars Hand #162071891914: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:52:25 ET
+Table '1741202892 1' 3-max Seat #1 is the button
+Seat 1: kropnicovic (620 in chips) 
+Seat 2: yuriij (880 in chips) 
+kropnicovic: posts small blind 15
+yuriij: posts big blind 30
+*** HOLE CARDS ***
+kropnicovic: raises 30 to 60
+yuriij: folds 
+Uncalled bet (30) returned to kropnicovic
+kropnicovic collected 60 from pot
+kropnicovic: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: kropnicovic (button) (small blind) collected (60)
+Seat 2: yuriij (big blind) folded before Flop
+
+PokerStars Hand #162071900932: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:52:30 ET
+Table '1741202892 1' 3-max Seat #2 is the button
+Seat 1: kropnicovic (650 in chips) 
+Seat 2: yuriij (850 in chips) 
+yuriij: posts small blind 15
+kropnicovic: posts big blind 30
+*** HOLE CARDS ***
+yuriij: raises 30 to 60
+kropnicovic: raises 590 to 650 and is all-in
+yuriij: folds 
+Uncalled bet (590) returned to kropnicovic
+kropnicovic collected 120 from pot
+kropnicovic: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Seat 1: kropnicovic (big blind) collected (120)
+Seat 2: yuriij (button) (small blind) folded before Flop
+
+PokerStars Hand #162071906839: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:52:47 ET
+Table '1741202892 1' 3-max Seat #1 is the button
+Seat 1: kropnicovic (710 in chips) 
+Seat 2: yuriij (790 in chips) 
+kropnicovic: posts small blind 15
+yuriij: posts big blind 30
+*** HOLE CARDS ***
+kropnicovic: raises 45 to 75
+yuriij: folds 
+Uncalled bet (45) returned to kropnicovic
+kropnicovic collected 60 from pot
+kropnicovic: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: kropnicovic (button) (small blind) collected (60)
+Seat 2: yuriij (big blind) folded before Flop
+
+PokerStars Hand #162071909252: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:52:53 ET
+Table '1741202892 1' 3-max Seat #2 is the button
+Seat 1: kropnicovic (740 in chips) 
+Seat 2: yuriij (760 in chips) 
+yuriij: posts small blind 15
+kropnicovic: posts big blind 30
+*** HOLE CARDS ***
+yuriij: raises 30 to 60
+kropnicovic: calls 30
+*** FLOP *** [Ac 8s 7d]
+kropnicovic: checks 
+yuriij: bets 60
+kropnicovic: calls 60
+*** TURN *** [Ac 8s 7d] [Qc]
+kropnicovic: checks 
+yuriij: bets 135
+kropnicovic: raises 485 to 620 and is all-in
+yuriij: calls 485
+*** RIVER *** [Ac 8s 7d Qc] [3d]
+*** SHOW DOWN ***
+kropnicovic: shows [Ad 3h] (two pair, Aces and Threes)
+yuriij: shows [8c 7c] (two pair, Eights and Sevens)
+kropnicovic collected 1480 from pot
+*** SUMMARY ***
+Total pot 1480 | Rake 0 
+Board [Ac 8s 7d Qc 3d]
+Seat 1: kropnicovic (big blind) showed [Ad 3h] and won (1480) with two pair, Aces and Threes
+Seat 2: yuriij (button) (small blind) showed [8c 7c] and lost with two pair, Eights and Sevens
+
+PokerStars Hand #162071922204: Tournament #1741202892, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:53:30 ET
+Table '1741202892 1' 3-max Seat #1 is the button
+Seat 1: kropnicovic (1480 in chips) 
+Seat 2: yuriij (20 in chips) 
+kropnicovic: posts small blind 15
+yuriij: posts big blind 20 and is all-in
+*** HOLE CARDS ***
+kropnicovic: calls 5
+*** FLOP *** [8s 2h Tc]
+*** TURN *** [8s 2h Tc] [4s]
+*** RIVER *** [8s 2h Tc 4s] [3d]
+*** SHOW DOWN ***
+yuriij: shows [5c Qh] (high card Queen)
+kropnicovic: shows [Jc 4h] (a pair of Fours)
+kropnicovic collected 40 from pot
+yuriij finished the tournament in 2nd place
+kropnicovic wins the tournament and receives $1000.00 - congratulations!
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Board [8s 2h Tc 4s 3d]
+Seat 1: kropnicovic (button) (small blind) showed [Jc 4h] and won (40) with a pair of Fours
+Seat 2: yuriij (big blind) showed [5c Qh] and lost with high card Queen
+
+
+***NEW GAME***
+PokerStars Hand #162071901794: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:52:33 ET
+Table '1741205243 1' 3-max Seat #1 is the button
+Seat 1: aletz99 (500 in chips) 
+Seat 2: henriquecarr (500 in chips) 
+Seat 3: Tellmem0re (500 in chips) 
+henriquecarr: posts small blind 10
+Tellmem0re: posts big blind 20
+*** HOLE CARDS ***
+aletz99: raises 20 to 40
+henriquecarr: folds 
+Tellmem0re: calls 20
+*** FLOP *** [Td 5h Ah]
+Tellmem0re: checks 
+aletz99: bets 40
+Tellmem0re: calls 40
+*** TURN *** [Td 5h Ah] [6d]
+Tellmem0re: checks 
+aletz99: checks 
+*** RIVER *** [Td 5h Ah 6d] [Ac]
+Tellmem0re: checks 
+aletz99: checks 
+*** SHOW DOWN ***
+Tellmem0re: shows [7h Jh] (a pair of Aces)
+aletz99: shows [6h Ks] (two pair, Aces and Sixes)
+aletz99 collected 170 from pot
+*** SUMMARY ***
+Total pot 170 | Rake 0 
+Board [Td 5h Ah 6d Ac]
+Seat 1: aletz99 (button) showed [6h Ks] and won (170) with two pair, Aces and Sixes
+Seat 2: henriquecarr (small blind) folded before Flop
+Seat 3: Tellmem0re (big blind) showed [7h Jh] and lost with a pair of Aces
+
+
+PokerStars Hand #162071911946: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:53:01 ET
+Table '1741205243 1' 3-max Seat #2 is the button
+Seat 1: aletz99 (590 in chips) 
+Seat 2: henriquecarr (490 in chips) 
+Seat 3: Tellmem0re (420 in chips) 
+Tellmem0re: posts small blind 10
+aletz99: posts big blind 20
+*** HOLE CARDS ***
+henriquecarr: folds 
+Tellmem0re: calls 10
+aletz99: checks 
+*** FLOP *** [3h Ac Jc]
+Tellmem0re: bets 20
+aletz99: calls 20
+*** TURN *** [3h Ac Jc] [3s]
+Tellmem0re: bets 40
+aletz99: folds 
+Uncalled bet (40) returned to Tellmem0re
+Tellmem0re collected 80 from pot
+Tellmem0re: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Board [3h Ac Jc 3s]
+Seat 1: aletz99 (big blind) folded on the Turn
+Seat 2: henriquecarr (button) folded before Flop (didn't bet)
+Seat 3: Tellmem0re (small blind) collected (80)
+
+PokerStars Hand #162071917268: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:53:16 ET
+Table '1741205243 1' 3-max Seat #3 is the button
+Seat 1: aletz99 (550 in chips) 
+Seat 2: henriquecarr (490 in chips) 
+Seat 3: Tellmem0re (460 in chips) 
+aletz99: posts small blind 10
+henriquecarr: posts big blind 20
+*** HOLE CARDS ***
+Tellmem0re: raises 20 to 40
+aletz99: folds 
+henriquecarr: calls 20
+*** FLOP *** [Qd Th 2s]
+henriquecarr: bets 45
+Tellmem0re: calls 45
+*** TURN *** [Qd Th 2s] [Ts]
+henriquecarr: bets 180
+Tellmem0re: raises 195 to 375 and is all-in
+henriquecarr: folds 
+Uncalled bet (195) returned to Tellmem0re
+Tellmem0re collected 540 from pot
+Tellmem0re: doesn't show hand 
+*** SUMMARY ***
+Total pot 540 | Rake 0 
+Board [Qd Th 2s Ts]
+Seat 1: aletz99 (small blind) folded before Flop
+Seat 2: henriquecarr (big blind) folded on the Turn
+Seat 3: Tellmem0re (button) collected (540)
+
+PokerStars Hand #162071926926: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:53:43 ET
+Table '1741205243 1' 3-max Seat #1 is the button
+Seat 1: aletz99 (540 in chips) 
+Seat 2: henriquecarr (225 in chips) 
+Seat 3: Tellmem0re (735 in chips) 
+henriquecarr: posts small blind 10
+Tellmem0re: posts big blind 20
+*** HOLE CARDS ***
+aletz99: raises 20 to 40
+henriquecarr: folds 
+Tellmem0re: calls 20
+*** FLOP *** [Qd Td Ad]
+Tellmem0re: checks 
+aletz99: bets 40
+Tellmem0re: folds 
+Uncalled bet (40) returned to aletz99
+aletz99 collected 90 from pot
+*** SUMMARY ***
+Total pot 90 | Rake 0 
+Board [Qd Td Ad]
+Seat 1: aletz99 (button) collected (90)
+Seat 2: henriquecarr (small blind) folded before Flop
+Seat 3: Tellmem0re (big blind) folded on the Flop
+
+PokerStars Hand #162071931739: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:53:56 ET
+Table '1741205243 1' 3-max Seat #2 is the button
+Seat 1: aletz99 (590 in chips) 
+Seat 2: henriquecarr (215 in chips) 
+Seat 3: Tellmem0re (695 in chips) 
+Tellmem0re: posts small blind 10
+aletz99: posts big blind 20
+*** HOLE CARDS ***
+henriquecarr: folds 
+Tellmem0re: raises 20 to 40
+aletz99: calls 20
+*** FLOP *** [Ad 2c Kh]
+Tellmem0re: bets 40
+aletz99: calls 40
+*** TURN *** [Ad 2c Kh] [Ks]
+Tellmem0re: bets 60
+aletz99: calls 60
+*** RIVER *** [Ad 2c Kh Ks] [9c]
+Tellmem0re: checks 
+aletz99: checks 
+*** SHOW DOWN ***
+Tellmem0re: shows [As 4c] (two pair, Aces and Kings)
+aletz99: mucks hand 
+Tellmem0re collected 280 from pot
+*** SUMMARY ***
+Total pot 280 | Rake 0 
+Board [Ad 2c Kh Ks 9c]
+Seat 1: aletz99 (big blind) mucked
+Seat 2: henriquecarr (button) folded before Flop (didn't bet)
+Seat 3: Tellmem0re (small blind) showed [As 4c] and won (280) with two pair, Aces and Kings
+
+PokerStars Hand #162071939930: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:54:19 ET
+Table '1741205243 1' 3-max Seat #3 is the button
+Seat 1: aletz99 (450 in chips) 
+Seat 2: henriquecarr (215 in chips) 
+Seat 3: Tellmem0re (835 in chips) 
+aletz99: posts small blind 10
+henriquecarr: posts big blind 20
+*** HOLE CARDS ***
+Tellmem0re: folds 
+aletz99: folds 
+Uncalled bet (10) returned to henriquecarr
+henriquecarr collected 20 from pot
+henriquecarr: doesn't show hand 
+*** SUMMARY ***
+Total pot 20 | Rake 0 
+Seat 1: aletz99 (small blind) folded before Flop
+Seat 2: henriquecarr (big blind) collected (20)
+Seat 3: Tellmem0re (button) folded before Flop (didn't bet)
+
+PokerStars Hand #162071943505: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:54:28 ET
+Table '1741205243 1' 3-max Seat #1 is the button
+Seat 1: aletz99 (440 in chips) 
+Seat 2: henriquecarr (225 in chips) 
+Seat 3: Tellmem0re (835 in chips) 
+henriquecarr: posts small blind 10
+Tellmem0re: posts big blind 20
+*** HOLE CARDS ***
+aletz99: calls 20
+henriquecarr: raises 60 to 80
+Tellmem0re: raises 755 to 835 and is all-in
+aletz99: folds 
+henriquecarr: calls 145 and is all-in
+Uncalled bet (610) returned to Tellmem0re
+*** FLOP *** [Kd As 8h]
+*** TURN *** [Kd As 8h] [2s]
+*** RIVER *** [Kd As 8h 2s] [2c]
+*** SHOW DOWN ***
+henriquecarr: shows [Qd Ah] (two pair, Aces and Deuces)
+Tellmem0re: shows [9c 9s] (two pair, Nines and Deuces)
+henriquecarr collected 470 from pot
+*** SUMMARY ***
+Total pot 470 | Rake 0 
+Board [Kd As 8h 2s 2c]
+Seat 1: aletz99 (button) folded before Flop
+Seat 2: henriquecarr (small blind) showed [Qd Ah] and won (470) with two pair, Aces and Deuces
+Seat 3: Tellmem0re (big blind) showed [9c 9s] and lost with two pair, Nines and Deuces
+
+PokerStars Hand #162071949967: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:54:46 ET
+Table '1741205243 1' 3-max Seat #2 is the button
+Seat 1: aletz99 (420 in chips) 
+Seat 2: henriquecarr (470 in chips) 
+Seat 3: Tellmem0re (610 in chips) 
+Tellmem0re: posts small blind 10
+aletz99: posts big blind 20
+*** HOLE CARDS ***
+henriquecarr: raises 450 to 470 and is all-in
+Tellmem0re: folds 
+aletz99: folds 
+Uncalled bet (450) returned to henriquecarr
+henriquecarr collected 50 from pot
+henriquecarr: doesn't show hand 
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Seat 1: aletz99 (big blind) folded before Flop
+Seat 2: henriquecarr (button) collected (50)
+Seat 3: Tellmem0re (small blind) folded before Flop
+
+PokerStars Hand #162071952822: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:54:54 ET
+Table '1741205243 1' 3-max Seat #3 is the button
+Seat 1: aletz99 (400 in chips) 
+Seat 2: henriquecarr (500 in chips) 
+Seat 3: Tellmem0re (600 in chips) 
+aletz99: posts small blind 10
+henriquecarr: posts big blind 20
+*** HOLE CARDS ***
+Tellmem0re: folds 
+aletz99: calls 10
+henriquecarr: raises 40 to 60
+aletz99: calls 40
+*** FLOP *** [Ts Kh 2s]
+aletz99: checks 
+henriquecarr: bets 440 and is all-in
+aletz99: calls 340 and is all-in
+Uncalled bet (100) returned to henriquecarr
+*** TURN *** [Ts Kh 2s] [6h]
+*** RIVER *** [Ts Kh 2s 6h] [Ah]
+*** SHOW DOWN ***
+aletz99: shows [7s Js] (high card Ace)
+henriquecarr: shows [Jc Ad] (a pair of Aces)
+henriquecarr collected 800 from pot
+aletz99 finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 800 | Rake 0 
+Board [Ts Kh 2s 6h Ah]
+Seat 1: aletz99 (small blind) showed [7s Js] and lost with high card Ace
+Seat 2: henriquecarr (big blind) showed [Jc Ad] and won (800) with a pair of Aces
+Seat 3: Tellmem0re (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #162071961802: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:55:21 ET
+Table '1741205243 1' 3-max Seat #2 is the button
+Seat 2: henriquecarr (900 in chips) 
+Seat 3: Tellmem0re (600 in chips) 
+henriquecarr: posts small blind 10
+Tellmem0re: posts big blind 20
+*** HOLE CARDS ***
+henriquecarr: raises 880 to 900 and is all-in
+Tellmem0re: folds 
+Uncalled bet (880) returned to henriquecarr
+henriquecarr collected 40 from pot
+henriquecarr: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 2: henriquecarr (button) (small blind) collected (40)
+Seat 3: Tellmem0re (big blind) folded before Flop
+
+
+PokerStars Hand #162071963596: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:55:27 ET
+Table '1741205243 1' 3-max Seat #3 is the button
+Seat 2: henriquecarr (920 in chips) 
+Seat 3: Tellmem0re (580 in chips) 
+Tellmem0re: posts small blind 10
+henriquecarr: posts big blind 20
+*** HOLE CARDS ***
+Tellmem0re: calls 10
+henriquecarr: checks 
+*** FLOP *** [6h 5d 3c]
+henriquecarr: checks 
+Tellmem0re: bets 20
+henriquecarr: calls 20
+*** TURN *** [6h 5d 3c] [3s]
+henriquecarr: checks 
+Tellmem0re: bets 40
+henriquecarr: calls 40
+*** RIVER *** [6h 5d 3c 3s] [8h]
+henriquecarr: checks 
+Tellmem0re: checks 
+*** SHOW DOWN ***
+henriquecarr: shows [9h 4s] (a pair of Threes)
+Tellmem0re: shows [2d Jd] (a pair of Threes - Jack kicker)
+Tellmem0re collected 160 from pot
+*** SUMMARY ***
+Total pot 160 | Rake 0 
+Board [6h 5d 3c 3s 8h]
+Seat 2: henriquecarr (big blind) showed [9h 4s] and lost with a pair of Threes
+Seat 3: Tellmem0re (button) (small blind) showed [2d Jd] and won (160) with a pair of Threes
+
+PokerStars Hand #162071972624: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:55:57 ET
+Table '1741205243 1' 3-max Seat #2 is the button
+Seat 2: henriquecarr (840 in chips) 
+Seat 3: Tellmem0re (660 in chips) 
+henriquecarr: posts small blind 15
+Tellmem0re: posts big blind 30
+*** HOLE CARDS ***
+henriquecarr: raises 30 to 60
+Tellmem0re: folds 
+Uncalled bet (30) returned to henriquecarr
+henriquecarr collected 60 from pot
+henriquecarr: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 2: henriquecarr (button) (small blind) collected (60)
+Seat 3: Tellmem0re (big blind) folded before Flop
+
+PokerStars Hand #162071974142: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:56:02 ET
+Table '1741205243 1' 3-max Seat #3 is the button
+Seat 2: henriquecarr (870 in chips) 
+Seat 3: Tellmem0re (630 in chips) 
+Tellmem0re: posts small blind 15
+henriquecarr: posts big blind 30
+*** HOLE CARDS ***
+Tellmem0re: calls 15
+henriquecarr: raises 60 to 90
+Tellmem0re: calls 60
+*** FLOP *** [3d Kd 3h]
+henriquecarr: bets 180
+Tellmem0re: calls 180
+*** TURN *** [3d Kd 3h] [9c]
+henriquecarr: bets 600 and is all-in
+Tellmem0re: folds 
+Uncalled bet (600) returned to henriquecarr
+henriquecarr collected 540 from pot
+henriquecarr: doesn't show hand 
+*** SUMMARY ***
+Total pot 540 | Rake 0 
+Board [3d Kd 3h 9c]
+Seat 2: henriquecarr (big blind) collected (540)
+Seat 3: Tellmem0re (button) (small blind) folded on the Turn
+
+PokerStars Hand #162071980580: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:56:22 ET
+Table '1741205243 1' 3-max Seat #2 is the button
+Seat 2: henriquecarr (1140 in chips) 
+Seat 3: Tellmem0re (360 in chips) 
+henriquecarr: posts small blind 15
+Tellmem0re: posts big blind 30
+*** HOLE CARDS ***
+henriquecarr: raises 60 to 90
+Tellmem0re: calls 60
+*** FLOP *** [3h 4h 9d]
+Tellmem0re: checks 
+henriquecarr: checks 
+*** TURN *** [3h 4h 9d] [9s]
+Tellmem0re: checks 
+henriquecarr: checks 
+*** RIVER *** [3h 4h 9d 9s] [Tc]
+Tellmem0re: checks 
+henriquecarr: checks 
+*** SHOW DOWN ***
+Tellmem0re: shows [9h Qc] (three of a kind, Nines)
+henriquecarr: mucks hand 
+Tellmem0re collected 180 from pot
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Board [3h 4h 9d 9s Tc]
+Seat 2: henriquecarr (button) (small blind) mucked
+Seat 3: Tellmem0re (big blind) showed [9h Qc] and won (180) with three of a kind, Nines
+
+PokerStars Hand #162071984721: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:56:36 ET
+Table '1741205243 1' 3-max Seat #3 is the button
+Seat 2: henriquecarr (1050 in chips) 
+Seat 3: Tellmem0re (450 in chips) 
+Tellmem0re: posts small blind 15
+henriquecarr: posts big blind 30
+*** HOLE CARDS ***
+Tellmem0re: calls 15
+henriquecarr: checks 
+*** FLOP *** [9c Qc 8s]
+henriquecarr: checks 
+Tellmem0re: checks 
+*** TURN *** [9c Qc 8s] [Kd]
+henriquecarr: bets 60
+Tellmem0re: folds 
+Uncalled bet (60) returned to henriquecarr
+henriquecarr collected 60 from pot
+henriquecarr: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Board [9c Qc 8s Kd]
+Seat 2: henriquecarr (big blind) collected (60)
+Seat 3: Tellmem0re (button) (small blind) folded on the Turn
+
+PokerStars Hand #162071989677: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:56:52 ET
+Table '1741205243 1' 3-max Seat #2 is the button
+Seat 2: henriquecarr (1080 in chips) 
+Seat 3: Tellmem0re (420 in chips) 
+henriquecarr: posts small blind 15
+Tellmem0re: posts big blind 30
+*** HOLE CARDS ***
+henriquecarr: raises 60 to 90
+Tellmem0re: raises 330 to 420 and is all-in
+henriquecarr: folds 
+Uncalled bet (330) returned to Tellmem0re
+Tellmem0re collected 180 from pot
+Tellmem0re: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Seat 2: henriquecarr (button) (small blind) folded before Flop
+Seat 3: Tellmem0re (big blind) collected (180)
+
+PokerStars Hand #162071992020: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:56:59 ET
+Table '1741205243 1' 3-max Seat #3 is the button
+Seat 2: henriquecarr (990 in chips) 
+Seat 3: Tellmem0re (510 in chips) 
+Tellmem0re: posts small blind 15
+henriquecarr: posts big blind 30
+*** HOLE CARDS ***
+Tellmem0re: calls 15
+henriquecarr: raises 60 to 90
+Tellmem0re: calls 60
+*** FLOP *** [2s 9s 9c]
+henriquecarr: bets 180
+Tellmem0re: folds 
+Uncalled bet (180) returned to henriquecarr
+henriquecarr collected 180 from pot
+henriquecarr: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Board [2s 9s 9c]
+Seat 2: henriquecarr (big blind) collected (180)
+Seat 3: Tellmem0re (button) (small blind) folded on the Flop
+
+PokerStars Hand #162071995849: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:57:12 ET
+Table '1741205243 1' 3-max Seat #2 is the button
+Seat 2: henriquecarr (1080 in chips) 
+Seat 3: Tellmem0re (420 in chips) 
+henriquecarr: posts small blind 15
+Tellmem0re: posts big blind 30
+*** HOLE CARDS ***
+henriquecarr: raises 60 to 90
+Tellmem0re: folds 
+Uncalled bet (60) returned to henriquecarr
+henriquecarr collected 60 from pot
+henriquecarr: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 2: henriquecarr (button) (small blind) collected (60)
+Seat 3: Tellmem0re (big blind) folded before Flop
+
+PokerStars Hand #162071997667: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:57:18 ET
+Table '1741205243 1' 3-max Seat #3 is the button
+Seat 2: henriquecarr (1110 in chips) 
+Seat 3: Tellmem0re (390 in chips) 
+Tellmem0re: posts small blind 15
+henriquecarr: posts big blind 30
+*** HOLE CARDS ***
+Tellmem0re: calls 15
+henriquecarr: checks 
+*** FLOP *** [Th 2d 7c]
+henriquecarr: checks 
+Tellmem0re: bets 30
+henriquecarr: calls 30
+*** TURN *** [Th 2d 7c] [3h]
+henriquecarr: checks 
+Tellmem0re: bets 60
+henriquecarr: calls 60
+*** RIVER *** [Th 2d 7c 3h] [6s]
+henriquecarr: checks 
+Tellmem0re: bets 195
+henriquecarr: folds 
+Uncalled bet (195) returned to Tellmem0re
+Tellmem0re collected 240 from pot
+Tellmem0re: doesn't show hand 
+*** SUMMARY ***
+Total pot 240 | Rake 0 
+Board [Th 2d 7c 3h 6s]
+Seat 2: henriquecarr (big blind) folded on the River
+Seat 3: Tellmem0re (button) (small blind) collected (240)
+
+PokerStars Hand #162072006665: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:57:46 ET
+Table '1741205243 1' 3-max Seat #2 is the button
+Seat 2: henriquecarr (990 in chips) 
+Seat 3: Tellmem0re (510 in chips) 
+henriquecarr: posts small blind 15
+Tellmem0re: posts big blind 30
+*** HOLE CARDS ***
+henriquecarr: raises 60 to 90
+Tellmem0re: calls 60
+*** FLOP *** [3d 6h 2s]
+Tellmem0re: checks 
+henriquecarr: bets 180
+Tellmem0re: folds 
+Uncalled bet (180) returned to henriquecarr
+henriquecarr collected 180 from pot
+henriquecarr: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Board [3d 6h 2s]
+Seat 2: henriquecarr (button) (small blind) collected (180)
+Seat 3: Tellmem0re (big blind) folded on the Flop
+
+PokerStars Hand #162072010401: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:57:58 ET
+Table '1741205243 1' 3-max Seat #3 is the button
+Seat 2: henriquecarr (1080 in chips) 
+Seat 3: Tellmem0re (420 in chips) 
+Tellmem0re: posts small blind 15
+henriquecarr: posts big blind 30
+*** HOLE CARDS ***
+Tellmem0re: folds 
+Uncalled bet (15) returned to henriquecarr
+henriquecarr collected 30 from pot
+henriquecarr: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 2: henriquecarr (big blind) collected (30)
+Seat 3: Tellmem0re (button) (small blind) folded before Flop
+
+PokerStars Hand #162072011571: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:58:02 ET
+Table '1741205243 1' 3-max Seat #2 is the button
+Seat 2: henriquecarr (1095 in chips) 
+Seat 3: Tellmem0re (405 in chips) 
+henriquecarr: posts small blind 15
+Tellmem0re: posts big blind 30
+*** HOLE CARDS ***
+henriquecarr: raises 60 to 90
+Tellmem0re: raises 315 to 405 and is all-in
+henriquecarr: folds 
+Uncalled bet (315) returned to Tellmem0re
+Tellmem0re collected 180 from pot
+Tellmem0re: doesn't show hand 
+*** SUMMARY ***
+Total pot 180 | Rake 0 
+Seat 2: henriquecarr (button) (small blind) folded before Flop
+Seat 3: Tellmem0re (big blind) collected (180)
+
+PokerStars Hand #162072013907: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:58:09 ET
+Table '1741205243 1' 3-max Seat #3 is the button
+Seat 2: henriquecarr (1005 in chips) 
+Seat 3: Tellmem0re (495 in chips) 
+Tellmem0re: posts small blind 15
+henriquecarr: posts big blind 30
+*** HOLE CARDS ***
+Tellmem0re: calls 15
+henriquecarr: checks 
+*** FLOP *** [9s 2s 6c]
+henriquecarr: checks 
+Tellmem0re: bets 30
+henriquecarr: folds 
+Uncalled bet (30) returned to Tellmem0re
+Tellmem0re collected 60 from pot
+Tellmem0re: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Board [9s 2s 6c]
+Seat 2: henriquecarr (big blind) folded on the Flop
+Seat 3: Tellmem0re (button) (small blind) collected (60)
+
+PokerStars Hand #162072017028: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:58:20 ET
+Table '1741205243 1' 3-max Seat #2 is the button
+Seat 2: henriquecarr (975 in chips) 
+Seat 3: Tellmem0re (525 in chips) 
+henriquecarr: posts small blind 15
+Tellmem0re: posts big blind 30
+*** HOLE CARDS ***
+henriquecarr: folds 
+Uncalled bet (15) returned to Tellmem0re
+Tellmem0re collected 30 from pot
+Tellmem0re: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 2: henriquecarr (button) (small blind) folded before Flop
+Seat 3: Tellmem0re (big blind) collected (30)
+
+PokerStars Hand #162072018316: Tournament #1741205243, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:58:24 ET
+Table '1741205243 1' 3-max Seat #3 is the button
+Seat 2: henriquecarr (960 in chips) 
+Seat 3: Tellmem0re (540 in chips) 
+Tellmem0re: posts small blind 15
+henriquecarr: posts big blind 30
+*** HOLE CARDS ***
+Tellmem0re: raises 510 to 540 and is all-in
+henriquecarr: calls 510
+*** FLOP *** [Js 8h 5d]
+*** TURN *** [Js 8h 5d] [Jd]
+*** RIVER *** [Js 8h 5d Jd] [3d]
+*** SHOW DOWN ***
+henriquecarr: shows [Tc Jh] (three of a kind, Jacks)
+Tellmem0re: shows [3h Ac] (two pair, Jacks and Threes)
+henriquecarr collected 1080 from pot
+Tellmem0re finished the tournament in 2nd place
+henriquecarr wins the tournament and receives $600.00 - congratulations!
+*** SUMMARY ***
+Total pot 1080 | Rake 0 
+Board [Js 8h 5d Jd 3d]
+Seat 2: henriquecarr (big blind) showed [Tc Jh] and won (1080) with three of a kind, Jacks
+Seat 3: Tellmem0re (button) (small blind) showed [3h Ac] and lost with two pair, Jacks and Threes
+
+
+
+
+
+
+
+
+
+***NEW GAME***
+PokerStars Hand #162071971048: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:55:51 ET
+Table '1741206837 1' 3-max Seat #1 is the button
+Seat 1: freechdogg (500 in chips) 
+Seat 2: abarone68 (500 in chips) 
+Seat 3: Fedayn72 (500 in chips) 
+abarone68: posts small blind 10
+Fedayn72: posts big blind 20
+*** HOLE CARDS ***
+freechdogg: raises 20 to 40
+abarone68: raises 70 to 110
+Fedayn72: folds 
+freechdogg: folds 
+Uncalled bet (70) returned to abarone68
+abarone68 collected 100 from pot
+abarone68: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: freechdogg (button) folded before Flop
+Seat 2: abarone68 (small blind) collected (100)
+Seat 3: Fedayn72 (big blind) folded before Flop
+
+PokerStars Hand #162071974289: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:56:02 ET
+Table '1741206837 1' 3-max Seat #2 is the button
+Seat 1: freechdogg (460 in chips) 
+Seat 2: abarone68 (560 in chips) 
+Seat 3: Fedayn72 (480 in chips) 
+Fedayn72: posts small blind 10
+freechdogg: posts big blind 20
+*** HOLE CARDS ***
+abarone68: folds 
+Fedayn72: calls 10
+freechdogg: checks 
+*** FLOP *** [8d Td 4c]
+Fedayn72: bets 20
+freechdogg: folds 
+Uncalled bet (20) returned to Fedayn72
+Fedayn72 collected 40 from pot
+Fedayn72: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Board [8d Td 4c]
+Seat 1: freechdogg (big blind) folded on the Flop
+Seat 2: abarone68 (button) folded before Flop (didn't bet)
+Seat 3: Fedayn72 (small blind) collected (40)
+
+PokerStars Hand #162071978274: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:56:15 ET
+Table '1741206837 1' 3-max Seat #3 is the button
+Seat 1: freechdogg (440 in chips) 
+Seat 2: abarone68 (560 in chips) 
+Seat 3: Fedayn72 (500 in chips) 
+freechdogg: posts small blind 10
+abarone68: posts big blind 20
+*** HOLE CARDS ***
+Fedayn72: raises 20 to 40
+freechdogg: folds 
+abarone68: calls 20
+*** FLOP *** [2c 8h Ad]
+abarone68: checks 
+Fedayn72: checks 
+*** TURN *** [2c 8h Ad] [Kh]
+abarone68: bets 50
+Fedayn72: calls 50
+*** RIVER *** [2c 8h Ad Kh] [3d]
+abarone68: bets 110
+Fedayn72: calls 110
+*** SHOW DOWN ***
+abarone68: shows [6d Ah] (a pair of Aces)
+Fedayn72: mucks hand 
+abarone68 collected 410 from pot
+*** SUMMARY ***
+Total pot 410 | Rake 0 
+Board [2c 8h Ad Kh 3d]
+Seat 1: freechdogg (small blind) folded before Flop
+Seat 2: abarone68 (big blind) showed [6d Ah] and won (410) with a pair of Aces
+Seat 3: Fedayn72 (button) mucked
+
+PokerStars Hand #162071988434: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:56:48 ET
+Table '1741206837 1' 3-max Seat #1 is the button
+Seat 1: freechdogg (430 in chips) 
+Seat 2: abarone68 (770 in chips) 
+Seat 3: Fedayn72 (300 in chips) 
+abarone68: posts small blind 10
+Fedayn72: posts big blind 20
+*** HOLE CARDS ***
+freechdogg: folds 
+abarone68: calls 10
+Fedayn72: checks 
+*** FLOP *** [9d 4c 6c]
+abarone68: bets 30
+Fedayn72: calls 30
+*** TURN *** [9d 4c 6c] [4s]
+abarone68: checks 
+Fedayn72: checks 
+*** RIVER *** [9d 4c 6c 4s] [Td]
+abarone68: bets 60
+Fedayn72: folds 
+Uncalled bet (60) returned to abarone68
+abarone68 collected 100 from pot
+abarone68: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Board [9d 4c 6c 4s Td]
+Seat 1: freechdogg (button) folded before Flop (didn't bet)
+Seat 2: abarone68 (small blind) collected (100)
+Seat 3: Fedayn72 (big blind) folded on the River
+
+PokerStars Hand #162072001766: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:57:30 ET
+Table '1741206837 1' 3-max Seat #2 is the button
+Seat 1: freechdogg (430 in chips) 
+Seat 2: abarone68 (820 in chips) 
+Seat 3: Fedayn72 (250 in chips) 
+Fedayn72: posts small blind 10
+freechdogg: posts big blind 20
+*** HOLE CARDS ***
+abarone68: folds 
+Fedayn72: raises 230 to 250 and is all-in
+freechdogg: folds 
+Uncalled bet (230) returned to Fedayn72
+Fedayn72 collected 40 from pot
+Fedayn72: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: freechdogg (big blind) folded before Flop
+Seat 2: abarone68 (button) folded before Flop (didn't bet)
+Seat 3: Fedayn72 (small blind) collected (40)
+
+PokerStars Hand #162072004449: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:57:39 ET
+Table '1741206837 1' 3-max Seat #3 is the button
+Seat 1: freechdogg (410 in chips) 
+Seat 2: abarone68 (820 in chips) 
+Seat 3: Fedayn72 (270 in chips) 
+freechdogg: posts small blind 10
+abarone68: posts big blind 20
+*** HOLE CARDS ***
+Fedayn72: folds 
+freechdogg: calls 10
+abarone68: raises 40 to 60
+freechdogg: calls 40
+*** FLOP *** [5h 9c 9h]
+freechdogg: checks 
+abarone68: bets 40
+freechdogg: folds 
+Uncalled bet (40) returned to abarone68
+abarone68 collected 120 from pot
+abarone68: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Board [5h 9c 9h]
+Seat 1: freechdogg (small blind) folded on the Flop
+Seat 2: abarone68 (big blind) collected (120)
+Seat 3: Fedayn72 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #162072013673: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:58:09 ET
+Table '1741206837 1' 3-max Seat #1 is the button
+Seat 1: freechdogg (350 in chips) 
+Seat 2: abarone68 (880 in chips) 
+Seat 3: Fedayn72 (270 in chips) 
+abarone68: posts small blind 10
+Fedayn72: posts big blind 20
+*** HOLE CARDS ***
+freechdogg: folds 
+abarone68: calls 10
+Fedayn72: raises 30 to 50
+abarone68: folds 
+Uncalled bet (30) returned to Fedayn72
+Fedayn72 collected 40 from pot
+Fedayn72: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: freechdogg (button) folded before Flop (didn't bet)
+Seat 2: abarone68 (small blind) folded before Flop
+Seat 3: Fedayn72 (big blind) collected (40)
+
+
+PokerStars Hand #162072017353: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:58:21 ET
+Table '1741206837 1' 3-max Seat #2 is the button
+Seat 1: freechdogg (350 in chips) 
+Seat 2: abarone68 (860 in chips) 
+Seat 3: Fedayn72 (290 in chips) 
+Fedayn72: posts small blind 10
+freechdogg: posts big blind 20
+*** HOLE CARDS ***
+abarone68: folds 
+Fedayn72: calls 10
+freechdogg: checks 
+*** FLOP *** [Ts 5d 3d]
+Fedayn72: bets 20
+freechdogg: folds 
+Uncalled bet (20) returned to Fedayn72
+Fedayn72 collected 40 from pot
+Fedayn72: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Board [Ts 5d 3d]
+Seat 1: freechdogg (big blind) folded on the Flop
+Seat 2: abarone68 (button) folded before Flop (didn't bet)
+Seat 3: Fedayn72 (small blind) collected (40)
+
+PokerStars Hand #162072023588: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level I (10/20) - 2016/11/27 21:58:41 ET
+Table '1741206837 1' 3-max Seat #3 is the button
+Seat 1: freechdogg (330 in chips) 
+Seat 2: abarone68 (860 in chips) 
+Seat 3: Fedayn72 (310 in chips) 
+freechdogg: posts small blind 10
+abarone68: posts big blind 20
+*** HOLE CARDS ***
+Fedayn72: folds 
+freechdogg: calls 10
+abarone68: raises 40 to 60
+freechdogg: calls 40
+*** FLOP *** [Kh 9h Kd]
+freechdogg: checks 
+abarone68: checks 
+*** TURN *** [Kh 9h Kd] [Jh]
+freechdogg: checks 
+abarone68: checks 
+*** RIVER *** [Kh 9h Kd Jh] [Qd]
+freechdogg: checks 
+abarone68: checks 
+*** SHOW DOWN ***
+freechdogg: shows [5c Kc] (three of a kind, Kings)
+abarone68: mucks hand 
+freechdogg collected 120 from pot
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Board [Kh 9h Kd Jh Qd]
+Seat 1: freechdogg (small blind) showed [5c Kc] and won (120) with three of a kind, Kings
+Seat 2: abarone68 (big blind) mucked
+Seat 3: Fedayn72 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #162072040814: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:59:37 ET
+Table '1741206837 1' 3-max Seat #1 is the button
+Seat 1: freechdogg (390 in chips) 
+Seat 2: abarone68 (800 in chips) 
+Seat 3: Fedayn72 (310 in chips) 
+abarone68: posts small blind 15
+Fedayn72: posts big blind 30
+*** HOLE CARDS ***
+freechdogg: folds 
+abarone68: raises 770 to 800 and is all-in
+Fedayn72: folds 
+Uncalled bet (770) returned to abarone68
+abarone68 collected 60 from pot
+abarone68: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: freechdogg (button) folded before Flop (didn't bet)
+Seat 2: abarone68 (small blind) collected (60)
+Seat 3: Fedayn72 (big blind) folded before Flop
+
+
+PokerStars Hand #162072043660: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:59:46 ET
+Table '1741206837 1' 3-max Seat #2 is the button
+Seat 1: freechdogg (390 in chips) 
+Seat 2: abarone68 (830 in chips) 
+Seat 3: Fedayn72 (280 in chips) 
+Fedayn72: posts small blind 15
+freechdogg: posts big blind 30
+*** HOLE CARDS ***
+abarone68: raises 800 to 830 and is all-in
+Fedayn72: folds 
+freechdogg: folds 
+Uncalled bet (800) returned to abarone68
+abarone68 collected 75 from pot
+abarone68: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: freechdogg (big blind) folded before Flop
+Seat 2: abarone68 (button) collected (75)
+Seat 3: Fedayn72 (small blind) folded before Flop
+
+
+PokerStars Hand #162072045759: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 21:59:53 ET
+Table '1741206837 1' 3-max Seat #3 is the button
+Seat 1: freechdogg (360 in chips) 
+Seat 2: abarone68 (875 in chips) 
+Seat 3: Fedayn72 (265 in chips) 
+freechdogg: posts small blind 15
+abarone68: posts big blind 30
+*** HOLE CARDS ***
+Fedayn72: folds 
+freechdogg: raises 30 to 60
+abarone68: raises 815 to 875 and is all-in
+freechdogg: folds 
+Uncalled bet (815) returned to abarone68
+abarone68 collected 120 from pot
+abarone68: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Seat 1: freechdogg (small blind) folded before Flop
+Seat 2: abarone68 (big blind) collected (120)
+Seat 3: Fedayn72 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #162072049387: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 22:00:04 ET
+Table '1741206837 1' 3-max Seat #1 is the button
+Seat 1: freechdogg (300 in chips) 
+Seat 2: abarone68 (935 in chips) 
+Seat 3: Fedayn72 (265 in chips) 
+abarone68: posts small blind 15
+Fedayn72: posts big blind 30
+*** HOLE CARDS ***
+freechdogg: raises 270 to 300 and is all-in
+abarone68: folds 
+Fedayn72: folds 
+Uncalled bet (270) returned to freechdogg
+freechdogg collected 75 from pot
+freechdogg: doesn't show hand 
+*** SUMMARY ***
+Total pot 75 | Rake 0 
+Seat 1: freechdogg (button) collected (75)
+Seat 2: abarone68 (small blind) folded before Flop
+Seat 3: Fedayn72 (big blind) folded before Flop
+
+PokerStars Hand #162072051997: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 22:00:12 ET
+Table '1741206837 1' 3-max Seat #2 is the button
+Seat 1: freechdogg (345 in chips) 
+Seat 2: abarone68 (920 in chips) 
+Seat 3: Fedayn72 (235 in chips) 
+Fedayn72: posts small blind 15
+freechdogg: posts big blind 30
+*** HOLE CARDS ***
+abarone68: folds 
+Fedayn72: raises 205 to 235 and is all-in
+freechdogg: folds 
+Uncalled bet (205) returned to Fedayn72
+Fedayn72 collected 60 from pot
+Fedayn72: doesn't show hand 
+*** SUMMARY ***
+Total pot 60 | Rake 0 
+Seat 1: freechdogg (big blind) folded before Flop
+Seat 2: abarone68 (button) folded before Flop (didn't bet)
+Seat 3: Fedayn72 (small blind) collected (60)
+
+
+PokerStars Hand #162072055236: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 22:00:23 ET
+Table '1741206837 1' 3-max Seat #3 is the button
+Seat 1: freechdogg (315 in chips) 
+Seat 2: abarone68 (920 in chips) 
+Seat 3: Fedayn72 (265 in chips) 
+freechdogg: posts small blind 15
+abarone68: posts big blind 30
+*** HOLE CARDS ***
+Fedayn72: folds 
+freechdogg: folds 
+Uncalled bet (15) returned to abarone68
+abarone68 collected 30 from pot
+abarone68: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: freechdogg (small blind) folded before Flop
+Seat 2: abarone68 (big blind) collected (30)
+Seat 3: Fedayn72 (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #162072058458: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 22:00:32 ET
+Table '1741206837 1' 3-max Seat #1 is the button
+Seat 1: freechdogg (300 in chips) 
+Seat 2: abarone68 (935 in chips) 
+Seat 3: Fedayn72 (265 in chips) 
+abarone68: posts small blind 15
+Fedayn72: posts big blind 30
+*** HOLE CARDS ***
+freechdogg: folds 
+abarone68: folds 
+Uncalled bet (15) returned to Fedayn72
+Fedayn72 collected 30 from pot
+Fedayn72: doesn't show hand 
+*** SUMMARY ***
+Total pot 30 | Rake 0 
+Seat 1: freechdogg (button) folded before Flop (didn't bet)
+Seat 2: abarone68 (small blind) folded before Flop
+Seat 3: Fedayn72 (big blind) collected (30)
+
+
+PokerStars Hand #162072060073: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 22:00:37 ET
+Table '1741206837 1' 3-max Seat #2 is the button
+Seat 1: freechdogg (300 in chips) 
+Seat 2: abarone68 (920 in chips) 
+Seat 3: Fedayn72 (280 in chips) 
+Fedayn72: posts small blind 15
+freechdogg: posts big blind 30
+*** HOLE CARDS ***
+abarone68: folds 
+Fedayn72: calls 15
+freechdogg: checks 
+*** FLOP *** [Kc Qd 3c]
+Fedayn72: bets 30
+freechdogg: calls 30
+*** TURN *** [Kc Qd 3c] [2c]
+Fedayn72: bets 79
+freechdogg: folds 
+Uncalled bet (79) returned to Fedayn72
+Fedayn72 collected 120 from pot
+Fedayn72: doesn't show hand 
+*** SUMMARY ***
+Total pot 120 | Rake 0 
+Board [Kc Qd 3c 2c]
+Seat 1: freechdogg (big blind) folded on the Turn
+Seat 2: abarone68 (button) folded before Flop (didn't bet)
+Seat 3: Fedayn72 (small blind) collected (120)
+
+PokerStars Hand #162072069962: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 22:01:07 ET
+Table '1741206837 1' 3-max Seat #3 is the button
+Seat 1: freechdogg (240 in chips) 
+Seat 2: abarone68 (920 in chips) 
+Seat 3: Fedayn72 (340 in chips) 
+freechdogg: posts small blind 15
+abarone68: posts big blind 30
+*** HOLE CARDS ***
+Fedayn72: raises 30 to 60
+freechdogg: folds 
+abarone68: calls 30
+*** FLOP *** [Kc Ah 4s]
+abarone68: checks 
+Fedayn72: checks 
+*** TURN *** [Kc Ah 4s] [Ac]
+abarone68: checks 
+Fedayn72: checks 
+*** RIVER *** [Kc Ah 4s Ac] [3c]
+abarone68: checks 
+Fedayn72: bets 67
+abarone68: calls 67
+*** SHOW DOWN ***
+Fedayn72: shows [Jh Jc] (two pair, Aces and Jacks)
+abarone68: shows [2d Kh] (two pair, Aces and Kings)
+abarone68 collected 269 from pot
+*** SUMMARY ***
+Total pot 269 | Rake 0 
+Board [Kc Ah 4s Ac 3c]
+Seat 1: freechdogg (small blind) folded before Flop
+Seat 2: abarone68 (big blind) showed [2d Kh] and won (269) with two pair, Aces and Kings
+Seat 3: Fedayn72 (button) showed [Jh Jc] and lost with two pair, Aces and Jacks
+
+PokerStars Hand #162072083097: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level II (15/30) - 2016/11/27 22:01:45 ET
+Table '1741206837 1' 3-max Seat #1 is the button
+Seat 1: freechdogg (225 in chips) 
+Seat 2: abarone68 (1062 in chips) 
+Seat 3: Fedayn72 (213 in chips) 
+abarone68: posts small blind 15
+Fedayn72: posts big blind 30
+*** HOLE CARDS ***
+freechdogg: folds 
+abarone68: raises 1032 to 1062 and is all-in
+Fedayn72: calls 183 and is all-in
+Uncalled bet (849) returned to abarone68
+*** FLOP *** [Jc Ah 8s]
+*** TURN *** [Jc Ah 8s] [Qc]
+*** RIVER *** [Jc Ah 8s Qc] [2d]
+*** SHOW DOWN ***
+abarone68: shows [Kc 4s] (high card Ace)
+Fedayn72: shows [Ts Qs] (a pair of Queens)
+Fedayn72 collected 426 from pot
+*** SUMMARY ***
+Total pot 426 | Rake 0 
+Board [Jc Ah 8s Qc 2d]
+Seat 1: freechdogg (button) folded before Flop (didn't bet)
+Seat 2: abarone68 (small blind) showed [Kc 4s] and lost with high card Ace
+Seat 3: Fedayn72 (big blind) showed [Ts Qs] and won (426) with a pair of Queens
+
+
+PokerStars Hand #162072090136: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 22:02:05 ET
+Table '1741206837 1' 3-max Seat #2 is the button
+Seat 1: freechdogg (225 in chips) 
+Seat 2: abarone68 (849 in chips) 
+Seat 3: Fedayn72 (426 in chips) 
+Fedayn72: posts small blind 20
+freechdogg: posts big blind 40
+*** HOLE CARDS ***
+abarone68: raises 40 to 80
+Fedayn72: calls 60
+freechdogg: raises 145 to 225 and is all-in
+abarone68: raises 624 to 849 and is all-in
+Fedayn72: folds 
+Uncalled bet (624) returned to abarone68
+*** FLOP *** [7h 7c Ad]
+*** TURN *** [7h 7c Ad] [7d]
+*** RIVER *** [7h 7c Ad 7d] [6d]
+*** SHOW DOWN ***
+freechdogg: shows [As 8h] (a full house, Sevens full of Aces)
+abarone68: shows [Ts Th] (a full house, Sevens full of Tens)
+freechdogg collected 530 from pot
+*** SUMMARY ***
+Total pot 530 | Rake 0 
+Board [7h 7c Ad 7d 6d]
+Seat 1: freechdogg (big blind) showed [As 8h] and won (530) with a full house, Sevens full of Aces
+Seat 2: abarone68 (button) showed [Ts Th] and lost with a full house, Sevens full of Tens
+Seat 3: Fedayn72 (small blind) folded before Flop
+
+
+PokerStars Hand #162072103291: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 22:02:42 ET
+Table '1741206837 1' 3-max Seat #3 is the button
+Seat 1: freechdogg (530 in chips) 
+Seat 2: abarone68 (624 in chips) 
+Seat 3: Fedayn72 (346 in chips) 
+freechdogg: posts small blind 20
+abarone68: posts big blind 40
+*** HOLE CARDS ***
+Fedayn72: folds 
+freechdogg: folds 
+Uncalled bet (20) returned to abarone68
+abarone68 collected 40 from pot
+abarone68: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: freechdogg (small blind) folded before Flop
+Seat 2: abarone68 (big blind) collected (40)
+Seat 3: Fedayn72 (button) folded before Flop (didn't bet)
+
+
+PokerStars Hand #162072105711: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 22:02:50 ET
+Table '1741206837 1' 3-max Seat #1 is the button
+Seat 1: freechdogg (510 in chips) 
+Seat 2: abarone68 (644 in chips) 
+Seat 3: Fedayn72 (346 in chips) 
+abarone68: posts small blind 20
+Fedayn72: posts big blind 40
+*** HOLE CARDS ***
+freechdogg: folds 
+abarone68: raises 604 to 644 and is all-in
+Fedayn72: folds 
+Uncalled bet (604) returned to abarone68
+abarone68 collected 80 from pot
+abarone68: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: freechdogg (button) folded before Flop (didn't bet)
+Seat 2: abarone68 (small blind) collected (80)
+Seat 3: Fedayn72 (big blind) folded before Flop
+
+
+PokerStars Hand #162072108402: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 22:02:57 ET
+Table '1741206837 1' 3-max Seat #2 is the button
+Seat 1: freechdogg (510 in chips) 
+Seat 2: abarone68 (684 in chips) 
+Seat 3: Fedayn72 (306 in chips) 
+Fedayn72: posts small blind 20
+freechdogg: posts big blind 40
+*** HOLE CARDS ***
+abarone68: raises 40 to 80
+Fedayn72: folds 
+freechdogg: folds 
+Uncalled bet (40) returned to abarone68
+abarone68 collected 100 from pot
+abarone68: doesn't show hand 
+*** SUMMARY ***
+Total pot 100 | Rake 0 
+Seat 1: freechdogg (big blind) folded before Flop
+Seat 2: abarone68 (button) collected (100)
+Seat 3: Fedayn72 (small blind) folded before Flop
+
+
+PokerStars Hand #162072111927: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 22:03:07 ET
+Table '1741206837 1' 3-max Seat #3 is the button
+Seat 1: freechdogg (470 in chips) 
+Seat 2: abarone68 (744 in chips) 
+Seat 3: Fedayn72 (286 in chips) 
+freechdogg: posts small blind 20
+abarone68: posts big blind 40
+*** HOLE CARDS ***
+Fedayn72: folds 
+freechdogg: folds 
+Uncalled bet (20) returned to abarone68
+abarone68 collected 40 from pot
+abarone68: doesn't show hand 
+*** SUMMARY ***
+Total pot 40 | Rake 0 
+Seat 1: freechdogg (small blind) folded before Flop
+Seat 2: abarone68 (big blind) collected (40)
+Seat 3: Fedayn72 (button) folded before Flop (didn't bet)
+
+PokerStars Hand #162072113174: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 22:03:11 ET
+Table '1741206837 1' 3-max Seat #1 is the button
+Seat 1: freechdogg (450 in chips) 
+Seat 2: abarone68 (764 in chips) 
+Seat 3: Fedayn72 (286 in chips) 
+abarone68: posts small blind 20
+Fedayn72: posts big blind 40
+*** HOLE CARDS ***
+freechdogg: folds 
+abarone68: raises 724 to 764 and is all-in
+Fedayn72: calls 246 and is all-in
+Uncalled bet (478) returned to abarone68
+*** FLOP *** [Ad 3d 3s]
+*** TURN *** [Ad 3d 3s] [4h]
+*** RIVER *** [Ad 3d 3s 4h] [Js]
+*** SHOW DOWN ***
+abarone68: shows [Qs Jc] (two pair, Jacks and Threes)
+Fedayn72: shows [Kd 7c] (a pair of Threes)
+abarone68 collected 572 from pot
+Fedayn72 finished the tournament in 3rd place
+*** SUMMARY ***
+Total pot 572 | Rake 0 
+Board [Ad 3d 3s 4h Js]
+Seat 1: freechdogg (button) folded before Flop (didn't bet)
+Seat 2: abarone68 (small blind) showed [Qs Jc] and won (572) with two pair, Jacks and Threes
+Seat 3: Fedayn72 (big blind) showed [Kd 7c] and lost with a pair of Threes
+
+
+PokerStars Hand #162072119362: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 22:03:29 ET
+Table '1741206837 1' 3-max Seat #2 is the button
+Seat 1: freechdogg (450 in chips) 
+Seat 2: abarone68 (1050 in chips) 
+abarone68: posts small blind 20
+freechdogg: posts big blind 40
+*** HOLE CARDS ***
+abarone68: calls 20
+freechdogg: raises 80 to 120
+abarone68: folds 
+Uncalled bet (80) returned to freechdogg
+freechdogg collected 80 from pot
+freechdogg: doesn't show hand 
+*** SUMMARY ***
+Total pot 80 | Rake 0 
+Seat 1: freechdogg (big blind) collected (80)
+Seat 2: abarone68 (button) (small blind) folded before Flop
+
+
+PokerStars Hand #162072122904: Tournament #1741206837, $95+$5 USD Hold'em No Limit - Level III (20/40) - 2016/11/27 22:03:38 ET
+Table '1741206837 1' 3-max Seat #1 is the button
+Seat 1: freechdogg (490 in chips) 
+Seat 2: abarone68 (1010 in chips) 
+freechdogg: posts small blind 20
+abarone68: posts big blind 40
+*** HOLE CARDS ***
+freechdogg: calls 20
+abarone68: checks 
+*** FLOP *** [4h As 2h]
+abarone68: checks 
+freechdogg: bets 40
+abarone68: raises 70 to 110
+freechdogg: raises 340 to 450 and is all-in
+abarone68: calls 340
+*** TURN *** [4h As 2h] [Ts]
+*** RIVER *** [4h As 2h Ts] [6c]
+*** SHOW DOWN ***
+abarone68: shows [Ac Ah] (three of a kind, Aces)
+freechdogg: shows [6h Th] (two pair, Tens and Sixes)
+abarone68 collected 980 from pot
+freechdogg finished the tournament in 2nd place
+abarone68 wins the tournament and receives $600.00 - congratulations!
+*** SUMMARY ***
+Total pot 980 | Rake 0 
+Board [4h As 2h Ts 6c]
+Seat 1: freechdogg (button) (small blind) showed [6h Th] and lost with two pair, Tens and Sixes
+Seat 2: abarone68 (big blind) showed [Ac Ah] and won (980) with three of a kind, Aces
+
+
+
+
+
+
+
+
