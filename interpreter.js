@@ -1,9 +1,9 @@
 var fs = require('fs');
 
-data = 'data/spin/raw/data2.txt';
+data = 'data/spin/raw/100/data2.txt';
 
 //Clear file
-fs.writeFileSync("data/spin/refined/data.txt", "");
+fs.writeFileSync("data/spin/refined/100/data.txt", "");
 
 
 
@@ -36,6 +36,8 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 		roundNumber = 0;
 		finishedGame = false;
 		currentUser = '';
+		bettingStarted = false;
+		printToFile = false;
 	}
 	if (line.includes('PokerStars Hand #')) { //New Round
 		foundNewGame = true;
@@ -209,7 +211,7 @@ fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 		foundNewRound = false;
 	}
 	if ((fileOutput != '' && currentUser != '') || (roundNumber == 5 && fileOutput != '') || printToFile == true){
-		fs.appendFileSync('data/spin/refined/data.txt', fileOutput + ' ');
+		fs.appendFileSync('data/spin/refined/100/data.txt', fileOutput + ' ');
 		printToFile = false;
 	}
 	

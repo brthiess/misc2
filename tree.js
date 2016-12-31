@@ -38,6 +38,10 @@ Tree.prototype.displayChildren = function(){
 Tree.prototype.navigateToNextNode = function(nextNode){
 	if (this.currentNode.children[nextNode] !== undefined) {
 		this.currentNode = this.currentNode.children[nextNode];
+		while(this.currentNode.children.length == 1){
+			this.currentNode = this.currentNode.children[0];
+		}
+		
 		return true;
 	}
 	else {

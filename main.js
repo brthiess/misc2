@@ -25,8 +25,10 @@ function startLoop(){
 
 function goThroughOptions(action, game, tree){
 	if(action == 'getCurrentNode'){
+		
 		currentNode = tree.getCurrentNode();
 		currentNodeName = currentNode.name;
+		console.log(currentNodeName);
 		if(currentNodeName == 'c'){
 			action = 'getHoleCards';
 		}
@@ -49,7 +51,6 @@ function goThroughOptions(action, game, tree){
 			if(result.nextNode == 'r'){
 				tree.navigateToRoot();
 				game.resetGame();
-				
 				process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
 			}
 			else if (tree.navigateToNextNode(parseInt(result.nextNode))){

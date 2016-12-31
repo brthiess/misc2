@@ -6,8 +6,13 @@ function storeHand(handHistoryTree, stateArray) {
 		currentNode.children = [];
 	}
     for (index = 0; index < stateArray.length; index++) {	
+		
 		//console.log("\n\n---------------------------");
 		state = stateArray[index];
+		if(state == ''){
+			console.log("WHAT THE FUCK");
+			console.log(stateArray);
+		}
 		//console.log("11");
 		//console.log("State: " + state)
 		//console.log("Current Node: ");
@@ -52,7 +57,7 @@ function buildTree(data, callback){
 
 	var handHistoryTree = {};
 	rl.on('line', function (line) {
-		storeHand(handHistoryTree, line.trim().split(" "));
+		storeHand(handHistoryTree, line.trim().split(" ").filter(function(el) {return el.length != 0}));
 	});
 	rl.on('close', function(){
 		callback(handHistoryTree);
