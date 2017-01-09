@@ -3,13 +3,15 @@ Card = require("./card");
 Hand = require("./hand");
 var prompt = require('prompt');
 var Game = require('./game');
+const fs = require('fs');
 var Tree = require('./tree');
 
 const actionRankings = ['ra', 'r3', 'r2', 'r1', 'r0.5', 'c', 'f', 'ch'];
 const actionTranslator = {ra: 'All in', r3: 'Raise 3x', r2: 'Raise 2x', r1: 'Raise 1x', 'r0.5': 'Raise Half', 'c': 'Call', 'f': 'Fold', 'ch': 'Check'};
 
 
-var tree = new Tree.Tree('data/spin/refined/data.txt', startLoop);
+//var tree = new Tree.Tree('data/spin/refined/data.txt', true, startLoop);
+var tree = new Tree.Tree(JSON.parse(fs.readFileSync('bin/tree.json', 'utf8')), false, startLoop);
 
 currentPercentile = 0;
 //Initialize empty hand and community hand
@@ -18,7 +20,7 @@ communityHand = new Hand.Hand(5);
 action = 'getCurrentNode';
 
 
-function startLoop(){
+function startLoop(tree){
 	game = new Game.Game();
 	goThroughOptions('getCurrentNode', game, tree);
 }
@@ -28,7 +30,7 @@ function goThroughOptions(action, game, tree){
 		
 		currentNode = tree.getCurrentNode();
 		currentNodeName = currentNode.name;
-		console.log(currentNodeName);
+	
 		if(currentNodeName == 'c'){
 			action = 'getHoleCards';
 		}

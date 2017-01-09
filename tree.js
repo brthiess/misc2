@@ -3,14 +3,14 @@ const chalk = require('chalk');
 
 const actionTranslator = {ra: 'All in', r3: 'Raise 3x', r2: 'Raise 2x', r1: 'Raise 1x', 'r0.5': 'Raise Half', 'c': 'Call', 'f': 'Fold'};
 
-function Tree(data, callback){
+function Tree(data, buildTreeVar, callback){
 	var instance = this;
-	BuildTree.buildTree(data, function(tree){
+	BuildTree.buildTree(data, buildTreeVar, function(tree){
 		instance.tree = tree;
 		instance.currentNode = tree;
 		instance.root = instance.currentNode;
 		//console.log(instance.currentNode);
-		callback();
+		callback(instance);
 	});
 }
 

@@ -48,20 +48,27 @@ function storeHand(handHistoryTree, stateArray) {
 }
 
 
-function buildTree(data, callback){
-	const readline = require('readline');
-	var fs = require('fs');
-	const rl = readline.createInterface({
-		input: fs.createReadStream(data)
-	});
+function buildTree(data, buildTreeVar, callback){
+	if(buildTreeVar == false){
+		//console.log(data.root);
+		callback(data.root);
+	}
+	else {
+		const readline = require('readline');
+		var fs = require('fs');
+		const rl = readline.createInterface({
+			input: fs.createReadStream(data)
+		});
 
-	var handHistoryTree = {};
-	rl.on('line', function (line) {
-		storeHand(handHistoryTree, line.trim().split(" ").filter(function(el) {return el.length != 0}));
-	});
-	rl.on('close', function(){
-		callback(handHistoryTree);
-	});
+		var handHistoryTree = {};
+		rl.on('line', function (line) {
+			storeHand(handHistoryTree, line.trim().split(" ").filter(function(el) {return el.length != 0}));
+		});
+		rl.on('close', function(){
+			console.log(handHistoryTree);
+			callback(handHistoryTree);
+		});
+	}
 }
 
 

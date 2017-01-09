@@ -123,8 +123,8 @@ function interpret(data){
 		}
 
 		if (line.includes('Seat ') && isNormalInteger(line.substr(5,1)) && !finishedRound && foundNewRound){
-			console.log("\n******LINE*********");
-			console.log(line);
+			//console.log("\n******LINE*********");
+			//console.log(line);
 			numPlayers++;
 			//console.log(line);
 			var stackSize = getStackFromLine(line);
@@ -134,10 +134,10 @@ function interpret(data){
 			}
 	
 			var tempUser2 = getUserFromLine(line, 2, gameId); //Only returns user if they are in the top of heads up
-			console.log("2USER: " + tempUser2);
+			//console.log("2USER: " + tempUser2);
 			if(tempUser2 != ''){
 				var tempUser2Rank = getRankFromUser(tempUser2, 2);
-				console.log("2RANK: " + tempUser2Rank);
+				//console.log("2RANK: " + tempUser2Rank);
 				if (tempUser2Rank < best2Rank){
 					best2Rank = tempUser2Rank;
 					current2User = tempUser2;
@@ -146,10 +146,10 @@ function interpret(data){
 			}
 			
 			var tempUser3 = getUserFromLine(line, 3); //Only returns user if they are in the top of 3max
-			console.log("3USER: " + tempUser3);
+			//console.log("3USER: " + tempUser3);
 			if(tempUser3 != ''){
 				var tempUser3Rank = getRankFromUser(tempUser3, 3);
-				console.log("3RANK: " + tempUser3Rank);
+				//console.log("3RANK: " + tempUser3Rank);
 				if (tempUser3Rank < best3Rank){
 					best3Rank = tempUser3Rank;
 					current3User = tempUser3;
@@ -193,7 +193,7 @@ function interpret(data){
 					myStack = current3Stack;
 				}
 			}
-			console.log("CURRENT USER: " + currentUser);
+			//console.log("CURRENT USER: " + currentUser);
 			
 			var smallBlindTemp = getSmallBlindFromLine(line);
 			var userTemp = getUserFromBlindLine(line);
@@ -294,7 +294,7 @@ function interpret(data){
 			foundNewRound = false;
 		}
 		if ((fileOutput != '' && currentUser != '') || printToFile == true){
-			console.log(fileOutput);
+			//console.log(fileOutput);
 			fs.appendFileSync('data/spin/refined/100/data.txt', fileOutput + ' ');
 			printToFile = false;
 		}
@@ -332,7 +332,7 @@ function getUserFromLine(lineVar, numPlayers, gameId){
 	if(numPlayers === undefined){
 		return username;
 	}
-	console.log("RETURNING blank username.  Username found: " + username);
+	//console.log("RETURNING blank username.  Username found: " + username);
 	return '';
 }
 function getUserFromBlindLine(lineVar){
@@ -444,6 +444,9 @@ function getPreflopRaise(lineVar, potBlind){
 	}
 	else if (numberOfBigBlinds >= 0.8 && numberOfBigBlinds < 1.5){
 		numberOfBigBlinds = 1;
+	}
+	else if (numberOfBigBlinds > 3){
+		numberOfBigBlinds = 'a';
 	}
 	else if (numberOfBigBlinds > 1.5){
 		numberOfBigBlinds = Math.round(numberOfBigBlinds);
