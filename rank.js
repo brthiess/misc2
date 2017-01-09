@@ -22,14 +22,14 @@ for(var i = 0; i <= 1; i++){
 		}
 	});
 }
-
+/*
 for(iter in threePlayerInflectionPoints){
 	console.log("\n\n");
 	console.log(threePlayerInflectionPoints[iter]);
 	console.log("****************");
 	console.log(threePlayerInflectionPoints[iter].players);
 	console.log("\n\n");
-}
+}*/
 
 /*
 for(iter in twoPlayerEndPoints){
@@ -46,11 +46,78 @@ for(iter in threePlayerInflectionPoints){
 			}
 			players_3[player_iter].chipsDifferential += (threePlayerInflectionPoints[iter].players[player_iter].numChips - 500);
 			players_3[player_iter].numGames += 1;
+			players_3[player_iter].name = player_iter;
 		}
 	}
 }
 
-console.log(players_3);
+for(iter in twoPlayerEndPoints){
+	var winner = twoPlayerEndPoints[iter].winner;
+	if(threePlayerInflectionPoints[iter] !== undefined) {
+		if(players_2[winner] === undefined){
+			players_2[winner] = new Player();
+		}
+		players_2[winner].chipsDifferential += (1500 - threePlayerInflectionPoints[iter].players[winner].numChips);
+		players_2[winner].numGames += 1;
+		players_2[winner].name = winner;
+	}
+	
+	if(threePlayerInflectionPoints[iter] !== undefined) {
+		var loser = twoPlayerEndPoints[iter].loser;
+		if(players_2[loser] === undefined){
+			players_2[loser] = new Player();
+		}
+		players_2[loser].chipsDifferential += (0 - threePlayerInflectionPoints[iter].players[loser].numChips);
+		players_2[loser].numGames += 1;
+		players_2[loser].name = loser;
+	}
+}
+
+players_2_arr = [];
+for(iter in players_2){
+	players_2_arr.push(players_2[iter]);
+}
+
+
+players_3_arr = [];
+for(iter in players_3){
+	players_3_arr.push(players_3[iter]);
+}
+
+
+function compare(a,b) {
+  if (a.chipsDifferential / a.numGames < b.chipsDifferential / b.numGames)
+    return -1;
+  if (a.chipsDifferential / a.numGames > b.chipsDifferential / b.numGames)
+    return 1;
+  return 0;
+}
+
+players_2_arr.sort(compare);
+players_3_arr.sort(compare);
+
+console.log(players_2_arr);
+console.log(players_3_arr);
+
+var players_2_json = JSON.stringify(players_2_arr);
+var players_3_json = JSON.stringify(players_3_arr);
+
+fs.writeFile("bin/top_heads_up_players.json", players_2_json, function(err) {
+    if(err) {
+        return console.log(err);
+    }
+
+    console.log("The file was saved!");
+});
+fs.writeFile("bin/top_3max_players.json", players_3_json, function(err) {
+    if(err) {
+        return console.log(err);
+    }
+
+    console.log("The file was saved!");
+});
+
+
 				//players_3[3rdplaceuser].chipsDifferential -= 500
 				//players_3[3rdplaceuser].numGames += 1
 				//players_3[2ndplaceuser].chipDifferential += currentNumberOfChips - 500 
