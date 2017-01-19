@@ -39,7 +39,7 @@ function cleanFile(data) {
 					line = line.replace(badUsernames[i].trim(), goodUsernames[i]);
 				}
 			}
-			if(line.includes('Seat ') && line.includes('in chips)') && line.split(' ').length > 7 && !line.includes('is sitting out')){
+			if((line.includes('Seat ') && line.includes('in chips)') && line.split(' ').length > 7 && !line.includes('is sitting out')) || (line.includes('Seat ') && line.includes('in chips)') && line.split(' ').length > 9 && line.includes('is sitting out'))){
 				lineSplit = line.split(' ');
 				//console.log(line);
 				numberRegEx = /\([0-9]{1,3}/;

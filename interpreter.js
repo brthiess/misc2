@@ -2,6 +2,8 @@ const dataFolder = 'data/spin/raw/100/';
 const fs = require('fs');
 files = fs.readdirSync(dataFolder);
 
+
+var startedPrinting = false;
 //Clear file
 fs.writeFileSync("data/spin/refined/100/data.txt", "");
 
@@ -22,6 +24,8 @@ for(var i = threemax_players.length - 1; i > threemax_players.length / 2; i--){
 	best_threemax_players[threemax_players[i].name] = {name: threemax_players[i].name, rank: rankIter};
 }
 
+
+
 var users_already_used2 = [];
 var users_already_used_temp2 = [];
 var users_already_used3 = [];
@@ -31,7 +35,7 @@ for(var i = 0; i < 3; i++){
 	users_already_used_temp3 = [];
 	users_already_used_temp2 = [];
 	files.forEach(file => {
-		if(file.includes("- Copy") && file.includes(".txt")){
+		if(file.includes("hh.com_")  && file.includes(".txt")){
 			console.log(dataFolder + file);
 			interpret(dataFolder + file);	
 		}
@@ -40,13 +44,29 @@ for(var i = 0; i < 3; i++){
 		if(users_already_used3[users_already_used_temp3[k].gameId] === undefined){
 			users_already_used3[users_already_used_temp3[k].gameId] = [];
 		}
-		users_already_used3[users_already_used_temp3[k].gameId].push(users_already_used_temp3[k].username);
+		if(users_already_used3[users_already_used_temp3[k].gameId].indexOf(users_already_used_temp3[k].username) < 0) {
+			users_already_used3[users_already_used_temp3[k].gameId].push(users_already_used_temp3[k].username);
+		}
+		else {
+			console.log("ERROR.  Already used this user in this 3 player game");
+			console.log("GAME ID: " + users_already_used_temp3[k].gameId);
+			console.log(users_already_used3[users_already_used_temp3[k].gameId]);
+			console.log("\n\n");
+		}
 	}
 	for(var k = 0; k < users_already_used_temp2.length; k++){
 		if(users_already_used2[users_already_used_temp2[k].gameId] === undefined){
 			users_already_used2[users_already_used_temp2[k].gameId] = [];
 		}
-		users_already_used2[users_already_used_temp2[k].gameId].push(users_already_used_temp2[k].username);
+		if(users_already_used2[users_already_used_temp2[k].gameId].indexOf(users_already_used_temp2[k].username) < 0) {
+			users_already_used2[users_already_used_temp2[k].gameId].push(users_already_used_temp2[k].username);
+		}
+		else {
+			console.log("ERROR.  Already used this user in this 2 player game");
+			console.log("GAME ID: " + users_already_used2[users_already_used_temp2[k].gameId]);
+			console.log(users_already_used2[users_already_used_temp2[k].gameId]);
+			console.log("\n\n");
+		}
 	}
 }
 
@@ -77,7 +97,7 @@ function interpret(data){
 	currentPotSize = 0;
 	usersContributions = {};
 	var seatPattern = /Seat [0-9]: /;
-	startedPrinting = false;
+
 
 
 	fs.readFileSync(data).toString().split('\n').forEach(function (line) {
@@ -106,6 +126,7 @@ function interpret(data){
 			//console.log("\n\n**************\n" + handNumber + "\n**************");
 			//fileOutput = "\n\n***********************\n" + handNumber + "\n**********************\n";
 			printToFile = false;
+			currentSmallBlind = 0;
 			currentBigBlind = 0;
 			myStack = 0;
 			currentUser = '';
@@ -115,7 +136,7 @@ function interpret(data){
 			cantPlay = false;
 			tempUser2RankArr = [];
 			tempUser3RankArr = [];
-			gameId = line.split(" ")[4];
+			gameId = line.split(" ")[2];
 			best2Rank = 9999999999;
 			best3Rank = 9999999999;
 			current2Stack = 0;
@@ -127,7 +148,7 @@ function interpret(data){
 			//console.log(line);
 			numPlayers++;
 			//console.log(line);
-			var stackSize = getStackFromLine(line);
+			var stackSize = getStackFromLine(line, gameId);
 			if(stackSize === undefined || stackSize < 0 || stackSize > 1500){
 				console.log("*****************ERROR********************");
 				console.log("STACK SIZE: " + stackSize);
@@ -141,11 +162,11 @@ function interpret(data){
 				if (tempUser2Rank < best2Rank){
 					best2Rank = tempUser2Rank;
 					current2User = tempUser2;
-					current2Stack = getStackFromLine(line);
+					current2Stack = getStackFromLine(line, gameId);
 				}
 			}
 			
-			var tempUser3 = getUserFromLine(line, 3); //Only returns user if they are in the top of 3max
+			var tempUser3 = getUserFromLine(line, 3, gameId); //Only returns user if they are in the top of 3max
 			//console.log("3USER: " + tempUser3);
 			if(tempUser3 != ''){
 				var tempUser3Rank = getRankFromUser(tempUser3, 3);
@@ -153,7 +174,7 @@ function interpret(data){
 				if (tempUser3Rank < best3Rank){
 					best3Rank = tempUser3Rank;
 					current3User = tempUser3;
-					current3Stack = getStackFromLine(line);
+					current3Stack = getStackFromLine(line, gameId);
 				}
 			}
 			
@@ -184,14 +205,17 @@ function interpret(data){
 			if(numPlayers == 2){
 				if(current2User != ''){
 					currentUser = current2User;
+					users_already_used_temp2.push({username: current2User, gameId: gameId});
 					myStack = current2Stack;
 				}
 			}
 			else if(numPlayers == 3){
 				if(current3User != ''){
 					currentUser = current3User;
+					users_already_used_temp3.push({username: current3User, gameId: gameId});
 					myStack = current3Stack;
 				}
+				//console.log(currentUser);
 			}
 			//console.log("CURRENT USER: " + currentUser);
 			
@@ -206,7 +230,7 @@ function interpret(data){
 			//console.log(usersContributions);
 		}
 		if(line.includes('posts big blind') && !bettingStarted){ //Get users big blind contribution
-			var bigBlindTemp = getBigBlindFromLine(line);
+			var bigBlindTemp = getBigBlindFromLine(line, currentSmallBlind, gameId);
 			var userTemp = getUserFromBlindLine(line);		
 			usersContributions[userTemp] = bigBlindTemp;
 			if(userTemp == biggestUserStack){
@@ -217,7 +241,10 @@ function interpret(data){
 			//console.log(usersContributions);
 		}
 		if(line.includes("posts big blind")){
-			currentBigBlind = getBigBlindFromLine(line);
+			currentBigBlind = getBigBlindFromLine(line, currentSmallBlind, gameId);
+		}
+		if(line.includes("posts small blind")){
+			currentSmallBlind = getSmallBlindFromLine(line);
 		}
 		if(line.includes(currentUser) && currentUser != ''){
 			if (line.includes('posts small blind')){
@@ -231,8 +258,7 @@ function interpret(data){
 			if(currentPosition == 'pbb' && myStack != 0 && currentBigBlind != 0 && (myStack <= currentBigBlind)){
 				cantPlay = true;
 			}
-			else if (currentPosition == 'psb' && myStack != 0 && currentSmallBlind != 0 && (myStack <= currentSmallBlind)){
-				console.log("CANT PLAY");
+			else if (currentPosition == 'psb' && myStack != 0 && currentSmallBlind != 0 && (myStack <= currentSmallBlind)){				
 				cantPlay = true;
 			}
 		}
@@ -242,7 +268,7 @@ function interpret(data){
 				console.log("current big blind: " + currentBigBlind);
 				console.log("myStack: " + myStack);
 			}
-			var stackSizeRelativeToBigBlind = getFileOutputStackSize(myStack, currentBigBlind);
+			var stackSizeRelativeToBigBlind = getFileOutputStackSize(myStack, currentBigBlind, gameId);
 			//console.log("Stack size relative to big blind: " + stackSizeRelativeToBigBlind);
 			//console.log("CURRENT BIG bLIND: " + currentBigBlind);
 			bettingStarted = true;
@@ -300,9 +326,15 @@ function interpret(data){
 		}
 	});
 }
-function getStackFromLine(lineVar){
+function getStackFromLine(lineVar, gameId){
 	if (lineVar.includes('(') && lineVar.includes(' in chips)')){
-		var stackSize = lineVar.split(" ")[3].match(/\d/g).join("");
+		try {
+			var stackSize = lineVar.split(" ")[3].match(/\d/g).join("");
+		}
+		catch(e) {
+			console.log(lineVar);
+			console.log(gameId);
+		}
 	}
 	//console.log("STACK SIZE: " + stackSize);
 	return parseInt(stackSize);
@@ -319,13 +351,11 @@ function getUserFromLine(lineVar, numPlayers, gameId){
 	var username = lineVar.split(" ")[2];
 	if(numPlayers == 2){
 		if(best_heads_up_players[username] !== undefined && ((users_already_used2[gameId] === undefined) || (users_already_used2[gameId] !== undefined && !isInArray(username, users_already_used2[gameId])))){
-			users_already_used_temp2.push({username: username, gameId: gameId});
 			return username;
 		}
 	}
 	if(numPlayers == 3){
 		if(best_threemax_players[username] !== undefined  && ((users_already_used3[gameId] === undefined) || (users_already_used3[gameId] !== undefined && !isInArray(username, users_already_used3[gameId])))){
-			users_already_used_temp3.push({username: username, gameId: gameId});
 			return username;
 		}
 	}
@@ -343,11 +373,16 @@ function getUserFromBlindLine(lineVar){
 function isNormalInteger(n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
 }
-function getBigBlindFromLine(lineVar){
+function getBigBlindFromLine(lineVar, smallBlind, gameId){
 	var bigBlind = lineVar.split(" ")[4];
-	if(!isNormalInteger(bigBlind) || parseInt(bigBlind) > 1500 || parseInt(bigBlind <= 0)){
+	if (parseInt(bigBlind) <= 19) {
+		bigBlind = parseInt(smallBlind) * 2;
+	}
+	if(!isNormalInteger(bigBlind) || parseInt(bigBlind) > 1500 || parseInt(bigBlind) <= 19){
 		console.log("*********ERROR*******");
 		console.log("Big Blind is incorrect");
+		console.log("big Blind: " + bigBlind);
+		console.log(gameId);
 	} 	
 	return parseInt(bigBlind);
 }
@@ -494,7 +529,7 @@ function getRaiseToCall(lineVar){
 	return parseInt(callAmount);
 }
 
-function getFileOutputStackSize(stack, bigBlind){
+function getFileOutputStackSize(stack, bigBlind, gameId){
 	if((stack / bigBlind) < 9 ){
 		return 'ss';
 	}
@@ -508,6 +543,7 @@ function getFileOutputStackSize(stack, bigBlind){
 		console.log("Stack / BigBlind error");
 		console.log("Stack: " + stack);
 		console.log("Big Blind: " + bigBlind);
+		console.log(gameId);
 	}
 }
 

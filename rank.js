@@ -16,7 +16,7 @@ twoPlayerEndPoints = [];
 
 for(var i = 0; i <= 1; i++){
 	files.forEach(file => {
-		if(file.includes("- Copy") && file.includes(".txt")){
+		if(file.includes("hh.com_") && file.includes(".txt")){
 			console.log(dataFolder + file);
 			getRanks(dataFolder + file);	
 		}
@@ -86,9 +86,9 @@ for(iter in players_3){
 
 
 function compare(a,b) {
-  if (a.chipsDifferential / a.numGames < b.chipsDifferential / b.numGames)
+  if (((a.chipsDifferential / a.numGames) * Math.log(a.numGames)) < ((b.chipsDifferential / b.numGames) * Math.log(b.numGames)))
     return -1;
-  if (a.chipsDifferential / a.numGames > b.chipsDifferential / b.numGames)
+  else 
     return 1;
   return 0;
 }
