@@ -11,7 +11,7 @@ fs.writeFileSync("data/spin/refined/100/data.txt", "");
 var heads_up_players = JSON.parse(fs.readFileSync('bin/top_heads_up_players.json', 'utf8'));
 var best_heads_up_players = [];
 var rankIter = 0;
-for(var i = heads_up_players.length - 1; i > heads_up_players.length / 2; i--){
+for(var i = heads_up_players.length - 1; i > heads_up_players.length * 0.66; i--){
 	rankIter++;
 	best_heads_up_players[heads_up_players[i].name] = {name: heads_up_players[i].name, rank: rankIter};
 }
@@ -19,7 +19,7 @@ for(var i = heads_up_players.length - 1; i > heads_up_players.length / 2; i--){
 var rankIter = 0;
 var threemax_players = JSON.parse(fs.readFileSync('bin/top_3max_players.json', 'utf8'));
 var best_threemax_players = [];
-for(var i = threemax_players.length - 1; i > threemax_players.length / 2; i--){
+for(var i = threemax_players.length - 1; i > threemax_players.length * 0.66; i--){
 	rankIter++;
 	best_threemax_players[threemax_players[i].name] = {name: threemax_players[i].name, rank: rankIter};
 }
@@ -208,6 +208,11 @@ function interpret(data){
 					users_already_used_temp2.push({username: current2User, gameId: gameId});
 					myStack = current2Stack;
 				}
+				if(currentUser != '' && best_heads_up_players[currentUser] === undefined) {
+					console.log("*****************ERROR************");
+					console.log("BAD heads up USER");
+					console.log("USER: " + currentUser);
+				}
 			}
 			else if(numPlayers == 3){
 				if(current3User != ''){
@@ -216,6 +221,13 @@ function interpret(data){
 					myStack = current3Stack;
 				}
 				//console.log(currentUser);
+				if(currentUser != '' && best_threemax_players[currentUser] === undefined) {
+					console.log("*****************ERROR************");
+					console.log("BAD 3max USER");
+					console.log("USER: " + currentUser);
+					
+			
+				}
 			}
 			//console.log("CURRENT USER: " + currentUser);
 			
