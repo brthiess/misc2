@@ -452,14 +452,24 @@ function getAction(lineVar, currentUserVar, potBlind, usersContributions){
 			usersContributions[tempUser] = betAmount;
 		}
 		var betAmountInPots = betAmount / potBlind;
-		if(betAmountInPots < 0.8 && betAmountInPots > 0){
-			betAmountInPots = 0.5;
-		}
-		else if (betAmountInPots >= 0.8 && betAmountInPots < 1.5){
-			betAmountInPots = 1;
-		}
 		if(lineVar.includes("is all-in")){
 			betAmountInPots = 'a';
+		}
+		if(betAmountInPots < 0.65 && betAmountInPots > 0){
+			betAmountInPots = 0.5;
+		}
+		else if (betAmountInPots >= 0.65 && betAmountInPots < 1.5){
+			betAmountInPots = 1;
+		}
+		else if (betAmountInPots >= 1.5){
+			betAmountInPots = Math.round(betAmountInPots);
+		}
+		if(betAmountInPots == 3){
+			betAmountInPots = 2;
+		}
+		if (betAmountInPots != 'a' && betAmountInPots != 0.5 && betAmountInPots != 1 && betAmountInPots != 2) {
+			console.log("ERROR!.  Incorrect num of big blinds");
+			console.log(betAmountInPots);
 		}
 		fileOutput += 'r' + betAmountInPots;
 	}
@@ -486,18 +496,30 @@ function getPreflopRaise(lineVar, potBlind){
 	if(lineVar.includes("is all-in")){
 		numberOfBigBlinds = 'a';
 	}
-	if(numberOfBigBlinds < 0.8 && numberOfBigBlinds > 0){
-		numberOfBigBlinds = 0.5;
+	if (numberOfBigBlinds > 0.66 && numberOfBigBlinds < 0.67){
+		numberOfBigBlinds = (Math.random() > 0.5 ? 1 : 0.5);
 	}
-	else if (numberOfBigBlinds >= 0.8 && numberOfBigBlinds < 1.5){
+	else if(numberOfBigBlinds < 0.66 && numberOfBigBlinds > 0){
+		numberOfBigBlinds = 0.5;
+		
+	}
+	else if (numberOfBigBlinds >= 0.66 && numberOfBigBlinds < 1.5){
 		numberOfBigBlinds = 1;
 	}
 	else if (numberOfBigBlinds > 3){
 		numberOfBigBlinds = 'a';
 	}
-	else if (numberOfBigBlinds > 1.5){
+	else if (numberOfBigBlinds >= 1.5){
 		numberOfBigBlinds = Math.round(numberOfBigBlinds);
 	}
+	if(numberOfBigBlinds == 3){
+		numberOfBigBlinds = 2;
+	}
+	if (numberOfBigBlinds != 'a' && numberOfBigBlinds != 0.5 && numberOfBigBlinds != 1 && numberOfBigBlinds != 2) {
+		console.log("ERROR!.  Incorrect num of big blinds");
+		console.log(numberOfBigBlinds);
+	}
+
 	return numberOfBigBlinds;
 }
 function getPotSize(usersContributions){

@@ -30,7 +30,10 @@ function goThroughOptions(action, game, tree){
 		
 		currentNode = tree.getCurrentNode();
 		currentNodeName = currentNode.name;
-	
+		console.log("TREE!");
+		console.log(tree);
+		console.log("CURRENT NODE NAME: " + currentNodeName)
+
 		if(currentNodeName == 'c'){
 			action = 'getHoleCards';
 		}
