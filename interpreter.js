@@ -1,6 +1,7 @@
+'use strict';
 const dataFolder = 'data/spin/raw/100/';
 const fs = require('fs');
-files = fs.readdirSync(dataFolder);
+var files = fs.readdirSync(dataFolder);
 
 
 var startedPrinting = false;
@@ -31,44 +32,49 @@ var users_already_used_temp2 = [];
 var users_already_used3 = [];
 var users_already_used_temp3 = [];
 
-for(var i = 0; i < 3; i++){
-	users_already_used_temp3 = [];
-	users_already_used_temp2 = [];
-	files.forEach(file => {
-		if(file.includes("hh.com_")  && file.includes(".txt")){
+
+files.forEach(file => {
+	users_already_used3 = [];
+
+	users_already_used2 = [];
+	for(var i = 0; i < 3; i++) {
+		users_already_used_temp3 = [];
+		users_already_used_temp2 = [];
+		if(file.includes("hh.com")  && file.includes(".txt")){
 			console.log(dataFolder + file);
 			interpret(dataFolder + file);	
-		}
-	});
-	for(var k = 0; k < users_already_used_temp3.length; k++){
-		if(users_already_used3[users_already_used_temp3[k].gameId] === undefined){
-			users_already_used3[users_already_used_temp3[k].gameId] = [];
-		}
-		if(users_already_used3[users_already_used_temp3[k].gameId].indexOf(users_already_used_temp3[k].username) < 0) {
-			users_already_used3[users_already_used_temp3[k].gameId].push(users_already_used_temp3[k].username);
-		}
-		else {
-			console.log("ERROR.  Already used this user in this 3 player game");
-			console.log("GAME ID: " + users_already_used_temp3[k].gameId);
-			console.log(users_already_used3[users_already_used_temp3[k].gameId]);
-			console.log("\n\n");
+			for(var k = 0; k < users_already_used_temp3.length; k++){
+				if(users_already_used3[users_already_used_temp3[k].gameId] === undefined){
+					users_already_used3[users_already_used_temp3[k].gameId] = [];
+				}
+				if(users_already_used3[users_already_used_temp3[k].gameId].indexOf(users_already_used_temp3[k].username) < 0) {
+					users_already_used3[users_already_used_temp3[k].gameId].push(users_already_used_temp3[k].username);
+				}
+				else {
+					console.log("ERROR.  Already used this user in this 3 player game");
+					console.log("GAME ID: " + users_already_used_temp3[k].gameId);
+					console.log(users_already_used3[users_already_used_temp3[k].gameId]);
+					console.log("\n\n");
+				}
+			}
+			for(var k = 0; k < users_already_used_temp2.length; k++){
+				if(users_already_used2[users_already_used_temp2[k].gameId] === undefined){
+					users_already_used2[users_already_used_temp2[k].gameId] = [];
+				}
+				if(users_already_used2[users_already_used_temp2[k].gameId].indexOf(users_already_used_temp2[k].username) < 0) {
+					users_already_used2[users_already_used_temp2[k].gameId].push(users_already_used_temp2[k].username);
+				}
+				else {
+					console.log("ERROR.  Already used this user in this 2 player game");
+					console.log("GAME ID: " + users_already_used2[users_already_used_temp2[k].gameId]);
+					console.log(users_already_used2[users_already_used_temp2[k].gameId]);
+					console.log("\n\n");
+				}
+			}
 		}
 	}
-	for(var k = 0; k < users_already_used_temp2.length; k++){
-		if(users_already_used2[users_already_used_temp2[k].gameId] === undefined){
-			users_already_used2[users_already_used_temp2[k].gameId] = [];
-		}
-		if(users_already_used2[users_already_used_temp2[k].gameId].indexOf(users_already_used_temp2[k].username) < 0) {
-			users_already_used2[users_already_used_temp2[k].gameId].push(users_already_used_temp2[k].username);
-		}
-		else {
-			console.log("ERROR.  Already used this user in this 2 player game");
-			console.log("GAME ID: " + users_already_used2[users_already_used_temp2[k].gameId]);
-			console.log(users_already_used2[users_already_used_temp2[k].gameId]);
-			console.log("\n\n");
-		}
-	}
-}
+});
+
 
 
 
@@ -82,36 +88,43 @@ function compare(a,b) {
 
 
 function interpret(data){
-
-	currentUser = ''
-	finishedRound = false;
-	foundNewFound = false;
-	finishedGame = false;
-	foundNewGame = false;
-	numPlayers = 0;
-	biggestStack = 0;
-	smallestStack = 9999;
-	currentBigBlind = 0;
-	currentSmallBlind = 0;
-	currentCallingSize = 0;
-	currentPotSize = 0;
-	usersContributions = {};
+	var currentUser = ''
+	var finishedRound = false;
+	var foundNewRound = false;
+	var finishedGame = false;
+	var foundNewGame = false;
+	var numPlayers = 0;
+	var biggestStack = 0;
+	var smallestStack = 9999;
+	var currentBigBlind = 0;
+	var currentSmallBlind = 0;
+	var currentCallingSize = 0;
+	var currentPotSize = 0;
+	var usersContributions = {};
 	var seatPattern = /Seat [0-9]: /;
-
-
+	var currentPosition = 'pb';
+	var handNumber = '';
+	var myStack;
+	var current2User = '';
+	var current3User = '';
+	var cantPlay = false;
+	var preflop = false;
+	var postflop = false;
+	var bettingStarted = false;
+	var printToFile = false;
+	var tempUser2RankArr = [];
+	var tempUser3RankArr = [];
+	var gameId;
+	var best2Rank = 9999999999;
+	var best3Rank = 9999999999;
+	var current2Stack = 0;
+	var current3Stack = 0;
+	var biggestUserStack;
+	
 
 	fs.readFileSync(data).toString().split('\n').forEach(function (line) {
 		var fileOutput = '';
-		if(line.includes('***NEW GAME***')){ //NEW GAME
-			foundNewGame = true;
-			fileOutput = '';
-			preflop = false;
-			postflop = false;
-			finishedGame = false;
-			currentUser = '';
-			bettingStarted = false;
-			printToFile = false;
-		}
+	
 		if (line.includes('PokerStars Hand #')) { //New Round
 			foundNewGame = true;
 			//fileOutput = "\nc";
@@ -230,7 +243,7 @@ function interpret(data){
 				}
 			}
 			//console.log("CURRENT USER: " + currentUser);
-			
+			var biggestStackPosition;
 			var smallBlindTemp = getSmallBlindFromLine(line);
 			var userTemp = getUserFromBlindLine(line);
 			usersContributions[userTemp] = smallBlindTemp;
@@ -361,6 +374,7 @@ function getRankFromUser(user, numPlayers){
 }
 function getUserFromLine(lineVar, numPlayers, gameId){
 	var username = lineVar.split(" ")[2];
+
 	if(numPlayers == 2){
 		if(best_heads_up_players[username] !== undefined && ((users_already_used2[gameId] === undefined) || (users_already_used2[gameId] !== undefined && !isInArray(username, users_already_used2[gameId])))){
 			return username;
@@ -417,7 +431,7 @@ function getAction(lineVar, currentUserVar, potBlind, usersContributions){
 	}
 	
 	if(lineVar.includes(" raises ")){
-		raise = getPreflopRaise(lineVar, potBlind);
+		var raise = getPreflopRaise(lineVar, potBlind);
 		var amountToCall = getRaiseToCall(lineVar);
 		var tempUser = getUserFromActionLine(lineVar);
 		if(usersContributions[tempUser] !== undefined){
@@ -464,11 +478,14 @@ function getAction(lineVar, currentUserVar, potBlind, usersContributions){
 		else if (betAmountInPots >= 1.5){
 			betAmountInPots = Math.round(betAmountInPots);
 		}
+		if (betAmountInPots > 3){
+			betAmountInPots = 'a';
+		}
 		if(betAmountInPots == 3){
 			betAmountInPots = 2;
 		}
 		if (betAmountInPots != 'a' && betAmountInPots != 0.5 && betAmountInPots != 1 && betAmountInPots != 2) {
-			console.log("ERROR!.  Incorrect num of big blinds");
+			console.log("ERROR!.  Incorrect num of bet amounts");
 			console.log(betAmountInPots);
 		}
 		fileOutput += 'r' + betAmountInPots;
@@ -483,12 +500,12 @@ function getAction(lineVar, currentUserVar, potBlind, usersContributions){
 }
 
 function getPreflopRaise(lineVar, potBlind){
-	raiseAmount = parseInt(lineVar.split(" ")[2]);
+	var raiseAmount = parseInt(lineVar.split(" ")[2]);
 	if(!isNormalInteger(raiseAmount) || raiseAmount < 0 || raiseAmount > 1500){
 		console.log("**************ERROR*****************")
 		console.log("Incorrect Preflop Raise Amount");
 	}
-	numberOfBigBlinds = raiseAmount / potBlind;
+	var numberOfBigBlinds = raiseAmount / potBlind;
 	if(!isNormalInteger(numberOfBigBlinds)) {
 		console.log("**************ERROR*************");
 		console.log("INCORRECT NUMBER OF BLINDS");
@@ -506,7 +523,7 @@ function getPreflopRaise(lineVar, potBlind){
 	else if (numberOfBigBlinds >= 0.66 && numberOfBigBlinds < 1.5){
 		numberOfBigBlinds = 1;
 	}
-	else if (numberOfBigBlinds > 3){
+	if (numberOfBigBlinds > 3){
 		numberOfBigBlinds = 'a';
 	}
 	else if (numberOfBigBlinds >= 1.5){
