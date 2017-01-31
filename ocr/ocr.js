@@ -1,9 +1,20 @@
-var tesseract = require('node-tesseract');
-// Recognize text of any language in any format
-tesseract.process('test2.png',function(err, text) {
-    if(err) {
-        console.error(err);
-    } else {
-        console.log(text);
-    }
-});
+const screenshot = require('screenshot-desktop')
+const fs = require('fs')
+var im = require('imagemagick');
+
+
+screenshot().then((img) => {
+	im.crop({
+		srcData: img,
+		dstPath: 'cropped.jpg',
+		width: 800,
+		height: 600,
+		quality: 1,
+		gravity: "NorthWest"
+	}, function(err, stdout, stderr){
+		// foo
+	});
+})
+.catch((err) => {
+  throw err
+})

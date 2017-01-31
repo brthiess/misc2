@@ -8,6 +8,7 @@
     "express": "^3.0.0-alpha4",
     "node-sass": "^3.8.0",
     "pug": "^2.0.0-beta5",
+    "screenshot-desktop": "^1.1.0",
     "threads": "^0.7.2"
   },
   "scripts": {
