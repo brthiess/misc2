@@ -5,6 +5,7 @@ function Game(){
 	this.communityHand = new Hand.Hand(5);
 	this.hand = new Hand.Hand(2);
 	this.reset = false;
+	this.handState = 'f';  //Start at flop (f), goes to turn (t), then to river (r)
 }
 
 Game.prototype.setCommunityHand = function(cards){
@@ -12,6 +13,16 @@ Game.prototype.setCommunityHand = function(cards){
 	this.numRuns = 0;
 	this.percentile = 0;
 	this.percentileAggregate = 0;
+	
+	if(this.handState == 'f'){
+		this.handState = 't'
+	}
+	else if (this.handState == 't') {
+		this.handState = 'r';
+	}
+	else if (this.handState == 'r'){
+		this.handState = 'f';
+	}
 }
 
 Game.prototype.setHand = function(cards){
@@ -25,6 +36,7 @@ Game.prototype.resetGame = function(){
 	this.communityHand = new Hand.Hand(5);
 	this.hand = new Hand.Hand(2);
 	this.reset = true;
+	this.handState = 'f'
 }
 
 

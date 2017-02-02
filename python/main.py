@@ -12,7 +12,7 @@ TOP_RIGHT_BUTTON = (1177,338,1202,360)
 BOTTOM_BUTTON = (1018,501,1044,522)
 TOP_LEFT_PLAYER = (607, 327, 689, 330)
 TOP_RIGHT_PLAYER = (1238, 327, 1321, 330)
-SHOW_ERRORS = True
+SHOW_ERRORS = False
 
 def hasButton(im):
 	red = 0;
@@ -77,6 +77,7 @@ def getCardNumber(im):
 	number1 = convertToNumber(im_crop_black)
 	
 	if(number1 == '5'):
+	
 		#number2
 		im_crop_gray = im_crop.convert('L') # convert image to black and white
 		number2 = convertToNumber(im_crop_gray)
@@ -87,18 +88,33 @@ def getCardNumber(im):
 		#number 4 - Save and re-open image.  Seems to work for some reason...
 		number4 = ''
 		if(number2 == '5' and number3 == '5'):
+			
 			im.save('../images/reopen.png');
 			im2 = Image.open('../images/reopen.png')
 			im2_crop = im2.crop((0,0,13,17))
 			im2_crop_black = im2_crop.convert('1')
 			number4 = convertToNumber(im2_crop_black)
+			
+			white = 0;
+			im_crop2 = im_crop.crop((2, 10, 4, 12))
+			for pixel in im_crop2.getdata():
+				white += pixel[0] + pixel[1] + pixel[2]
+			if (white > 200):
+				number1 = '5'
+			else:
+				number1 = '6'
+				number2 = '6'
+				number3 = '6'
+				number4 = '6'
+			
+			
 		
-		
-		print(number1);
-		print(number2);
-		print(number3);
-		if(number4 != ''):
-			print(number4);
+		if(SHOW_ERRORS == True):
+			print(number1);
+			print(number2);
+			print(number3);
+			if(number4 != ''):
+				print(number4);
 		
 		if(number1 != number2 or number3 != number1 or number2 != number3 or (number4 != '' and number4 != number3)):
 			if(SHOW_ERRORS == True):
@@ -176,9 +192,9 @@ def screenGrab():
 	im = img.crop(TOP_LEFT_BUTTON);
 	if(hasButton(im)):
 		if(numPlayers == 3):
-			position = 'bb'
+			position = 'pbb'
 		else:
-			position = 'bb'
+			position = 'pbb'
 		print("Button is in top left")
 	#im.save('../images/top-left-button.jpg', 'JPEG');
 	
@@ -188,9 +204,9 @@ def screenGrab():
 	im = img.crop(TOP_RIGHT_BUTTON)
 	if(hasButton(im)):
 		if(numPlayers == 3):
-			position = 'sb'
+			position = 'psb'
 		else:
-			position = 'bb'
+			position = 'pbb'
 		print("Button is in top right")
 	#im.save('../images/top-right-button.jpg', 'JPEG');
 	
@@ -199,9 +215,9 @@ def screenGrab():
 	im = img.crop(BOTTOM_BUTTON)
 	if(hasButton(im)):
 		if(numPlayers == 3):
-			position = 'b'
+			position = 'pb'
 		else:
-			position = 'sb'
+			position = 'psb'
 		print("Button is in bottom")
 	#im.save('../images/bottom-button.jpg', 'JPEG');	
 	
@@ -306,10 +322,10 @@ def screenGrab():
 		text_file = open("../states/river.txt", "w")
 		text_file.write(river)
 		text_file.close()
-	'''
+	
 	r = Timer(5, screenGrab)
 	r.start()
-	'''
+	
 
 if __name__ == "__main__":
 	screenGrab()

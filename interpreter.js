@@ -479,7 +479,7 @@ function getAction(lineVar, currentUserVar, potBlind, usersContributions){
 			betAmountInPots = Math.round(betAmountInPots);
 		}
 		if (betAmountInPots > 3){
-			betAmountInPots = 'a';
+			betAmountInPots = 2;
 		}
 		if(betAmountInPots == 3){
 			betAmountInPots = 2;
@@ -524,7 +524,7 @@ function getPreflopRaise(lineVar, potBlind){
 		numberOfBigBlinds = 1;
 	}
 	if (numberOfBigBlinds > 3){
-		numberOfBigBlinds = 'a';
+		numberOfBigBlinds = 2;
 	}
 	else if (numberOfBigBlinds >= 1.5){
 		numberOfBigBlinds = Math.round(numberOfBigBlinds);

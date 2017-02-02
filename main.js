@@ -19,7 +19,6 @@ hand = new Hand.Hand(2);
 communityHand = new Hand.Hand(5);
 action = 'getCurrentNode';
 
-
 function startLoop(tree){
 	game = new Game.Game();
 	goThroughOptions('getCurrentNode', game, tree);
@@ -39,6 +38,12 @@ function goThroughOptions(action, game, tree){
 		}
 		else if (currentNodeName == 'f'){
 			action = 'getCommunityCards';
+		}
+		else if (nextNodeIsNumPlayers(tree)){
+			action = 'getNumPlayers';
+		}
+		else if (nextNodeIsPosition(tree)){
+			action = 'getPosition';
 		}
 		else if (nextNodeIsMe(tree)){
 			process.nextTick(function(){goToBestAction(tree, game);});
@@ -66,11 +71,32 @@ function goThroughOptions(action, game, tree){
 			}
 		});
 	}
+	if (action == 'getPosition') {
+		getPosition(tree, function(err, result) {
+			if (tree.navigateToNextNode(parseInt(result))){
+				process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
+			}
+			else {
+				process.nextTick(function(){goThroughOptions('displayChildren', game, tree);});
+			}
+		});
+	}
+	if (action == 'getNumPlayers') {
+		getNumPlayers(tree, function(err, result) {
+			if (tree.navigateToNextNode(parseInt(result))){
+				process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
+			}
+			else {
+				process.nextTick(function(){goThroughOptions('displayChildren', game, tree);});
+			}
+		});
+	}
 	if (action == 'getHoleCards') {
-		prompt.get(['cards'], function (err, result) {
+		getHoleCards(function(err, result) {
+			console.log("My Hand: " + result);
 			var pattern = /^([2-9aqkjt][chsd]){1,3}$/;
-			if(pattern.test(result.cards)) {
-				cards = result.cards.match(/.{1,2}/g);				
+			if(pattern.test(result)) {
+				cards = result.match(/.{1,2}/g);				
 				game.setHand(cards);
 				process.nextTick(function(){goThroughOptions('updatePercentile', game, tree);});
 				if(nextNodeIsMe(tree)){
@@ -85,13 +111,14 @@ function goThroughOptions(action, game, tree){
 				process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
 			}
 		});
-		
 	}
-	if(action == 'getCommunityCards'){//Get hole cards 
-		prompt.get(['flop'], function (err, result) {
+	if(action == 'getCommunityCards'){//Get community cards 
+		getCommunityCards(game, function(err, result) {
+			console.log("Flop: " + result);
 			var pattern = /^([2-9aqkjt][chsd]){1,3}$/;
-			if(pattern.test(result.flop)){
-				cards = result.flop.match(/.{1,2}/g);
+			if(pattern.test(result)){
+				cards = result.match(/.{1,2}/g);
+				console.log(game.handState);
 				process.nextTick(function(){game.setCommunityHand(cards);});
 				if(nextNodeIsMe(tree)){
 					console.log("Calculating Best Move...");
@@ -120,6 +147,72 @@ function nextNodeIsMe(tree){
 		}
 	}
 	return false;
+}
+
+function nextNodeIsNumPlayers(tree){
+	var children = tree.getChildren();
+	for(var i = 0; i < children.length; i++){
+		if(children[i].name.startsWith('2')){
+			return true;
+		}
+	}
+	return false;
+}
+
+function nextNodeIsPosition(tree){
+	var children = tree.getChildren();
+	for(var i = 0; i < children.length; i++){
+		if(children[i].name.startsWith('p')){
+			return true;
+		}
+	}
+	return false;
+}
+
+function getNumPlayers(tree, callback){
+	fs.readFile('states/num-players.txt', function read(err, data) {
+		if (err) {
+			throw err;
+		}
+		foundNumPlayers = false;
+		content = data.toString();
+		var children = tree.getChildren();
+		for(var i = 0; i < children.length; i++){
+			if(children[i].name.startsWith(content)){
+				foundNumPlayers = true;
+				console.log("Number of Players: " + children[i].name);
+				callback(err, i);
+				break;
+			}
+		}
+		if(foundNumPlayers == false) {
+			console.log("COULDN'T FIND NUM PLAYERS");
+			console.log(content);
+		}
+	});
+}
+
+function getPosition(tree, callback){
+	fs.readFile('states/position.txt', function read(err, data) {
+		if (err) {
+			throw err;
+		}
+		foundPosition = false;
+		content = data.toString();
+		var children = tree.getChildren();
+		for(var i = 0; i < children.length; i++){
+			if(children[i].name.startsWith(content)){
+				foundPosition = true;
+				console.log("Position: " + children[i].name);
+				callback(err, i);
+				break;
+			}
+		}
+		if(foundPosition == false) {
+			console.log("COULDN'T FIND POSITION");
+			console.log(content);
+		}
+	});
 }
 
 function getBestAction(children, game){
@@ -172,5 +265,39 @@ function goToBestAction(tree, game){
 	var nextAction = getBestAction(tree.getChildren(), game);
 	tree.navigateToNextNode(nextAction);
 	process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
+}
+
+function getHoleCards(callback){
+	fs.readFile('states/my-cards.txt', function read(err, data) {
+		if (err) {
+			throw err;
+		}
+		content = data.toString();
+		callback(err, content);       
+	});
+}
+
+function getCommunityCards(game, callback) {
+	var file = '';
+	if (game.handState == 'f'){
+		file = 'flop.txt';
+	}
+	else if (game.handState == 't'){
+		file = 'turn.txt';
+	}
+	else if (game.handState == 'r'){
+		file = 'river.txt';
+	}
+	if (file == ''){
+		console.log("ERROR Finding correct file in getCommunityCards");
+	}
+	console.log("FILE: " + file);
+	fs.readFile('states/' + file, function read(err, data) {
+		if (err) {
+			throw err;
+		}
+		content = data.toString();
+		callback(err, content);       
+	});
 }
       
