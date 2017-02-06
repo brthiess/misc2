@@ -21,19 +21,21 @@ action = 'getCurrentNode';
 
 function startLoop(tree){
 	game = new Game.Game();
+	resetUpdatedState();
 	goThroughOptions('getCurrentNode', game, tree);
 }
 
 function goThroughOptions(action, game, tree){
 	if(action == 'getCurrentNode'){
-		
 		currentNode = tree.getCurrentNode();
 		currentNodeName = currentNode.name;
-		console.log("TREE!");
-		console.log(tree);
-		console.log("CURRENT NODE NAME: " + currentNodeName)
-
-		if(currentNodeName == 'c'){
+		//console.log("CURRENT NODE NAME: " + currentNodeName)
+		
+		if(!isUpdated()){  //Don't do anything if states have not been updated
+			console.log("Not updated yet...");
+			setTimeout(function(){goThroughOptions('getCurrentNode', game, tree);}, 1000);
+		}
+		else if(currentNodeName == 'c'){
 			action = 'getHoleCards';
 		}
 		else if (currentNodeName == 'f'){
@@ -61,6 +63,8 @@ function goThroughOptions(action, game, tree){
 			if(result.nextNode == 'r'){
 				tree.navigateToRoot();
 				game.resetGame();
+				resetUpdatedState();
+				resetNewRound();
 				process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
 			}
 			else if (tree.navigateToNextNode(parseInt(result.nextNode))){
@@ -77,7 +81,7 @@ function goThroughOptions(action, game, tree){
 				process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
 			}
 			else {
-				process.nextTick(function(){goThroughOptions('displayChildren', game, tree);});
+				setTimeout(function(){goThroughOptions('getCurrentNode', game, tree);}, 1000);
 			}
 		});
 	}
@@ -87,7 +91,7 @@ function goThroughOptions(action, game, tree){
 				process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
 			}
 			else {
-				process.nextTick(function(){goThroughOptions('displayChildren', game, tree);});
+				setTimeout(function(){goThroughOptions('getCurrentNode', game, tree);}, 1000);
 			}
 		});
 	}
@@ -108,7 +112,7 @@ function goThroughOptions(action, game, tree){
 				
 			}else {
 				console.log("Error Entering Cards.  Try Again");
-				process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
+				setTimeout(function(){goThroughOptions('getCurrentNode', game, tree);}, 1000);
 			}
 		});
 	}
@@ -129,7 +133,7 @@ function goThroughOptions(action, game, tree){
 			}
 			else {
 				console.log("Error Entering Cards.  Try Again");
-				process.nextTick(function(){goThroughOptions('getCurrentNode', game, tree);});
+				setTimeout(function(){goThroughOptions('getCurrentNode', game, tree);}, 1000);
 			}
 		});
 	}
@@ -170,26 +174,32 @@ function nextNodeIsPosition(tree){
 }
 
 function getNumPlayers(tree, callback){
-	fs.readFile('states/num-players.txt', function read(err, data) {
-		if (err) {
-			throw err;
-		}
-		foundNumPlayers = false;
-		content = data.toString();
-		var children = tree.getChildren();
-		for(var i = 0; i < children.length; i++){
-			if(children[i].name.startsWith(content)){
-				foundNumPlayers = true;
-				console.log("Number of Players: " + children[i].name);
-				callback(err, i);
-				break;
+	if(isNewRound()){
+		fs.readFile('states/num-players.txt', function read(err, data) {
+			if (err) {
+				throw err;
 			}
-		}
-		if(foundNumPlayers == false) {
-			console.log("COULDN'T FIND NUM PLAYERS");
-			console.log(content);
-		}
-	});
+			foundNumPlayers = false;
+			content = data.toString();
+			var children = tree.getChildren();
+			for(var i = 0; i < children.length; i++){
+				if(children[i].name.startsWith(content)){
+					foundNumPlayers = true;
+					console.log("Number of Players: " + children[i].name);
+					callback(err, i);
+					break;
+				}
+			}
+			if(foundNumPlayers == false) {
+				console.log("COULDN'T FIND NUM PLAYERS");
+				console.log(content);
+			}
+		});
+	}
+	else {
+		console.log("Waiting for new round...");
+		callback('','');
+	}
 }
 
 function getPosition(tree, callback){
@@ -200,17 +210,20 @@ function getPosition(tree, callback){
 		foundPosition = false;
 		content = data.toString();
 		var children = tree.getChildren();
-		for(var i = 0; i < children.length; i++){
-			if(children[i].name.startsWith(content)){
-				foundPosition = true;
-				console.log("Position: " + children[i].name);
-				callback(err, i);
-				break;
+		if(content != '') {
+			for(var i = 0; i < children.length; i++){
+				if(children[i].name.startsWith(content)){
+					foundPosition = true;
+					console.log("Position: " + children[i].name);
+					callback(err, i);
+					break;
+				}
 			}
 		}
 		if(foundPosition == false) {
 			console.log("COULDN'T FIND POSITION");
 			console.log(content);
+			callback(err, '');
 		}
 	});
 }
@@ -274,6 +287,39 @@ function getHoleCards(callback){
 		}
 		content = data.toString();
 		callback(err, content);       
+	});
+}
+
+function isUpdated(callback){
+	content = fs.readFileSync('states/updated.txt');
+	if(content.toString() == 'true'){
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+function isNewRound(callback){
+	content = fs.readFileSync('states/new-round.txt');
+	if(content.toString() == 'true'){
+		resetNewRound();
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+function resetNewRound(){
+	fs.writeFile('states/new-round.txt', 'false', (err) => {
+	  if (err) throw err;
+	});
+}
+
+function resetUpdatedState(){
+	fs.writeFile('states/updated.txt', 'false', (err) => {
+	  if (err) throw err;
 	});
 }
 

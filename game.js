@@ -59,7 +59,7 @@ Game.prototype.calculatePercentile = function(){
 	var numTested = 0;
 	deck.reshuffle();
 	deck.removeCards(this.hand);
-
+	console.log("HERE");
 	for(var i = 0; i < 10; i++){					
 		opponentCards = [deck.getRandomCard(), deck.getRandomCard()];
 		opponentHand = new Hand.Hand(2);
@@ -89,6 +89,7 @@ Game.prototype.calculatePercentile = function(){
 	var self = this;
 	//console.log(this.numRuns);
 	if(this.reset == false){
+		console.log("CALC AGAIN");
 		setTimeout(function(){ self.calculatePercentile();}, 100);
 	}
 	else {
@@ -164,5 +165,7 @@ function getWinningPercentage(hand, communityHand){
 	//console.log(numWins * 1.0 / numSimulations * 1.0);
 	return numWins * 1.0 / numSimulations * 1.0;
 }
+
+
 
 module.exports.Game = Game;

@@ -2,6 +2,7 @@ from PIL import Image
 from PIL import ImageChops
 import pyscreenshot as ImageGrab
 import pytesseract
+import re
 from threading import Timer
 
 
@@ -13,6 +14,11 @@ BOTTOM_BUTTON = (1018,501,1044,522)
 TOP_LEFT_PLAYER = (607, 327, 689, 330)
 TOP_RIGHT_PLAYER = (1238, 327, 1321, 330)
 SHOW_ERRORS = False
+
+#Globals
+previous_position = ''
+previous_cards = ''
+previous_num_players = ''
 
 def hasButton(im):
 	red = 0;
@@ -54,7 +60,64 @@ def notACardNumber(number):
 		return True
 	return False
 	
+def getBestNumber(numbers):
+	for number in numbers:
+		if(number >= 1500 or number <= 0):
+			numbers.remove(number)
+	print(numbers);
+	
+	flagged_numbers = []
+	for i in range(0, len(numbers)):
+		for k in range(i, len(numbers)):
+			#Check for unequal numbers
+			if (numbers[i] != numbers[k]):
+				if("3" in str(numbers[i]) and "3" not in str(numbers[k])): #numbers[i] is a bad number
+					flagged_numbers.append(numbers[i])
+				if("3" not in str(numbers[i]) and "3" in str(numbers[k])): #numbers[k] is a bad number
+					flagged_numbers.append(numbers[k])
+	
+	print(flagged_numbers);
+	for number in flagged_numbers:
+		if (number in numbers):
+			numbers.remove(number)
+	print(numbers);
+	return 1
+	
+def getText(im):
+	text1 = pytesseract.image_to_string(im);
+	print(text1);
+	im_black = im.convert('1')
+	text1 = pytesseract.image_to_string(im_black);
+	return text1
 
+def getStack(im):
+	number1 = re.sub('[^0-9]','', pytesseract.image_to_string(im))
+	
+	im_black = im.convert('1')
+	number2 = re.sub('[^0-9]','', pytesseract.image_to_string(im_black))
+	
+	im.save("../images/stack-reopen.jpg")
+	im2 = Image.open("../images/stack-reopen.jpg");
+	im2_black = im2.convert('1')
+	number3 = re.sub('[^0-9]','', pytesseract.image_to_string(im2_black))
+	
+	print(number1)
+	print(number2)
+	print(number3)
+	
+	numbers = []
+	if(number1 != ''):
+		numbers.append(int(number1))
+	if(number2 != ''):
+		numbers.append(int(number2))
+	if(number3 != ''):
+		numbers.append(int(number3))
+	
+	number = getBestNumber(numbers);
+	
+	return number
+
+	
 def convertToNumber(im):
 	number = pytesseract.image_to_string(im)
 	if(number == '-5%'):
@@ -165,6 +228,7 @@ def screenGrab():
 		
 	numPlayers = 1;
 	
+	
 	#Top Left Player
 	im = img.crop(TOP_LEFT_PLAYER)
 	if(hasPlayer(im)):
@@ -210,6 +274,13 @@ def screenGrab():
 		print("Button is in top right")
 	#im.save('../images/top-right-button.jpg', 'JPEG');
 	
+	global previous_num_players
+	if(previous_num_players != numPlayers):
+		text_file = open("../states/new-round.txt", "w")
+		text_file.write('true')
+		text_file.close()
+	
+	previous_num_players = numPlayers;
 	
 	#Bottom Button
 	im = img.crop(BOTTOM_BUTTON)
@@ -221,13 +292,28 @@ def screenGrab():
 		print("Button is in bottom")
 	#im.save('../images/bottom-button.jpg', 'JPEG');	
 	
+	global previous_position
+	if(position != previous_position):
+		text_file = open("../states/new-round.txt", "w")
+		text_file.write('true')
+		text_file.close()
+		
 	if(position != ''):
 		text_file = open("../states/position.txt", "w")
 		text_file.write(position)
 		text_file.close()
 	else:
+		text_file = open("../states/position.txt", "w")
+		text_file.write('')
+		text_file.close()
 		print("ERROR: No position found")
 
+	previous_position = position
+	
+	
+
+	
+	
 	
 	#My First Card
 	im = img.crop((914,513,927,547))
@@ -250,10 +336,17 @@ def screenGrab():
 	#im.save('../images/my-second-card.jpg', 'JPEG');
 	
 	myCards = card1 + card2
-	if(myCards != '' and card1 != '' and card2 != ''):
-		text_file = open("../states/my-cards.txt", "w")
-		text_file.write(myCards)
+	text_file = open("../states/my-cards.txt", "w")
+	text_file.write(myCards)
+	text_file.close()
+	
+	global previous_cards
+	if(previous_cards != myCards):
+		text_file = open("../states/new-round.txt", "w")
+		text_file.write('true')
 		text_file.close()
+	
+	previous_cards = myCards
 
 	
 	#First Flop Card
@@ -287,10 +380,10 @@ def screenGrab():
 	#im.save('../images/third-card.jpg', 'JPEG');	
 	
 	flop = card1 + card2 + card3
-	if(flop != '' and card1 != '' and card2 != '' and card3 != ''):
-		text_file = open("../states/flop.txt", "w")
-		text_file.write(flop)
-		text_file.close()
+	text_file = open("../states/flop.txt", "w")
+	text_file.write(flop)
+	text_file.close()
+	
 	
 	
 	#Turn
@@ -304,10 +397,9 @@ def screenGrab():
 
 	
 	
-	if(turn != ''):
-		text_file = open("../states/turn.txt", "w")
-		text_file.write(turn)
-		text_file.close()
+	text_file = open("../states/turn.txt", "w")
+	text_file.write(turn)
+	text_file.close()
 	
 	#river
 	im = img.crop((1047,355,1060,389))  
@@ -318,13 +410,19 @@ def screenGrab():
 		print('No River Card')		
 	#im.save('../images/fifth-card.jpg', 'JPEG');
 	
-	if(river != ''):
-		text_file = open("../states/river.txt", "w")
-		text_file.write(river)
-		text_file.close()
+	text_file = open("../states/river.txt", "w")
+	text_file.write(river)
+	text_file.close()
 	
-	r = Timer(5, screenGrab)
+	
+	#Set updated = true
+	text_file = open("../states/updated.txt", "w")
+	text_file.write('true')
+	text_file.close()
+	
+	r = Timer(1, screenGrab)
 	r.start()
+	
 	
 
 if __name__ == "__main__":
